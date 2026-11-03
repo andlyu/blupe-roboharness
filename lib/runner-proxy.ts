@@ -36,6 +36,7 @@ export async function proxyRunner(request: Request, parts: string[]) {
       method: request.method, headers, body, redirect: 'manual', cache: 'no-store', signal: AbortSignal.timeout(20000),
     });
     if (response.status >= 300 && response.status < 400) throw new Error('Unexpected redirect');
+    if (!response.headers.get('content-type')?.toLowerCase().startsWith('application/json')) throw new Error('Runtime returned a non-JSON gateway error');
     const output = new Headers({ 'Content-Type': 'application/json', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' });
     const cookies = response.headers.getSetCookie?.() ?? (response.headers.get('set-cookie') ? [response.headers.get('set-cookie')!] : []);
     for (const cookie of cookies) output.append('Set-Cookie', cookie);

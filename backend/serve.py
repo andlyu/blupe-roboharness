@@ -9,7 +9,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--runner-source',type=Path,required=True)
     parser.add_argument('--origin',required=True)
-    parser.add_argument('--recording-root',type=Path,required=True)
+    parser.add_argument('--recording-root',type=Path,help='Local development policy-frame storage only; public runs use the normal BluPe recording archive')
     parser.add_argument('--preflight',type=Path,required=True)
     parser.add_argument('--port',type=int,default=8813)
     parser.add_argument('--model',default='gpt-6-astra')
@@ -18,6 +18,8 @@ def main():
     transport.add_argument('--broker-socket')
     parser.add_argument('--hosting-app-source',type=Path)
     args=parser.parse_args();source=args.runner_source.resolve()
+    if args.recording_root is not None and not args.origin.startswith('http://127.0.0.1:'):
+        parser.error('Durable local station-frame storage is limited to loopback development; public replay uses the normal BluPe archive')
     if not (source/'roboharness_playground.py').is_file():parser.error('Select the published shared RoboHarness runner source')
     sys.path[:0]=[str(source),str(source/'src')]
     from roboharness_playground import RoboHarnessPlayground,verify_release

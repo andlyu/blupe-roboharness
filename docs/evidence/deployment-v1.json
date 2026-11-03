@@ -1,0 +1,16 @@
+{
+  "website": "https://roboharness-blupe.andlyu.chatgpt.site",
+  "status": "succeeded",
+  "version": 1,
+  "deployment_id": "appgdep_6aea2a48f0708191bf0a8908c0a944af",
+  "site_source_revision": "5fdbb3fba4dcdf80205afef5de5cc5e62bdb5f52",
+  "shared_source_revision": "a8b94aaab891348fe387dad30a69b131f9e44386",
+  "source_repository": "https://github.com/andlyu/blupe-roboharness",
+  "public_access": true,
+  "backend_initial_startup": {
+    "status": "failed before queue or model calls",
+    "reason": "Public startup incorrectly selected the local-only durable station-frame option; the canonical guard rejected it. Standard public archive configuration replaces that option, with a zero-actuation startup regression.",
+    "guard_preserved": true
+  },
+  "physical_runs": 0
+}

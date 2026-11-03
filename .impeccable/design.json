@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T18:42:20.817686Z",
+  "title": "Design System: RoboHarness × BluPe",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0459 259.86)",
+          "oklch(26% 0.0842 259.86)",
+          "oklch(38% 0.1194 259.86)",
+          "oklch(50% 0.1531 259.86)",
+          "oklch(62% 0.1531 259.86)",
+          "oklch(74% 0.1194 259.86)",
+          "oklch(86% 0.0735 259.86)",
+          "oklch(95% 0.0245 259.86)"
+        ]
+      },
+      "blue-hover": {
+        "role": "primary",
+        "displayName": "Deep Action Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0397 259.67)",
+          "oklch(26% 0.0728 259.67)",
+          "oklch(38% 0.1032 259.67)",
+          "oklch(50% 0.1323 259.67)",
+          "oklch(62% 0.1323 259.67)",
+          "oklch(74% 0.1032 259.67)",
+          "oklch(86% 0.0635 259.67)",
+          "oklch(95% 0.0212 259.67)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0584 257.86)",
+          "oklch(26% 0.1070 257.86)",
+          "oklch(38% 0.1518 257.86)",
+          "oklch(50% 0.1946 257.86)",
+          "oklch(62% 0.1946 257.86)",
+          "oklch(74% 0.1518 257.86)",
+          "oklch(86% 0.0934 257.86)",
+          "oklch(95% 0.0311 257.86)"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0062 261.77)",
+          "oklch(26% 0.0114 261.77)",
+          "oklch(38% 0.0162 261.77)",
+          "oklch(50% 0.0207 261.77)",
+          "oklch(62% 0.0207 261.77)",
+          "oklch(74% 0.0162 261.77)",
+          "oklch(86% 0.0099 261.77)",
+          "oklch(95% 0.0033 261.77)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Readiness Brown",
+        "tonalRamp": [
+          "oklch(15% 0.0328 60.39)",
+          "oklch(26% 0.0601 60.39)",
+          "oklch(38% 0.0853 60.39)",
+          "oklch(50% 0.1093 60.39)",
+          "oklch(62% 0.1093 60.39)",
+          "oklch(74% 0.0853 60.39)",
+          "oklch(86% 0.0525 60.39)",
+          "oklch(95% 0.0175 60.39)"
+        ]
+      },
+      "stop-ink": {
+        "role": "secondary",
+        "displayName": "Stop Red",
+        "tonalRamp": [
+          "oklch(15% 0.0523 28.95)",
+          "oklch(26% 0.0959 28.95)",
+          "oklch(38% 0.1361 28.95)",
+          "oklch(50% 0.1745 28.95)",
+          "oklch(62% 0.1745 28.95)",
+          "oklch(74% 0.1361 28.95)",
+          "oklch(86% 0.0837 28.95)",
+          "oklch(95% 0.0279 28.95)"
+        ]
+      },
+      "available": {
+        "role": "secondary",
+        "displayName": "Available Green",
+        "tonalRamp": [
+          "oklch(15% 0.0423 148.39)",
+          "oklch(26% 0.0776 148.39)",
+          "oklch(38% 0.1100 148.39)",
+          "oklch(50% 0.1410 148.39)",
+          "oklch(62% 0.1410 148.39)",
+          "oklch(74% 0.1100 148.39)",
+          "oklch(86% 0.0677 148.39)",
+          "oklch(95% 0.0226 148.39)"
+        ]
+      },
+      "unavailable": {
+        "role": "neutral",
+        "displayName": "Unavailable Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0036 256.72)",
+          "oklch(26% 0.0065 256.72)",
+          "oklch(38% 0.0093 256.72)",
+          "oklch(50% 0.0119 256.72)",
+          "oklch(62% 0.0119 256.72)",
+          "oklch(74% 0.0093 256.72)",
+          "oklch(86% 0.0057 256.72)",
+          "oklch(95% 0.0019 256.72)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Reading Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0018 271.18)",
+          "oklch(26% 0.0032 271.18)",
+          "oklch(38% 0.0046 271.18)",
+          "oklch(50% 0.0058 271.18)",
+          "oklch(62% 0.0058 271.18)",
+          "oklch(74% 0.0046 271.18)",
+          "oklch(86% 0.0028 271.18)",
+          "oklch(95% 0.0009 271.18)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0038 256.74)",
+          "oklch(26% 0.0070 256.74)",
+          "oklch(38% 0.0100 256.74)",
+          "oklch(50% 0.0128 256.74)",
+          "oklch(62% 0.0128 256.74)",
+          "oklch(74% 0.0100 256.74)",
+          "oklch(86% 0.0061 256.74)",
+          "oklch(95% 0.0020 256.74)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Divider Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0013 236.50)",
+          "oklch(26% 0.0023 236.50)",
+          "oklch(38% 0.0033 236.50)",
+          "oklch(50% 0.0043 236.50)",
+          "oklch(62% 0.0043 236.50)",
+          "oklch(74% 0.0033 236.50)",
+          "oklch(86% 0.0020 236.50)",
+          "oklch(95% 0.0007 236.50)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Panel Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0005 247.84)",
+          "oklch(26% 0.0009 247.84)",
+          "oklch(38% 0.0013 247.84)",
+          "oklch(50% 0.0017 247.84)",
+          "oklch(62% 0.0017 247.84)",
+          "oklch(74% 0.0013 247.84)",
+          "oklch(86% 0.0008 247.84)",
+          "oklch(95% 0.0003 247.84)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Workspace White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(50% 0.0000 0.00)",
+          "oklch(62% 0.0000 0.00)",
+          "oklch(74% 0.0000 0.00)",
+          "oklch(86% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "stage": {
+        "role": "neutral",
+        "displayName": "Stage Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.0018 271.18)",
+          "oklch(26% 0.0032 271.18)",
+          "oklch(38% 0.0046 271.18)",
+          "oklch(50% 0.0058 271.18)",
+          "oklch(62% 0.0058 271.18)",
+          "oklch(74% 0.0046 271.18)",
+          "oklch(86% 0.0028 271.18)",
+          "oklch(95% 0.0009 271.18)"
+        ]
+      },
+      "stage-ink": {
+        "role": "neutral",
+        "displayName": "Stage White",
+        "tonalRamp": [
+          "oklch(15% 0.0008 228.78)",
+          "oklch(26% 0.0014 228.78)",
+          "oklch(38% 0.0020 228.78)",
+          "oklch(50% 0.0025 228.78)",
+          "oklch(62% 0.0025 228.78)",
+          "oklch(74% 0.0020 228.78)",
+          "oklch(86% 0.0012 228.78)",
+          "oklch(95% 0.0004 228.78)"
+        ]
+      },
+      "stage-muted": {
+        "role": "neutral",
+        "displayName": "Stage Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0019 255.48)",
+          "oklch(26% 0.0036 255.48)",
+          "oklch(38% 0.0051 255.48)",
+          "oklch(50% 0.0065 255.48)",
+          "oklch(62% 0.0065 255.48)",
+          "oklch(74% 0.0051 255.48)",
+          "oklch(86% 0.0031 255.48)",
+          "oklch(95% 0.0010 255.48)"
+        ]
+      },
+      "camera-well": {
+        "role": "neutral",
+        "displayName": "Camera Well",
+        "tonalRamp": [
+          "oklch(15% 0.0008 247.95)",
+          "oklch(26% 0.0014 247.95)",
+          "oklch(38% 0.0020 247.95)",
+          "oklch(50% 0.0025 247.95)",
+          "oklch(62% 0.0025 247.95)",
+          "oklch(74% 0.0020 247.95)",
+          "oklch(86% 0.0012 247.95)",
+          "oklch(95% 0.0004 247.95)"
+        ]
+      },
+      "input-line": {
+        "role": "neutral",
+        "displayName": "Input Line",
+        "tonalRamp": [
+          "oklch(15% 0.0025 253.87)",
+          "oklch(26% 0.0046 253.87)",
+          "oklch(38% 0.0065 253.87)",
+          "oklch(50% 0.0083 253.87)",
+          "oklch(62% 0.0083 253.87)",
+          "oklch(74% 0.0065 253.87)",
+          "oklch(86% 0.0040 253.87)",
+          "oklch(95% 0.0013 253.87)"
+        ]
+      },
+      "secondary-line": {
+        "role": "neutral",
+        "displayName": "Secondary Line",
+        "tonalRamp": [
+          "oklch(15% 0.0050 253.93)",
+          "oklch(26% 0.0092 253.93)",
+          "oklch(38% 0.0130 253.93)",
+          "oklch(50% 0.0167 253.93)",
+          "oklch(62% 0.0167 253.93)",
+          "oklch(74% 0.0130 253.93)",
+          "oklch(86% 0.0080 253.93)",
+          "oklch(95% 0.0027 253.93)"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Hover Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0024 253.85)",
+          "oklch(26% 0.0044 253.85)",
+          "oklch(38% 0.0062 253.85)",
+          "oklch(50% 0.0080 253.85)",
+          "oklch(62% 0.0080 253.85)",
+          "oklch(74% 0.0062 253.85)",
+          "oklch(86% 0.0038 253.85)",
+          "oklch(95% 0.0013 253.85)"
+        ]
+      },
+      "disabled": {
+        "role": "neutral",
+        "displayName": "Disabled Fill",
+        "tonalRamp": [
+          "oklch(15% 0.0043 254.61)",
+          "oklch(26% 0.0079 254.61)",
+          "oklch(38% 0.0113 254.61)",
+          "oklch(50% 0.0145 254.61)",
+          "oklch(62% 0.0145 254.61)",
+          "oklch(74% 0.0113 254.61)",
+          "oklch(86% 0.0069 254.61)",
+          "oklch(95% 0.0023 254.61)"
+        ]
+      },
+      "disabled-ink": {
+        "role": "neutral",
+        "displayName": "Disabled Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0076 252.70)",
+          "oklch(26% 0.0140 252.70)",
+          "oklch(38% 0.0198 252.70)",
+          "oklch(50% 0.0254 252.70)",
+          "oklch(62% 0.0254 252.70)",
+          "oklch(74% 0.0198 252.70)",
+          "oklch(86% 0.0122 252.70)",
+          "oklch(95% 0.0041 252.70)"
+        ]
+      },
+      "keypoint": {
+        "role": "primary",
+        "displayName": "Point Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0119 260.15)",
+          "oklch(26% 0.0218 260.15)",
+          "oklch(38% 0.0309 260.15)",
+          "oklch(50% 0.0396 260.15)",
+          "oklch(62% 0.0396 260.15)",
+          "oklch(74% 0.0309 260.15)",
+          "oklch(86% 0.0190 260.15)",
+          "oklch(95% 0.0063 260.15)"
+        ]
+      },
+      "keypoint-ink": {
+        "role": "primary",
+        "displayName": "Point Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0363 260.23)",
+          "oklch(26% 0.0665 260.23)",
+          "oklch(38% 0.0943 260.23)",
+          "oklch(50% 0.1208 260.23)",
+          "oklch(62% 0.1208 260.23)",
+          "oklch(74% 0.0943 260.23)",
+          "oklch(86% 0.0580 260.23)",
+          "oklch(95% 0.0193 260.23)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Workspace and reading-page title; 25px at the mobile breakpoint."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Run-panel and section headings; replay title is an observed 17px/500 variation."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base operational prose and control inheritance."
+      },
+      "action": {
+        "displayName": "Primary action",
+        "purpose": "Run and Stop labels."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Desktop text fields and primary navigation; fields become 16px on mobile."
+      },
+      "compact": {
+        "displayName": "Compact copy",
+        "purpose": "Secondary buttons, panel introductions and current-run descriptions."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Task and runner field labels."
+      },
+      "detail": {
+        "displayName": "Detail",
+        "purpose": "Camera metadata, selected-view controls and concise status text."
+      },
+      "code": {
+        "displayName": "Recorded data",
+        "purpose": "Native-pixel coordinates and structured runtime/configuration details."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-color-transition",
+        "value": "background .16s ease-out, color .16s ease-out",
+        "purpose": "Implemented button/link state changes; no entrance or progress animation."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "The reduced-motion media query removes transitions and restores automatic scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "single-column-min",
+        "value": "761px"
+      },
+      {
+        "name": "single-column-max",
+        "value": "1000px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1050px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Run button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enabled and disabled Run appearance. Static component preview; no run is submitted.",
+      "html": "<button class=\"ds-run\" type=\"button\">Run RoboHarness</button>",
+      "css": ".ds-run{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;border:0;cursor:pointer;width:100%;padding:13px 14px;border-radius:7px;background:var(--blue,#174ea6);color:white;font-size:15px;font-weight:600}.ds-run:hover:not(:disabled){background:#0d3c85}.ds-run:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}.ds-run:disabled{background:#d8dfe8;color:#4c5764;opacity:1;cursor:not-allowed}@media(max-width:760px){.ds-run{min-height:44px}} @media(prefers-reduced-motion:reduce){.ds-run{transition:none!important}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined recovery and refresh actions.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Refresh runtime status</button>",
+      "css": ".ds-secondary{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;background:transparent;color:var(--ink,#202124);border:1px solid #b6bec8;border-radius:6px;padding:9px 13px;font-size:13px;cursor:pointer}.ds-secondary:hover:not(:disabled){background:#edf1f6}.ds-secondary:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}.ds-secondary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:760px){.ds-secondary{min-height:44px}} @media(prefers-reduced-motion:reduce){.ds-secondary{transition:none!important}}"
+    },
+    {
+      "name": "Stop button",
+      "kind": "button",
+      "refersTo": "button-stop",
+      "description": "Stop appearance beside an active or unresolved run. Static, non-actuating preview.",
+      "html": "<button class=\"ds-stop\" type=\"button\">Stop run</button>",
+      "css": ".ds-stop{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;width:100%;border:1px solid #b3261e;color:#a61b14;background:white;padding:12px;border-radius:7px;font-size:15px;font-weight:600;cursor:pointer}.ds-stop:hover:not(:disabled){background:#edf1f6}.ds-stop:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}.ds-stop:disabled{opacity:.55;cursor:not-allowed}@media(max-width:760px){.ds-stop{min-height:44px}} @media(prefers-reduced-motion:reduce){.ds-stop{transition:none!important}}"
+    },
+    {
+      "name": "Task field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labeled native task entry; mobile text size increases for readable editing.",
+      "html": "<label class=\"ds-task-label\">Task<textarea class=\"ds-task\" rows=\"3\" maxlength=\"4000\" placeholder=\"Describe the object and the result you want…\"></textarea></label>",
+      "css": ".ds-task-label{font-family:Arial,Helvetica,sans-serif;line-height:1.5;display:block;font-size:12px;font-weight:600;color:var(--ink,#202124)}.ds-task{font-family:Arial,Helvetica,sans-serif;line-height:1.5;display:block;width:100%;margin-top:7px;padding:11px;border:1px solid #bdc1c6;border-radius:6px;background:white;color:var(--ink,#202124);font-size:14px;font-weight:400;resize:vertical;caret-color:var(--blue,#174ea6)}.ds-task::placeholder{color:#687078}.ds-task:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}.ds-task:disabled{cursor:not-allowed}@media(max-width:760px){.ds-task{font-size:16px}} @media(prefers-reduced-motion:reduce){.ds-task,.ds-task-label{transition:none!important}}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Quiet page navigation; the current page has a pale blue wash.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><button class=\"ds-nav-item\" type=\"button\" aria-current=\"page\">Workspace</button><button class=\"ds-nav-item\" type=\"button\">Runs</button><button class=\"ds-nav-item\" type=\"button\">Method &amp; evidence</button></nav>",
+      "css": ".ds-nav{display:flex;gap:6px;flex-wrap:wrap}.ds-nav-item{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;font-size:14px;border:0;border-radius:6px;padding:10px 12px;background:none;color:var(--ink,#202124);cursor:pointer}.ds-nav-item:hover{background:#edf1f6}.ds-nav-item[aria-current]{background:#e8f0fe;color:var(--blue,#174ea6)}.ds-nav-item:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}@media(max-width:1050px){.ds-nav{gap:0}.ds-nav-item{padding:10px}}@media(max-width:760px){.ds-nav{width:100%;gap:10px}.ds-nav-item{border-radius:4px 4px 0 0;padding:10px 8px;min-height:44px}} @media(prefers-reduced-motion:reduce){.ds-nav,.ds-nav-item{transition:none!important}}"
+    },
+    {
+      "name": "Camera selection",
+      "kind": "chip",
+      "refersTo": "camera-tab",
+      "description": "Actual camera-selection control, using pressed semantics rather than a decorative tag.",
+      "html": "<div class=\"ds-views\" aria-label=\"Camera selection\"><button class=\"ds-view\" type=\"button\" aria-pressed=\"true\">Overhead</button><button class=\"ds-view\" type=\"button\" aria-pressed=\"false\">Left wrist</button><button class=\"ds-view\" type=\"button\" aria-pressed=\"false\">Right wrist</button></div>",
+      "css": ".ds-views{display:flex;gap:3px;flex-wrap:wrap}.ds-view{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;font-size:12px;padding:8px 11px;border:0;border-radius:6px;background:none;color:var(--ink,#202124);cursor:pointer}.ds-view:hover{background:#edf1f6}.ds-view[aria-pressed=true]{background:#e8f0fe;color:var(--blue,#174ea6)}.ds-view:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}@media(max-width:760px){.ds-view{min-height:44px;padding:9px 10px}} @media(prefers-reduced-motion:reduce){.ds-view,.ds-views{transition:none!important}}"
+    },
+    {
+      "name": "Run panel",
+      "kind": "card",
+      "refersTo": "run-panel",
+      "description": "Flat pale surface grouping task and runtime controls.",
+      "html": "<aside class=\"ds-panel\"><h2 class=\"ds-panel-title\">Run RoboHarness</h2><p class=\"ds-panel-intro\">Describe a task for the selected station.</p><div class=\"ds-panel-status\" role=\"status\"><strong>Runtime not ready</strong><p>Waiting for the verified control release and model service. No run is submitted by connecting.</p></div></aside>",
+      "css": ".ds-panel{font-family:Arial,Helvetica,sans-serif;line-height:1.5;background:var(--paper,#f8f9fa);color:var(--ink,#202124);border-radius:var(--radius,12px);padding:24px}.ds-panel-title{margin:0;font-size:19px;line-height:1.3;font-weight:600}.ds-panel-intro{font-size:13px;color:var(--muted,#5d6269);margin:6px 0 24px}.ds-panel-status{font-size:12px}.ds-panel-status strong{font-weight:600;color:var(--warning,#8b4e0a)}.ds-panel-status p{margin:4px 0 0;color:var(--muted,#5d6269)}@media(max-width:1050px){.ds-panel{padding:20px}}@media(max-width:760px){.ds-panel{padding:22px}.ds-panel-status{font-size:13px}} @media(prefers-reduced-motion:reduce){.ds-panel,.ds-panel-intro,.ds-panel-status,.ds-panel-title{transition:none!important}}"
+    },
+    {
+      "name": "Camera stage",
+      "kind": "card",
+      "refersTo": "camera-stage",
+      "description": "Camera shell in its genuine first-frame waiting state. No replacement image is included.",
+      "html": "<section class=\"ds-stage\"><div class=\"ds-stage-top\"><span>YAM1 · Overhead</span><span>Latest published frames</span></div><div class=\"ds-image-well\"><div class=\"ds-camera-empty\"><p>Connecting to the robot camera…</p><span>Fetching the latest published image.</span></div></div><div class=\"ds-stage-bottom\">Waiting for first frame</div></section>",
+      "css": ".ds-stage{font-family:Arial,Helvetica,sans-serif;line-height:1.5;background:var(--stage,#202124);color:var(--stage-ink,#f1f3f4);border-radius:var(--radius,12px);overflow:hidden}.ds-stage-top,.ds-stage-bottom{display:flex;justify-content:space-between;gap:15px;padding:13px 17px;font-size:12px;color:var(--stage-muted,#c4c7cb)}.ds-stage-top>span:first-child{color:var(--stage-ink,#f1f3f4)}.ds-image-well{position:relative;aspect-ratio:16/9;max-width:100%;display:flex;align-items:center;justify-content:center;background:#171819}.ds-image-well img{width:100%;height:100%;object-fit:contain;display:block}.ds-camera-empty{text-align:center;padding:35px 20px}.ds-camera-empty p{margin:0;font-size:15px}.ds-camera-empty span{display:block;font-size:12px;max-width:40ch;margin:8px auto 0;color:var(--stage-muted,#c4c7cb)}.ds-stage-bottom{min-height:44px;padding-top:6px;padding-bottom:6px;align-items:center}@media(max-width:760px){.ds-stage-top{padding:11px 12px;font-size:11px}.ds-stage-top>span:last-child{font-size:10px}.ds-stage-bottom{padding:5px 10px;font-size:10px}} @media(prefers-reduced-motion:reduce){.ds-camera-empty,.ds-image-well,.ds-stage,.ds-stage-bottom,.ds-stage-top{transition:none!important}}"
+    },
+    {
+      "name": "Image-point inspection",
+      "kind": "custom",
+      "refersTo": "inspection-panel",
+      "description": "Numeric keyboard path for native image pixels; the preview neither grounds 3D points nor commands motion.",
+      "html": "<section class=\"ds-inspection\"><p>Click the frozen image to inspect pixel coordinates. These points have no depth or robot coordinates yet and do not command motion.</p><form class=\"ds-pixel-form\"><label class=\"ds-pixel-label\">Pixel X<input class=\"ds-pixel\" type=\"number\" min=\"0\" step=\"1\" value=\"0\"></label><label class=\"ds-pixel-label\">Pixel Y<input class=\"ds-pixel\" type=\"number\" min=\"0\" step=\"1\" value=\"0\"></label><button class=\"ds-add-point\" type=\"button\">Add point</button></form><p class=\"ds-point-list\">No points selected.</p></section>",
+      "css": ".ds-inspection{font-family:Arial,Helvetica,sans-serif;line-height:1.5;padding:16px;background:var(--paper,#f8f9fa);border-radius:8px;font-size:12px;color:var(--muted,#5d6269)}.ds-inspection p{margin:0}.ds-pixel-form{display:flex;align-items:end;gap:12px;margin-top:12px;flex-wrap:wrap}.ds-pixel-label{display:flex;flex-direction:column;gap:5px}.ds-pixel{font-family:Arial,Helvetica,sans-serif;line-height:1.5;width:100px;padding:9px;border:1px solid #bdc1c6;border-radius:6px;background:white;color:var(--ink,#202124);font-size:15px;caret-color:var(--blue,#174ea6)}.ds-add-point{font-family:Arial,Helvetica,sans-serif;line-height:1.5;transition:background .16s ease-out,color .16s ease-out;margin:0;padding:9px 13px;border:1px solid #b6bec8;border-radius:6px;font-size:13px;background:transparent;color:var(--blue,#174ea6);cursor:pointer}.ds-add-point:hover{background:#edf1f6}.ds-pixel:focus-visible,.ds-add-point:focus-visible{outline:3px solid var(--focus,#1a73e8);outline-offset:3px;}.ds-point-list{margin-top:10px!important}@media(max-width:760px){.ds-pixel{font-size:16px;min-height:44px}.ds-add-point{min-height:44px}} @media(prefers-reduced-motion:reduce){.ds-add-point,.ds-inspection,.ds-pixel,.ds-pixel-form,.ds-pixel-label,.ds-point-list{transition:none!important}}"
+    },
+    {
+      "name": "Persistent launch progress",
+      "kind": "custom",
+      "refersTo": "run-panel",
+      "description": "Unresolved-submission state. Static component preview with no fabricated timestamps or execution record.",
+      "html": "<div class=\"ds-launch\" role=\"status\" aria-label=\"Launch progress\"><strong>Submission unresolved</strong><p>The original request may have been accepted. Refresh preserves this state; use Stop and wait for verified status before another Run.</p></div>",
+      "css": ".ds-launch{font-family:Arial,Helvetica,sans-serif;line-height:1.5;border-top:1px solid var(--line,#dadddf);padding-top:14px;margin-top:16px;font-size:12px;color:var(--ink,#202124)}.ds-launch>strong{font-weight:600}.ds-launch>p{color:var(--muted,#5d6269);margin:6px 0}.ds-launch dl{margin:10px 0 0}.ds-launch dl>div{display:flex;gap:12px;justify-content:space-between;margin-top:5px}.ds-launch dt{color:var(--muted,#5d6269)}.ds-launch dd{margin:0;font-variant-numeric:tabular-nums;white-space:nowrap} @media(prefers-reduced-motion:reduce){.ds-launch{transition:none!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Robot Workspace",
+    "overview": "RoboHarness inherits BluPe’s functional Operate vocabulary: quiet Arial typography, a white workspace, restrained blue controls and a charcoal camera stage. The actual camera image carries the visual weight; surrounding surfaces help a researcher observe the station and make a deliberate next action.\n\nControls are plain and specific. Task entry, editable runner details, approach, planning model and execution mode remain distinct. Persistent inline explanations describe the current condition, its cause and the available recovery action. Status text, timestamps and actual events carry meaning; decoration does not imply physical readiness or progress.\n\nThe interface uses flat tonal grouping and short color transitions. It has no decorative animation or progress percentage. Empty, interrupted, uncertain and unverified states stay visible in the same calm visual language as the operational workspace.",
+    "keyCharacteristics": [
+      "Actual, uncropped camera imagery leads the workspace.",
+      "Blue marks actions, focus and selection; text explains state.",
+      "Flat white and pale-gray surfaces group controls without shadows.",
+      "Persistent inline status and event timestamps make waits inspectable."
+    ],
+    "rules": [
+      {
+        "name": "The State in Words Rule",
+        "body": "Pair every status color with explicit text; an available-station dot is not proof that the runtime can execute.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plain Type Rule",
+        "body": "Use the incumbent sans hierarchy for controls and explanations; reserve monospace for pixel coordinates and recorded structured data.",
+        "section": "typography"
+      },
+      {
+        "name": "The Full Frame Rule",
+        "body": "Contain camera imagery inside the stage; preserve every source pixel and let unused space remain dark.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Separate regions with tone, spacing and thin borders; the current system has no shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Actual Frame Rule",
+        "body": "Inspection freezes the displayed actual frame and labels image pixels; selected points do not imply depth, robot coordinates or motion.",
+        "section": "components"
+      },
+      {
+        "name": "The Event Evidence Rule",
+        "body": "Show lifecycle labels and timestamps only from the corresponding observed runtime events; a fixture is not an execution record.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep actual footage uncropped and distinguish captured time from received time.",
+      "Do keep inline cause and recovery text visible beside non-ready, interrupted and unresolved states.",
+      "Do preserve keyboard focus, native form controls and the mobile touch-target minimum.",
+      "Do show runner attribution separately from approach, underlying model and execution mode.",
+      "Do retain honest empty history and unavailable-recording states until matching RoboHarness evidence exists.",
+      "Do treat the sidecar tonal ramps as derived swatch previews; the extracted frontmatter values remain the implemented palette."
+    ],
+    "donts": [
+      "Don’t substitute mock imagery, unrelated historical footage or decorative progress for the selected station’s actual state.",
+      "Don’t present image-point inspection as 3D grounding or a command to the robot.",
+      "Don’t equate execution completion with successful object outcome; the footage must be assessed.",
+      "Don’t use color alone to communicate readiness, error, selection or availability.",
+      "Don’t publish private runner email in examples, public evidence or design-system snippets.",
+      "Don’t extend this integration’s design decisions into the parent meeting experiment’s PRODUCT.md or DESIGN.md."
+    ]
+  }
+}

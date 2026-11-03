@@ -64,10 +64,11 @@ test('runner gateway preserves normal session cookies, CSRF, station and exact b
 });
 
 test('ambiguous runner failures and redirects are surfaced without automatic retry', async () => {
-  for (const outcome of ['network', 'redirect']) {
+  for (const outcome of ['network', 'redirect', 'gateway']) {
     let calls = 0;
     const { proxyRunner } = load('lib/runner-proxy.ts', async () => {
       calls++; if (outcome === 'network') throw new Error('Lost response');
+      if (outcome === 'gateway') return new Response('error code: 525', { status: 525, headers: { 'Content-Type': 'text/plain' } });
       return new Response(null, { status: 302, headers: { Location: 'https://unrelated.invalid' } });
     });
     const r = await proxyRunner(new Request('https://example.com/api/runner/stop', { method: 'POST', body: '{}', headers: {

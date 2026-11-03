@@ -19,7 +19,7 @@ Environment=YAM_SUBMISSION_DATABASE=/var/lib/blupe-roboharness/queue-submissions
 Environment=YAM_SOCIAL_DATABASE=/var/lib/blupe-roboharness/run-socials.sqlite3
 Environment=YAM_ASSESSMENT_DATABASE=/var/lib/blupe-roboharness/run-assessments.sqlite3
 Environment=YAM_TASK_CLOUD_DATABASE=/var/lib/blupe-roboharness/task-cloud.sqlite3
-ExecStart=/home/ubuntu/blupe-roboharness/venv/bin/python backend/serve.py --runner-source /home/ubuntu/blupe-roboharness/runner/codex-runner --origin https://roboharness.54.209.185.15.sslip.io --recording-root /var/lib/blupe-roboharness/recordings --preflight /home/ubuntu/blupe-roboharness/preflight.json --broker-socket /run/blupe-codex-broker/model.sock --hosting-app-source /home/ubuntu/blupe-evals/apps/blupe_web
+ExecStart=/home/ubuntu/blupe-roboharness/venv/bin/python backend/serve.py --runner-source /home/ubuntu/blupe-roboharness/runner/codex-runner --origin https://roboharness.54.209.185.15.sslip.io --preflight /home/ubuntu/blupe-roboharness/preflight.json --broker-socket /run/blupe-codex-broker/model.sock --hosting-app-source /home/ubuntu/blupe-evals/apps/blupe_web
 Restart=on-failure
 RestartSec=5
 TimeoutStopSec=45

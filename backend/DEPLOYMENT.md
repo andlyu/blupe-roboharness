@@ -1,6 +1,6 @@
 # Isolated backend deployment
 
-The public Site proxies an allowlist of operations to `https://roboharness.54.209.185.15.sslip.io`; Caddy forwards only this new host to loopback port 8813. `blupe-roboharness.service` is separate from existing BluPe/Spotter services. Starting the service monitors public station state; it does not create a robot session.
+The public Site proxies an allowlist of operations to `https://roboharness.54.209.185.15.sslip.io`; Caddy forwards only this new host to loopback port 8813. `blupe-roboharness.service` is separate from existing BluPe/Spotter services. Starting the service monitors public station state; it does not create a robot session. Public runs retain physical footage in the existing BluPe recording archive. The shared public runner keeps policy input-frame files in private temporary storage; its local-only durable station-frame guard stays enforced. The task’s attribution/configuration/submission metadata databases persist in its StateDirectory.
 
 Install a clean, exact published shared-runner revision at `/home/ubuntu/blupe-roboharness/runner` and this source at `/home/ubuntu/blupe-roboharness/site`. Install `runner/codex-runner/requirements-roboharness.txt` into the task’s own `venv`. Run `roboharness_preflight.py` from the clean runner and retain `/home/ubuntu/blupe-roboharness/preflight.json`; the startup/launch gate validates its complete source hashes and all 27 tests.
 
