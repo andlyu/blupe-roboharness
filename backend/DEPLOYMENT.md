@@ -1,0 +1,11 @@
+# Isolated backend deployment
+
+The public Site proxies an allowlist of operations to `https://roboharness.54.209.185.15.sslip.io`; Caddy forwards only this new host to loopback port 8813. `blupe-roboharness.service` is separate from existing BluPe/Spotter services. Starting the service monitors public station state; it does not create a robot session.
+
+Install a clean, exact published shared-runner revision at `/home/ubuntu/blupe-roboharness/runner` and this source at `/home/ubuntu/blupe-roboharness/site`. Install `runner/codex-runner/requirements-roboharness.txt` into the task’s own `venv`. Run `roboharness_preflight.py` from the clean runner and retain `/home/ubuntu/blupe-roboharness/preflight.json`; the startup/launch gate validates its complete source hashes and all 27 tests.
+
+The service uses the existing app-owned `SponsoredCodex` client and `/run/blupe-codex-broker/model.sock` through the normal `blupe-codex-ipc` supplementary group. It does not read, copy or move subscription credentials, alter broker permissions/schema, or change user group membership. This is an explicit integration client of the existing bounded robot-decision service. No API key is required. Readiness must report the selected service available before enabling Run.
+
+Install only the supplied new unit and new Caddy host file, validate Caddy configuration and gracefully reload Caddy. Preserve existing host blocks/services. Record the actual source revisions, preflight and readiness response in deployment evidence. Source pushes/deployment/public visibility are covered by the invoked BluPe harness contract; enforced tool approvals still apply normally.
+
+Before a physical run, use the installed scope renderer and surface the exact invocation, origins, selected station/arms, method/task, duration, bounded motion, recording destination and confirmed human identity fields. No deployment receipt or offline test certifies motion, object outcome, live viewing or replay. Physical acceptance remains pending until the working checklist has evidence for every item.

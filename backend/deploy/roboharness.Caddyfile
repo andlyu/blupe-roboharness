@@ -1,0 +1,7 @@
+roboharness.54.209.185.15.sslip.io {
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy same-origin
+    }
+    reverse_proxy 127.0.0.1:8813
+}

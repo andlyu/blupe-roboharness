@@ -1,0 +1,22 @@
+{
+  "runner_name": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "non_actuating_model_transport_test",
+  "requested_underlying_model": "gpt-6-astra",
+  "resolved_underlying_model": null,
+  "alias_resolution": "provider did not expose immutable resolution",
+  "reasoning_effort": "low",
+  "started_at": 1793700249.317798,
+  "duration_s": 6.598975499975495,
+  "synthetic_image_colors": [
+    "red",
+    "green",
+    "blue"
+  ],
+  "model_tool": "give_up",
+  "reported_colors": "Dominant colors in image order: red, green, blue.",
+  "image_and_schema_check_passed": true,
+  "robot_sessions": 0,
+  "actuator_submissions": 0,
+  "private_email_in_public_evidence": false
+}
