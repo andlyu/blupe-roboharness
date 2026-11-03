@@ -6,6 +6,7 @@ export type RunState = { status: string; episode_id?: string; session_id?: strin
   queue_position?: number; launch_requested_at?: number; run_started_at?: number; run_ended_at?: number;
   run_configuration?: Record<string, unknown>; run_summary?: { events: { type: string; timestamp: number; state?: string; reason?: string; position?: number }[] };
   provider?: { model: string; note?: string; underlying_models?: unknown; outcome?: { status: string; reason?: string; summary?: string } };
+  feedback_checks?: Record<string, unknown>[]; step_timings?: Record<string, unknown>[]; run_metrics?: Record<string, unknown>;
   interactions?: { events: Event[] }; public_run?: { runner_name: string; model_name: string; task: string; events: Event[] };
 };
 type Readiness = { ready: boolean; reason?: string; source_revision?: string; preflight_tests?: number };

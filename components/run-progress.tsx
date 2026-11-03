@@ -7,7 +7,7 @@ const descriptions: Record<string, string> = {
   running: 'RoboHarness is observing, grounding points and checking geometric actions. Watch the camera and event log for actual progress.',
   resetting: 'The run is ending. Waiting for normal parking and lease release.',
   completed: 'Execution ended. Inspect the footage to assess the object outcome.',
-  stopped: 'Stop was requested. Check the final feedback and parking events below.',
+  stopped: 'Execution stopped. Check the outcome, final feedback and parking events below.',
   failed: 'The run failed. Read the failure event before starting another run. Timed-out motion is not retried automatically.',
   idle: 'No active execution in this browser session.',
 };
@@ -26,6 +26,7 @@ export function RunProgress({ state, submittedAt, onReplay }: { state: RunState 
     <dl className="run-facts"><div><dt>Episode</dt><dd>{state.episode_id || 'Not assigned'}</dd></div><div><dt>Approach</dt><dd>RoboHarness</dd></div><div><dt>Run clicked</dt><dd>{submittedAt ? new Date(submittedAt).toISOString() : 'Not observed in this page session'}</dd></div></dl>
     {events.length > 0 && <ol className="event-log" aria-label="Run events">{events.slice(-30).map((event, i) => <li key={`${event.id}-${i}`}><time dateTime={new Date(event.timestamp * 1000).toISOString()}>{new Date(event.timestamp * 1000).toLocaleTimeString()}</time><div><strong>{event.message}</strong>{event.details && <pre>{JSON.stringify(event.details, null, 2)}</pre>}</div></li>)}</ol>}
     <details><summary>Recorded approach configuration</summary><pre>{JSON.stringify({ model: 'RoboHarness', underlying_models: state.provider?.underlying_models ?? config.underlying_models ?? 'Awaiting runtime configuration', execution_mode: config.execution_mode ?? 'See run metadata' }, null, 2)}</pre></details>
+    <details><summary>Lifecycle and feedback evidence</summary><pre>{JSON.stringify({ source_events: state.run_summary?.events ?? [], feedback_checks: state.feedback_checks ?? [], step_timings: state.step_timings ?? [], run_metrics: state.run_metrics ?? {} }, null, 2)}</pre></details>
     {state.episode_id && <button className="secondary" onClick={onReplay}>Open this run’s replay</button>}
   </section>;
 }
