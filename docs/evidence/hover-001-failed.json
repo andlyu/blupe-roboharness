@@ -1,0 +1,137 @@
+{
+  "scope": "failed physical UI attempt before inference or method dispatch",
+  "website_revision": "7b34c0633e75d66dd4102063353ce153781ae62e",
+  "runner_revision": "a8b94aaab891348fe387dad30a69b131f9e44386",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "model": "RoboHarness",
+  "session_id": "sess_2a94716c12524402",
+  "episode_id": "ep_d758914999e442e6",
+  "robot_id": "robot-ba8413962083809c",
+  "t_run": "2026-11-03T19:04:20.622Z",
+  "click_bracket_utc": [
+    "2026-11-03T19:04:20.570Z",
+    "2026-11-03T19:04:20.851Z"
+  ],
+  "t_queue": null,
+  "t_admit": 1793732672.6200643,
+  "home_completion_source": 1793732672.6810071,
+  "home_feedback_confirmed": 1793732673.318688,
+  "t_motion": null,
+  "excluded_queue_s": null,
+  "post_home_to_motion_s": null,
+  "queue_adjusted_run_to_motion_s": null,
+  "outcome": "Failed: strict measured-feedback freshness rejected the sample after 3.598s camera acquisition; zero model calls and zero method packets",
+  "timing_targets": "Unverified / no method onset. Home motion does not count. Queue entry was not retained; no queue exclusion inferred.",
+  "exceptions": "none",
+  "visual_evidence": "Timed browser captures retained, but a gap during Home prevents visual timing certification. No method motion occurred.",
+  "feedback": {
+    "source_events": [
+      {
+        "type": "snapshot",
+        "timestamp": 1793732662.2723405
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793732672.6200643,
+        "state": "preparing",
+        "previous_state": "queued",
+        "reason": "jetson_leased"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793732672.6202497,
+        "state": "preparing"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793732672.737156,
+        "state": "running",
+        "previous_state": "preparing",
+        "reason": "first_observation"
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793732672.7373388,
+        "step_id": 0
+      }
+    ],
+    "feedback_checks": [
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793732672.766922,
+        "received_at": null,
+        "elapsed_ms": 0.040907878428697586,
+        "completion": {
+          "observed_at": 1793732672.6810071,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793732671.9617507,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": null,
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793732673.318688,
+        "received_at": 1793732673.3185678,
+        "elapsed_ms": 551.8016931600869,
+        "completion": {
+          "observed_at": 1793732672.6810071,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793732673.0023081,
+          "step_id": null,
+          "homed": true,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      }
+    ],
+    "step_timings": [],
+    "run_metrics": {
+      "model_s": 0,
+      "execution_s": 0,
+      "left_path_m": 0,
+      "right_path_m": 0,
+      "model_calls": 0,
+      "execution_packets": 0,
+      "accepted_packets": 0,
+      "distance_waypoints": 0,
+      "confirmed_waypoints": 0
+    }
+  },
+  "repair": {
+    "source_revision": "e83e3557290b76ca7033cfa754695064fa4eb85b",
+    "red": "Actual Home fixture fails old a8 policy with InputRejected before model/dispatch",
+    "green": "33 RoboHarness checks passed; 56 shared tests and32 subtests passed; physical verification pending"
+  }
+}

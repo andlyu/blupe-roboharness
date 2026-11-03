@@ -15,6 +15,7 @@ StateDirectory=blupe-roboharness
 Environment=PYTHONDONTWRITEBYTECODE=1
 Environment=MUJOCO_GL=osmesa
 Environment=YAM_RUN_NAMES_DATABASE=/var/lib/blupe-roboharness/run-names.sqlite3
+Environment='YAM_PUBLIC_RUN_SOURCES=[{"database":"/var/lib/blupe-roboharness/run-names.sqlite3","robot_id":"yam-1"},{"database":"/var/lib/blupe-roboharness/run-names.sqlite3","robot_id":"robot-ba8413962083809c"}]'
 Environment=YAM_SUBMISSION_DATABASE=/var/lib/blupe-roboharness/queue-submissions.sqlite3
 Environment=YAM_SOCIAL_DATABASE=/var/lib/blupe-roboharness/run-socials.sqlite3
 Environment=YAM_ASSESSMENT_DATABASE=/var/lib/blupe-roboharness/run-assessments.sqlite3
