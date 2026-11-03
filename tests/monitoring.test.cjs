@@ -149,3 +149,16 @@ test('replay sources accept only matched integration clips or the normal public 
   assert.equal(replaySource('/api/integration-replays/../private.mp4','yam-1'),null);
   const archive='https://huggingface.co/datasets/andlyu/Public-YAM-runs/resolve/main/videos/ep_offline.mp4';assert.equal(replaySource(archive,'yam-1'),archive);
 });
+
+
+test('verification feed projects only revision-bound public evidence', async()=>{
+  const route=load('app/api/verification/route.ts',async(url)=>{assert(url.startsWith('https://raw.githubusercontent.com/andlyu/blupe-roboharness/main/docs/evidence/verification.json'));return Response.json({source_revision:'a'.repeat(40),email:'private@example.invalid',checks:[{id:1,status:'passed',email:'private@example.invalid',evidence:['https://github.com/andlyu/blupe-roboharness/blob/main/docs/COMPLETION-CHECKLIST.md','https://unrelated.invalid/','javascript:bad']},{id:2,status:'passed',evidence:[]}]});});
+  const r=await route.GET();assert.equal(r.status,200);const d=await r.json();assert.equal(d.checks[0].passed,true);assert.equal(d.checks[1].passed,false);assert.equal(d.checks[0].evidence.length,1);assert(!JSON.stringify(d).includes('private@example.invalid'));
+});
+
+test('missing or ambiguous verification evidence cannot create passes', async()=>{
+  for(const data of [null,{source_revision:'a'.repeat(40),checks:[{id:1},{id:1}]},{source_revision:'other',checks:[]}]){
+    const route=load('app/api/verification/route.ts',async()=>data ? Response.json(data) : new Response('missing',{status:404}));
+    const r=await route.GET();assert.equal(r.status,503);assert(!('checks' in await r.json()));
+  }
+});
