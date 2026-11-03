@@ -1,5 +1,5 @@
 {
-  "status": "software_passed_host_and_physical_pending",
+  "status": "host_preflight_failed_rolled_back",
   "head_revision": "20f8ab8ed27d26205c6549e4a27cf27657ab09b1",
   "merged_revision": "7a702d2264c2a1b7d051004279d0c73919a2e06c",
   "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/276",
@@ -38,12 +38,20 @@
     "retry": false,
     "policy_camera_count": 3,
     "actual_transport_parser_and_resume_test": true,
-    "run_queue_home_clocks_unchanged": true
+    "run_queue_home_clocks_unchanged": true,
+    "protocol_limitation": "Existing broker requires at least one image; discovered before real initialization or hardware testing. PR277 uses an explicitly synthetic non-robot card and adds actual-broker validator preflight."
   },
   "remaining": [
     "host release preflight",
     "current-deployment physical manipulation",
     "ordinary startup timing",
     "complete immediate/historical method-execution replay"
-  ]
+  ],
+  "host_failure": {
+    "error": "Long replay virtual-time burst did not finish preparation on the slow host",
+    "tests": 57,
+    "test_runtime_s": 68.364,
+    "gate_runtime_s": 70.43315190682188,
+    "rollback_revision": "535134793df7560633ea9c72c204d982d6e16809"
+  }
 }

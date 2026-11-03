@@ -1,0 +1,37 @@
+{
+  "status": "software_passed_host_and_physical_pending",
+  "head_revision": "5ae73fab8dd63e1edafd7f69c2ce50c0863f355f",
+  "merged_revision": "e6040394c5ed62efbcc7d627acc0dfc8ccc100a6",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/277",
+  "ci": [
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41737538785",
+      "scope": "full shared runner on exact head",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41737688364",
+      "scope": "57-case required gate",
+      "result": "success"
+    }
+  ],
+  "local_gate": "broker-card-local-preflight.json",
+  "actual_protocol_check": "broker-card-local-compatibility.json",
+  "initialization": {
+    "total_images": 1,
+    "robot_images": 0,
+    "content": "Explicitly labelled synthetic gray16x16card; not a robot scene",
+    "sha256": "5fc031e7b497a6cf7c4cb65d5685c12649ad48013f1a22a91200b764d3378225",
+    "real_policy_images": 3,
+    "actual_model_calls_in_offline_check": 0,
+    "queue_entries": 0,
+    "actuator_submissions": 0
+  },
+  "replay_test": "Real33-second capture at deployed2Hz; real FFmpeg/ffprobe; production deadlines unchanged",
+  "remaining": [
+    "host57-case release gate",
+    "actual host broker validator gate",
+    "real non-actuating initialization compatibility",
+    "new physical manipulation/timing/replay verification"
+  ]
+}
