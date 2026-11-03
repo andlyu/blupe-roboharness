@@ -1,0 +1,1406 @@
+{
+  "episode_id": "ep_c849eb57993c4147",
+  "session_id": "sess_d5537645efc643b2",
+  "runner": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "automated_verification",
+  "robot_id": "robot-ba8413962083809c",
+  "shared_revision": "a3ad4101c621c643672691b45c2fa75ed1f5a4fa",
+  "website_revision": "fb98d911fb65632768079b00068a1d148e6fc0e7",
+  "t_run": 1793740337.806,
+  "t_queue": 1793740339.00259,
+  "t_admit": 1793740349.400047,
+  "t_home": 1793740349.444623,
+  "home_feedback_confirmed": 1793740350.0827649,
+  "t_motion": 1793740364.092,
+  "queue_seconds": 10.397457122802734,
+  "timing_status": "Normal timing pass for this failed-task variant: first visually observed method movement in stable source-timestamped UI frame00054 (4px gripper-body shift), corroborated by00055; no GPU/research exception. This does not certify manipulation or a later source revision.",
+  "outcome": "68-waypoint depth-grounded non-contact approach executed and settled. Controller completion callback then received raw sample without reconciled source/safety, so guard rejected before grasp or another model call. No automatic movement retry; normal stop/parking.",
+  "task_success": false,
+  "feedback": {
+    "run_context": {
+      "episode_id": "ep_c849eb57993c4147",
+      "session_id": "sess_d5537645efc643b2"
+    },
+    "source_events": [
+      {
+        "type": "snapshot",
+        "timestamp": 1793740339.0687969
+      },
+      {
+        "type": "queue_entry",
+        "timestamp": 1793740339.00259,
+        "state": "queued",
+        "position": 1,
+        "source": "queue_snapshot"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793740349.400047,
+        "state": "preparing",
+        "previous_state": "queued",
+        "reason": "jetson_leased"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793740349.4002938,
+        "state": "preparing"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793740349.5125744,
+        "state": "running",
+        "previous_state": "preparing",
+        "reason": "first_observation"
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793740349.5127277,
+        "step_id": 0
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740350.044303
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740351.054899
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740352.067852
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740353.0890965
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740354.1500323
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740355.1561818
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740356.2170365
+      },
+      {
+        "type": "event_stream_disconnect",
+        "timestamp": 1793740363.6210864,
+        "cause_type": "WebSocketConnectionClosedException",
+        "errno": null,
+        "previous_event_type": "heartbeat"
+      },
+      {
+        "type": "snapshot",
+        "timestamp": 1793740363.6817093
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793740363.6817589,
+        "step_id": 0,
+        "replayed": true
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793740363.8127296
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740363.8575954,
+        "step_id": 0
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740363.9565945,
+        "step_id": 1
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.0632877,
+        "step_id": 2
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.1442606,
+        "step_id": 3
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.2534642,
+        "step_id": 4
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.3522594,
+        "step_id": 5
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.5004528,
+        "step_id": 6
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.554309,
+        "step_id": 7
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740364.6078513
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.6798003,
+        "step_id": 8
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.7874212,
+        "step_id": 9
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.8862104,
+        "step_id": 10
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740364.985736,
+        "step_id": 11
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.0846403,
+        "step_id": 12
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.2005002,
+        "step_id": 13
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.3082552,
+        "step_id": 14
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.399488,
+        "step_id": 15
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.5119996,
+        "step_id": 16
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.6096926,
+        "step_id": 17
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740365.618637
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.7444658,
+        "step_id": 18
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.844715,
+        "step_id": 19
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740365.9433885,
+        "step_id": 20
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.041353,
+        "step_id": 21
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.140137,
+        "step_id": 22
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.271017,
+        "step_id": 23
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.3159208,
+        "step_id": 24
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.4229333,
+        "step_id": 25
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.5218918,
+        "step_id": 26
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.626424,
+        "step_id": 27
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740366.6266167
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.7252514,
+        "step_id": 28
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.8410704,
+        "step_id": 29
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740366.940238,
+        "step_id": 30
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.0394344,
+        "step_id": 31
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.1381352,
+        "step_id": 32
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.2458982,
+        "step_id": 33
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.363004,
+        "step_id": 34
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.4575176,
+        "step_id": 35
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.5651932,
+        "step_id": 36
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.6633534,
+        "step_id": 37
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740367.663509
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.7582545,
+        "step_id": 38
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.8846643,
+        "step_id": 39
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740367.9827888,
+        "step_id": 40
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.0815191,
+        "step_id": 41
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.1810215,
+        "step_id": 42
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.2888303,
+        "step_id": 43
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.3785763,
+        "step_id": 44
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.4862432,
+        "step_id": 45
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.581222,
+        "step_id": 46
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.6800396,
+        "step_id": 47
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740368.6977959
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.7869537,
+        "step_id": 48
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740368.921647,
+        "step_id": 49
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.0172918,
+        "step_id": 50
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.1251469,
+        "step_id": 51
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.223233,
+        "step_id": 52
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.3217232,
+        "step_id": 53
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.3898666,
+        "step_id": 54
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.497675,
+        "step_id": 55
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.591931,
+        "step_id": 56
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.7002313,
+        "step_id": 57
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740369.7008035
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.7992456,
+        "step_id": 58
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740369.924713,
+        "step_id": 59
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.0230513,
+        "step_id": 60
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.130618,
+        "step_id": 61
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.226434,
+        "step_id": 62
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.325047,
+        "step_id": 63
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.4590673,
+        "step_id": 64
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.5578074,
+        "step_id": 65
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.6706092,
+        "step_id": 66
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793740370.7679904
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793740370.768535,
+        "step_id": 67
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793740371.2230947,
+        "step_id": 68
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793740371.2232819
+      }
+    ],
+    "feedback_checks": [
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793740349.5311408,
+        "received_at": null,
+        "elapsed_ms": 0.029517803341150284,
+        "completion": {
+          "observed_at": 1793740349.444623,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793740348.7617195,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": null,
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793740350.0827649,
+        "received_at": 1793740350.082635,
+        "elapsed_ms": 551.6599309630692,
+        "completion": {
+          "observed_at": 1793740349.444623,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793740349.7895164,
+          "step_id": null,
+          "homed": true,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793740371.2854347,
+        "received_at": null,
+        "elapsed_ms": 0.03886595368385315,
+        "completion": {
+          "observed_at": 1793740371.1398807,
+          "step_id": 68,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793740370.8672957,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793740371.8389807,
+        "received_at": 1793740371.8388686,
+        "elapsed_ms": 553.583384025842,
+        "completion": {
+          "observed_at": 1793740371.1398807,
+          "step_id": 68,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793740371.412081,
+          "step_id": null,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      }
+    ],
+    "step_timings": [
+      {
+        "step": 1,
+        "planning_s": 13.51551596680656,
+        "model_s": 9.974670491646975,
+        "execution_robot_s": 7.37740683555603,
+        "path_m": 0.24529216583492125,
+        "arm_motion_s": 8.003357782028615,
+        "movement_feedback_s": 8.237459836993366,
+        "total_s": 21.752975803799927,
+        "gap_s": null,
+        "outcome": "completed",
+        "left_displacement_m": null,
+        "right_displacement_m": null
+      }
+    ],
+    "run_metrics": {
+      "model_s": 9.974670491646975,
+      "execution_s": 7.37740683555603,
+      "left_path_m": 0.2452921658349212,
+      "right_path_m": 0,
+      "model_calls": 1,
+      "execution_packets": 1,
+      "accepted_packets": 1,
+      "distance_waypoints": 68,
+      "confirmed_waypoints": 68
+    }
+  },
+  "ui_video": {
+    "url": "https://raw.githubusercontent.com/andlyu/blupe-roboharness/main/public/evidence/manipulation-001-ui.mp4",
+    "sha256": "fa0034315299b539a3565ede49f8ea23a493fa62bd300166848206910e69341d",
+    "bytes": 1019971,
+    "frame_count": 91,
+    "click_bracket": {
+      "before_ms": 1793740337762,
+      "after_ms": 1793740338038
+    },
+    "contains_pre_click_frame": true,
+    "source_timestamps_recorded": true
+  },
+  "visual_timeline": [
+    {
+      "file": "00000.png",
+      "local_before_ms": 1793740337708,
+      "local_after_ms": 1793740337751,
+      "source_before_utc": "2026-11-03T21:12:16.190Z",
+      "source_after_utc": "2026-11-03T21:12:16.190Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00001.png",
+      "local_before_ms": 1793740338055,
+      "local_after_ms": 1793740338168,
+      "source_before_utc": "2026-11-03T21:12:16.190Z",
+      "source_after_utc": "2026-11-03T21:12:17.864Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00002.png",
+      "local_before_ms": 1793740338563,
+      "local_after_ms": 1793740338680,
+      "source_before_utc": "2026-11-03T21:12:17.864Z",
+      "source_after_utc": "2026-11-03T21:12:17.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00003.png",
+      "local_before_ms": 1793740339070,
+      "local_after_ms": 1793740339153,
+      "source_before_utc": "2026-11-03T21:12:17.864Z",
+      "source_after_utc": "2026-11-03T21:12:17.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00004.png",
+      "local_before_ms": 1793740339566,
+      "local_after_ms": 1793740339607,
+      "source_before_utc": "2026-11-03T21:12:17.864Z",
+      "source_after_utc": "2026-11-03T21:12:17.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00005.png",
+      "local_before_ms": 1793740340064,
+      "local_after_ms": 1793740340122,
+      "source_before_utc": "2026-11-03T21:12:17.864Z",
+      "source_after_utc": "2026-11-03T21:12:17.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00006.png",
+      "local_before_ms": 1793740340567,
+      "local_after_ms": 1793740340644,
+      "source_before_utc": "2026-11-03T21:12:19.882Z",
+      "source_after_utc": "2026-11-03T21:12:19.882Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00007.png",
+      "local_before_ms": 1793740341074,
+      "local_after_ms": 1793740341161,
+      "source_before_utc": "2026-11-03T21:12:20.701Z",
+      "source_after_utc": "2026-11-03T21:12:20.701Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00008.png",
+      "local_before_ms": 1793740341574,
+      "local_after_ms": 1793740341674,
+      "source_before_utc": "2026-11-03T21:12:20.701Z",
+      "source_after_utc": "2026-11-03T21:12:21.372Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00009.png",
+      "local_before_ms": 1793740342071,
+      "local_after_ms": 1793740342191,
+      "source_before_utc": "2026-11-03T21:12:21.372Z",
+      "source_after_utc": "2026-11-03T21:12:21.372Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00010.png",
+      "local_before_ms": 1793740342568,
+      "local_after_ms": 1793740342593,
+      "source_before_utc": "2026-11-03T21:12:22.208Z",
+      "source_after_utc": "2026-11-03T21:12:22.208Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00011.png",
+      "local_before_ms": 1793740343073,
+      "local_after_ms": 1793740343113,
+      "source_before_utc": "2026-11-03T21:12:22.208Z",
+      "source_after_utc": "2026-11-03T21:12:22.208Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00012.png",
+      "local_before_ms": 1793740343568,
+      "local_after_ms": 1793740343622,
+      "source_before_utc": "2026-11-03T21:12:23.063Z",
+      "source_after_utc": "2026-11-03T21:12:23.063Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00013.png",
+      "local_before_ms": 1793740344075,
+      "local_after_ms": 1793740344144,
+      "source_before_utc": "2026-11-03T21:12:23.717Z",
+      "source_after_utc": "2026-11-03T21:12:23.717Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00014.png",
+      "local_before_ms": 1793740344578,
+      "local_after_ms": 1793740344665,
+      "source_before_utc": "2026-11-03T21:12:23.717Z",
+      "source_after_utc": "2026-11-03T21:12:24.378Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00015.png",
+      "local_before_ms": 1793740345073,
+      "local_after_ms": 1793740345184,
+      "source_before_utc": "2026-11-03T21:12:24.378Z",
+      "source_after_utc": "2026-11-03T21:12:24.378Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00016.png",
+      "local_before_ms": 1793740345577,
+      "local_after_ms": 1793740345703,
+      "source_before_utc": "2026-11-03T21:12:25.059Z",
+      "source_after_utc": "2026-11-03T21:12:25.059Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00017.png",
+      "local_before_ms": 1793740346077,
+      "local_after_ms": 1793740346114,
+      "source_before_utc": "2026-11-03T21:12:25.059Z",
+      "source_after_utc": "2026-11-03T21:12:25.059Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00018.png",
+      "local_before_ms": 1793740346578,
+      "local_after_ms": 1793740346629,
+      "source_before_utc": "2026-11-03T21:12:25.719Z",
+      "source_after_utc": "2026-11-03T21:12:25.719Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00019.png",
+      "local_before_ms": 1793740347080,
+      "local_after_ms": 1793740347144,
+      "source_before_utc": "2026-11-03T21:12:26.729Z",
+      "source_after_utc": "2026-11-03T21:12:26.729Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00020.png",
+      "local_before_ms": 1793740347580,
+      "local_after_ms": 1793740347660,
+      "source_before_utc": "2026-11-03T21:12:26.729Z",
+      "source_after_utc": "2026-11-03T21:12:26.729Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00021.png",
+      "local_before_ms": 1793740348085,
+      "local_after_ms": 1793740348171,
+      "source_before_utc": "2026-11-03T21:12:27.549Z",
+      "source_after_utc": "2026-11-03T21:12:27.549Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00022.png",
+      "local_before_ms": 1793740348586,
+      "local_after_ms": 1793740348683,
+      "source_before_utc": "2026-11-03T21:12:27.549Z",
+      "source_after_utc": "2026-11-03T21:12:27.549Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00023.png",
+      "local_before_ms": 1793740349084,
+      "local_after_ms": 1793740349200,
+      "source_before_utc": "2026-11-03T21:12:28.558Z",
+      "source_after_utc": "2026-11-03T21:12:28.558Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00024.png",
+      "local_before_ms": 1793740349587,
+      "local_after_ms": 1793740349609,
+      "source_before_utc": "2026-11-03T21:12:28.558Z",
+      "source_after_utc": "2026-11-03T21:12:28.558Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00025.png",
+      "local_before_ms": 1793740350087,
+      "local_after_ms": 1793740350127,
+      "source_before_utc": "2026-11-03T21:12:29.566Z",
+      "source_after_utc": "2026-11-03T21:12:29.566Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00026.png",
+      "local_before_ms": 1793740350590,
+      "local_after_ms": 1793740350643,
+      "source_before_utc": "2026-11-03T21:12:29.566Z",
+      "source_after_utc": "2026-11-03T21:12:29.566Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00027.png",
+      "local_before_ms": 1793740351091,
+      "local_after_ms": 1793740351165,
+      "source_before_utc": "2026-11-03T21:12:29.566Z",
+      "source_after_utc": "2026-11-03T21:12:30.897Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00028.png",
+      "local_before_ms": 1793740351594,
+      "local_after_ms": 1793740351686,
+      "source_before_utc": "2026-11-03T21:12:30.897Z",
+      "source_after_utc": "2026-11-03T21:12:30.897Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00029.png",
+      "local_before_ms": 1793740352090,
+      "local_after_ms": 1793740352202,
+      "source_before_utc": "2026-11-03T21:12:31.568Z",
+      "source_after_utc": "2026-11-03T21:12:31.568Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00030.png",
+      "local_before_ms": 1793740352592,
+      "local_after_ms": 1793740352696,
+      "source_before_utc": "2026-11-03T21:12:31.568Z",
+      "source_after_utc": "2026-11-03T21:12:32.398Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00031.png",
+      "local_before_ms": 1793740353103,
+      "local_after_ms": 1793740353134,
+      "source_before_utc": "2026-11-03T21:12:32.398Z",
+      "source_after_utc": "2026-11-03T21:12:32.398Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00032.png",
+      "local_before_ms": 1793740353594,
+      "local_after_ms": 1793740353624,
+      "source_before_utc": "2026-11-03T21:12:32.398Z",
+      "source_after_utc": "2026-11-03T21:12:33.239Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00033.png",
+      "local_before_ms": 1793740354096,
+      "local_after_ms": 1793740354172,
+      "source_before_utc": "2026-11-03T21:12:33.239Z",
+      "source_after_utc": "2026-11-03T21:12:33.239Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00034.png",
+      "local_before_ms": 1793740354597,
+      "local_after_ms": 1793740354690,
+      "source_before_utc": "2026-11-03T21:12:34.078Z",
+      "source_after_utc": "2026-11-03T21:12:34.078Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00035.png",
+      "local_before_ms": 1793740355102,
+      "local_after_ms": 1793740355207,
+      "source_before_utc": "2026-11-03T21:12:34.905Z",
+      "source_after_utc": "2026-11-03T21:12:34.905Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00036.png",
+      "local_before_ms": 1793740355600,
+      "local_after_ms": 1793740355624,
+      "source_before_utc": "2026-11-03T21:12:34.905Z",
+      "source_after_utc": "2026-11-03T21:12:34.905Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00037.png",
+      "local_before_ms": 1793740356103,
+      "local_after_ms": 1793740356137,
+      "source_before_utc": "2026-11-03T21:12:35.578Z",
+      "source_after_utc": "2026-11-03T21:12:35.578Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00038.png",
+      "local_before_ms": 1793740356604,
+      "local_after_ms": 1793740356658,
+      "source_before_utc": "2026-11-03T21:12:36.244Z",
+      "source_after_utc": "2026-11-03T21:12:36.244Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00039.png",
+      "local_before_ms": 1793740357106,
+      "local_after_ms": 1793740357177,
+      "source_before_utc": "2026-11-03T21:12:36.244Z",
+      "source_after_utc": "2026-11-03T21:12:36.244Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00040.png",
+      "local_before_ms": 1793740357610,
+      "local_after_ms": 1793740357634,
+      "source_before_utc": "2026-11-03T21:12:37.082Z",
+      "source_after_utc": "2026-11-03T21:12:37.082Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00041.png",
+      "local_before_ms": 1793740358106,
+      "local_after_ms": 1793740358138,
+      "source_before_utc": "2026-11-03T21:12:37.580Z",
+      "source_after_utc": "2026-11-03T21:12:37.580Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00042.png",
+      "local_before_ms": 1793740358609,
+      "local_after_ms": 1793740358647,
+      "source_before_utc": "2026-11-03T21:12:38.255Z",
+      "source_after_utc": "2026-11-03T21:12:38.255Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00043.png",
+      "local_before_ms": 1793740359111,
+      "local_after_ms": 1793740359133,
+      "source_before_utc": "2026-11-03T21:12:38.915Z",
+      "source_after_utc": "2026-11-03T21:12:38.915Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00044.png",
+      "local_before_ms": 1793740359615,
+      "local_after_ms": 1793740359650,
+      "source_before_utc": "2026-11-03T21:12:39.432Z",
+      "source_after_utc": "2026-11-03T21:12:39.432Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00045.png",
+      "local_before_ms": 1793740360117,
+      "local_after_ms": 1793740360162,
+      "source_before_utc": "2026-11-03T21:12:39.432Z",
+      "source_after_utc": "2026-11-03T21:12:39.432Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00046.png",
+      "local_before_ms": 1793740360616,
+      "local_after_ms": 1793740360671,
+      "source_before_utc": "2026-11-03T21:12:40.080Z",
+      "source_after_utc": "2026-11-03T21:12:40.080Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00047.png",
+      "local_before_ms": 1793740361120,
+      "local_after_ms": 1793740361182,
+      "source_before_utc": "2026-11-03T21:12:40.080Z",
+      "source_after_utc": "2026-11-03T21:12:40.080Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00048.png",
+      "local_before_ms": 1793740361617,
+      "local_after_ms": 1793740361692,
+      "source_before_utc": "2026-11-03T21:12:41.083Z",
+      "source_after_utc": "2026-11-03T21:12:41.083Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00049.png",
+      "local_before_ms": 1793740362120,
+      "local_after_ms": 1793740362194,
+      "source_before_utc": "2026-11-03T21:12:41.584Z",
+      "source_after_utc": "2026-11-03T21:12:41.584Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00050.png",
+      "local_before_ms": 1793740362621,
+      "local_after_ms": 1793740362639,
+      "source_before_utc": "2026-11-03T21:12:42.084Z",
+      "source_after_utc": "2026-11-03T21:12:42.084Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00051.png",
+      "local_before_ms": 1793740363120,
+      "local_after_ms": 1793740363156,
+      "source_before_utc": "2026-11-03T21:12:42.084Z",
+      "source_after_utc": "2026-11-03T21:12:42.084Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00052.png",
+      "local_before_ms": 1793740363621,
+      "local_after_ms": 1793740363671,
+      "source_before_utc": "2026-11-03T21:12:43.433Z",
+      "source_after_utc": "2026-11-03T21:12:43.433Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00053.png",
+      "local_before_ms": 1793740364140,
+      "local_after_ms": 1793740364189,
+      "source_before_utc": "2026-11-03T21:12:43.433Z",
+      "source_after_utc": "2026-11-03T21:12:43.433Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00054.png",
+      "local_before_ms": 1793740364623,
+      "local_after_ms": 1793740364709,
+      "source_before_utc": "2026-11-03T21:12:44.092Z",
+      "source_after_utc": "2026-11-03T21:12:44.092Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00055.png",
+      "local_before_ms": 1793740365128,
+      "local_after_ms": 1793740365227,
+      "source_before_utc": "2026-11-03T21:12:44.762Z",
+      "source_after_utc": "2026-11-03T21:12:44.762Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00056.png",
+      "local_before_ms": 1793740365627,
+      "local_after_ms": 1793740365734,
+      "source_before_utc": "2026-11-03T21:12:45.436Z",
+      "source_after_utc": "2026-11-03T21:12:45.436Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00057.png",
+      "local_before_ms": 1793740366125,
+      "local_after_ms": 1793740366157,
+      "source_before_utc": "2026-11-03T21:12:45.927Z",
+      "source_after_utc": "2026-11-03T21:12:45.927Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00058.png",
+      "local_before_ms": 1793740366628,
+      "local_after_ms": 1793740366683,
+      "source_before_utc": "2026-11-03T21:12:45.927Z",
+      "source_after_utc": "2026-11-03T21:12:45.927Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00059.png",
+      "local_before_ms": 1793740367131,
+      "local_after_ms": 1793740367203,
+      "source_before_utc": "2026-11-03T21:12:46.606Z",
+      "source_after_utc": "2026-11-03T21:12:46.606Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00060.png",
+      "local_before_ms": 1793740367629,
+      "local_after_ms": 1793740367700,
+      "source_before_utc": "2026-11-03T21:12:47.260Z",
+      "source_after_utc": "2026-11-03T21:12:47.260Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00061.png",
+      "local_before_ms": 1793740368130,
+      "local_after_ms": 1793740368232,
+      "source_before_utc": "2026-11-03T21:12:47.938Z",
+      "source_after_utc": "2026-11-03T21:12:47.938Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00062.png",
+      "local_before_ms": 1793740368627,
+      "local_after_ms": 1793740368652,
+      "source_before_utc": "2026-11-03T21:12:48.460Z",
+      "source_after_utc": "2026-11-03T21:12:48.460Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00063.png",
+      "local_before_ms": 1793740369137,
+      "local_after_ms": 1793740369174,
+      "source_before_utc": "2026-11-03T21:12:48.460Z",
+      "source_after_utc": "2026-11-03T21:12:48.460Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00064.png",
+      "local_before_ms": 1793740369639,
+      "local_after_ms": 1793740369700,
+      "source_before_utc": "2026-11-03T21:12:49.101Z",
+      "source_after_utc": "2026-11-03T21:12:49.101Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00065.png",
+      "local_before_ms": 1793740370138,
+      "local_after_ms": 1793740370216,
+      "source_before_utc": "2026-11-03T21:12:49.779Z",
+      "source_after_utc": "2026-11-03T21:12:49.779Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00066.png",
+      "local_before_ms": 1793740370635,
+      "local_after_ms": 1793740370736,
+      "source_before_utc": "2026-11-03T21:12:49.779Z",
+      "source_after_utc": "2026-11-03T21:12:49.779Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00067.png",
+      "local_before_ms": 1793740371135,
+      "local_after_ms": 1793740371248,
+      "source_before_utc": "2026-11-03T21:12:50.450Z",
+      "source_after_utc": "2026-11-03T21:12:50.450Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00068.png",
+      "local_before_ms": 1793740371637,
+      "local_after_ms": 1793740371765,
+      "source_before_utc": "2026-11-03T21:12:51.275Z",
+      "source_after_utc": "2026-11-03T21:12:51.275Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00069.png",
+      "local_before_ms": 1793740372139,
+      "local_after_ms": 1793740372180,
+      "source_before_utc": "2026-11-03T21:12:51.275Z",
+      "source_after_utc": "2026-11-03T21:12:51.275Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00070.png",
+      "local_before_ms": 1793740372644,
+      "local_after_ms": 1793740372692,
+      "source_before_utc": "2026-11-03T21:12:52.110Z",
+      "source_after_utc": "2026-11-03T21:12:52.110Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00071.png",
+      "local_before_ms": 1793740373138,
+      "local_after_ms": 1793740373211,
+      "source_before_utc": "2026-11-03T21:12:52.110Z",
+      "source_after_utc": "2026-11-03T21:12:52.944Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00072.png",
+      "local_before_ms": 1793740373647,
+      "local_after_ms": 1793740373727,
+      "source_before_utc": "2026-11-03T21:12:52.944Z",
+      "source_after_utc": "2026-11-03T21:12:52.944Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00073.png",
+      "local_before_ms": 1793740374135,
+      "local_after_ms": 1793740374249,
+      "source_before_utc": "2026-11-03T21:12:52.944Z",
+      "source_after_utc": "2026-11-03T21:12:52.944Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00074.png",
+      "local_before_ms": 1793740374642,
+      "local_after_ms": 1793740374761,
+      "source_before_utc": "2026-11-03T21:12:52.944Z",
+      "source_after_utc": "2026-11-03T21:12:54.448Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00075.png",
+      "local_before_ms": 1793740375165,
+      "local_after_ms": 1793740375276,
+      "source_before_utc": "2026-11-03T21:12:54.448Z",
+      "source_after_utc": "2026-11-03T21:12:54.448Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00076.png",
+      "local_before_ms": 1793740375644,
+      "local_after_ms": 1793740375692,
+      "source_before_utc": "2026-11-03T21:12:54.448Z",
+      "source_after_utc": "2026-11-03T21:12:54.448Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00077.png",
+      "local_before_ms": 1793740376146,
+      "local_after_ms": 1793740376205,
+      "source_before_utc": "2026-11-03T21:12:54.448Z",
+      "source_after_utc": "2026-11-03T21:12:54.448Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00078.png",
+      "local_before_ms": 1793740376646,
+      "local_after_ms": 1793740376726,
+      "source_before_utc": "2026-11-03T21:12:55.951Z",
+      "source_after_utc": "2026-11-03T21:12:55.951Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00079.png",
+      "local_before_ms": 1793740377146,
+      "local_after_ms": 1793740377242,
+      "source_before_utc": "2026-11-03T21:12:55.951Z",
+      "source_after_utc": "2026-11-03T21:12:55.951Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00080.png",
+      "local_before_ms": 1793740377648,
+      "local_after_ms": 1793740377763,
+      "source_before_utc": "2026-11-03T21:12:55.951Z",
+      "source_after_utc": "2026-11-03T21:12:55.951Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00081.png",
+      "local_before_ms": 1793740378152,
+      "local_after_ms": 1793740378277,
+      "source_before_utc": "2026-11-03T21:12:57.629Z",
+      "source_after_utc": "2026-11-03T21:12:57.629Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00082.png",
+      "local_before_ms": 1793740378651,
+      "local_after_ms": 1793740378688,
+      "source_before_utc": "2026-11-03T21:12:57.629Z",
+      "source_after_utc": "2026-11-03T21:12:57.629Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00083.png",
+      "local_before_ms": 1793740379151,
+      "local_after_ms": 1793740379210,
+      "source_before_utc": "2026-11-03T21:12:57.629Z",
+      "source_after_utc": "2026-11-03T21:12:57.629Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00084.png",
+      "local_before_ms": 1793740379655,
+      "local_after_ms": 1793740379721,
+      "source_before_utc": "2026-11-03T21:12:59.122Z",
+      "source_after_utc": "2026-11-03T21:12:59.122Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00085.png",
+      "local_before_ms": 1793740380155,
+      "local_after_ms": 1793740380238,
+      "source_before_utc": "2026-11-03T21:12:59.122Z",
+      "source_after_utc": "2026-11-03T21:12:59.122Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00086.png",
+      "local_before_ms": 1793740380655,
+      "local_after_ms": 1793740380759,
+      "source_before_utc": "2026-11-03T21:12:59.122Z",
+      "source_after_utc": "2026-11-03T21:12:59.122Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00087.png",
+      "local_before_ms": 1793740381156,
+      "local_after_ms": 1793740381280,
+      "source_before_utc": "2026-11-03T21:13:00.637Z",
+      "source_after_utc": "2026-11-03T21:13:00.637Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00088.png",
+      "local_before_ms": 1793740381659,
+      "local_after_ms": 1793740381680,
+      "source_before_utc": "2026-11-03T21:13:00.637Z",
+      "source_after_utc": "2026-11-03T21:13:00.637Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00089.png",
+      "local_before_ms": 1793740382167,
+      "local_after_ms": 1793740382199,
+      "source_before_utc": "2026-11-03T21:13:00.637Z",
+      "source_after_utc": "2026-11-03T21:13:00.637Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00090.png",
+      "local_before_ms": 1793740382668,
+      "local_after_ms": 1793740382696,
+      "source_before_utc": "2026-11-03T21:13:02.154Z",
+      "source_after_utc": "2026-11-03T21:13:02.154Z",
+      "frame_stable": true
+    }
+  ],
+  "public_replay": {
+    "origin": "https://roboharness.54.209.185.15.sslip.io",
+    "path": "/api/integration-replays/ep_c849eb57993c4147/e7f902cf7e1a67844635459f3245664b0ef0d56f9b2340c7bc92f6a677e9d526.mp4",
+    "partial": false,
+    "matching_replay_opened_and_seek_verified": true
+  },
+  "last_no_method_motion_source_at": 1793740363.433,
+  "post_home_to_motion_s": 14.647377014160156,
+  "full_run_to_motion_s": 26.28600001335144,
+  "queue_adjusted_run_s": 15.888542890548706,
+  "motion_visual_evidence": {
+    "first_changed_frame": {
+      "file": "00054.png",
+      "local_before_ms": 1793740364623,
+      "local_after_ms": 1793740364709,
+      "source_before_utc": "2026-11-03T21:12:44.092Z",
+      "source_after_utc": "2026-11-03T21:12:44.092Z",
+      "frame_stable": true
+    },
+    "earlier_unchanged_frame": {
+      "file": "00053.png",
+      "local_before_ms": 1793740364140,
+      "local_after_ms": 1793740364189,
+      "source_before_utc": "2026-11-03T21:12:43.433Z",
+      "source_after_utc": "2026-11-03T21:12:43.433Z",
+      "frame_stable": true
+    },
+    "comparison": "https://raw.githubusercontent.com/andlyu/blupe-roboharness/main/public/evidence/manipulation-001-onset.png",
+    "clock_basis": "Motion source-frame captured_at and startup Home observed_at originate at the same robot gateway. UI screenshot receipt bounds are retained separately; presentation lag is not subtracted from Run. First changed frame is an upper bound on physical onset; no accepted-packet timestamp substitutes for visual evidence."
+  }
+}

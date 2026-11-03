@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 export type Event = { id: number; timestamp: number; kind: string; message: string; details?: Record<string, unknown> };
-export type RunState = { status: string; episode_id?: string; session_id?: string; error?: string; runner_name?: string;
+export type RunState = { status: string; attempt_id?: string; episode_id?: string; session_id?: string; error?: string; runner_name?: string;
   queue_position?: number; launch_requested_at?: number; run_started_at?: number; run_ended_at?: number;
   run_configuration?: Record<string, unknown>; run_summary?: { events: { type: string; timestamp: number; state?: string; reason?: string; position?: number }[] };
   provider?: { model: string; note?: string; underlying_models?: unknown; outcome?: { status: string; reason?: string; summary?: string } };
@@ -28,6 +28,7 @@ export function useRunner(station: string) {
   const csrf = useRef('');
   const bound = useRef('');
   const unresolved = useRef(false);
+  const previousAttempt = useRef<string | null>(null);
   const current = useRef(station); current.current = station;
   const active = !!state && ACTIVE.has(state.status);
   const api = useCallback(async (path: string, payload?: unknown) => {
@@ -47,7 +48,7 @@ export function useRunner(station: string) {
     return next as RunState;
   }, [api]);
   function rememberIntent(at: number | null, pending: boolean) {
-    try { sessionStorage.setItem('roboharness.intent.' + station, JSON.stringify({ at, pending })); } catch { /* Runtime safety also rejects concurrent runs. */ }
+    try { sessionStorage.setItem('roboharness.intent.' + station, JSON.stringify({ at, pending, previousAttempt: previousAttempt.current })); } catch { /* Runtime safety also rejects concurrent runs. */ }
   }
 
   useEffect(() => {
@@ -55,8 +56,9 @@ export function useRunner(station: string) {
     setReady(null); setConnecting(true); setStatusVerified(false); setStatusError('');
     if (bound.current !== station) {
       bound.current = station; csrf.current = ''; setState(null); setActionError('');
-      let intent: { at?: number; pending?: boolean } = {};
+      let intent: { at?: number; pending?: boolean; previousAttempt?: string | null } = {};
       try { intent = JSON.parse(sessionStorage.getItem('roboharness.intent.' + station) || '{}'); } catch {}
+      previousAttempt.current = typeof intent.previousAttempt === 'string' ? intent.previousAttempt : null;
       unresolved.current = intent.pending === true; setUncertain(unresolved.current);
       setStartedAt(typeof intent.at === 'number' ? intent.at : null);
     } else if (!unresolved.current) setActionError('');
@@ -86,11 +88,13 @@ export function useRunner(station: string) {
 
   async function launch(payload: Record<string, unknown>) {
     if (submitting || stopping || active || unresolved.current || !statusVerified || connecting || statusError || actionError || !ready?.ready) return;
+    previousAttempt.current = state?.attempt_id ?? null;
     const clicked = Date.now(); setStartedAt(clicked); setSubmitting(true); setActionError('');
     unresolved.current = true; setUncertain(true); rememberIntent(clicked, true);
     try {
       await api('run', { ...payload, provider: 'roboharness', model: 'RoboHarness' });
       const next = await readState();
+      if (!next.attempt_id || next.attempt_id === previousAttempt.current) throw new Error('The runtime has not yet identified the new attempt.');
       if (current.current === station) { setState(next); setStatusVerified(true); unresolved.current = false; setUncertain(false); rememberIntent(clicked, false); }
     } catch (e) {
       if (current.current === station) setActionError((e instanceof Error ? e.message : 'Submission failed.') + ' The submission remains unresolved. Check status and use Stop before another Run; no automatic retry occurs.');
@@ -108,6 +112,9 @@ export function useRunner(station: string) {
     } catch (e) { setActionError(e instanceof Error ? e.message : 'Stop acknowledgement is unavailable; refresh status.'); }
     finally { setStopping(false); }
   }
-  return { state, ready, connecting, statusVerified, error: actionError || statusError, submitting, stopping, uncertain, startedAt, active, launch, stop, api,
+  // Polling may still see the preceding run while POST /run is pending.
+  // Keep its evidence in history, never pair it with the new click clock.
+  const visibleState = unresolved.current && (state?.attempt_id ?? null) === previousAttempt.current ? null : state;
+  return { state: visibleState, ready, connecting, statusVerified, error: actionError || statusError, submitting, stopping, uncertain, startedAt, active, launch, stop, api,
     reconnect: () => { setConnecting(true); setStatusVerified(false); setRevision(n => n + 1); } };
 }

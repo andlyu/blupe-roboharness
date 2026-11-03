@@ -1,0 +1,36 @@
+{
+  "status": "software_passed_physical_pending",
+  "head_revision": "dfa1e33523ac8fea655bf82c12ef7027a50f7ed0",
+  "merged_revision": "24d1cd8c7644d16f7f271f4efa88089db9a02a1c",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/274",
+  "ci": [
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41730793667",
+      "scope": "53-case RoboHarness release gate",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41730793704",
+      "scope": "Full shared-runner Python/Node/worker-agent, pinned RoboSkills, website",
+      "result": "success"
+    }
+  ],
+  "local": "passed",
+  "cases": 53,
+  "duration_s": 2.3192829159961548,
+  "robot_sessions": 0,
+  "actuator_submissions": 0,
+  "changes": [
+    "Hash-traced nominal installed gripper reference without shifting native grasp origin",
+    "At most one read-only reacquisition for used stale point depth before packet construction",
+    "Pure pose/gripper tools do not consume unrelated point depth",
+    "2Hz wall-clock streaming encoding; explicit stale/gap slots and original UTC",
+    "Failed encoding retains JPEGs and manifest; locked bounded startup recovery uses recorded frames only"
+  ],
+  "failure_evidence": "manipulation-003-failed.json",
+  "limitations": [
+    "No physical manipulation success certified by these software tests",
+    "CAD reference is not live installation/contact/calibration certification",
+    "New deployed normal-UI physical run and full immediate/historical replay still required"
+  ]
+}

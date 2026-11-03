@@ -1,0 +1,1497 @@
+{
+  "episode_id": "ep_e97faf84ab5045fa",
+  "session_id": "sess_65e21f19f4f14ea1",
+  "runner": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "automated_verification",
+  "robot_id": "robot-ba8413962083809c",
+  "shared_revision": "d45d50e33cc75fcfe77dc8feb71a72a8e38aceb9",
+  "website_revision": "fb98d911fb65632768079b00068a1d148e6fc0e7",
+  "t_run": 1793741478.514,
+  "t_queue": 1793741479.359886,
+  "t_admit": 1793741489.7222524,
+  "t_home": 1793741489.7765076,
+  "t_motion": 1793741505.1,
+  "queue_seconds": 10.362366437911987,
+  "task_success": false,
+  "outcome": "68-waypoint approach completed and second planning call ran. True gripper occlusion lost the overhead keypoint; agent safely gave up before grasping. No second movement or timeout retry.",
+  "feedback": {
+    "run_context": {
+      "episode_id": "ep_e97faf84ab5045fa",
+      "session_id": "sess_65e21f19f4f14ea1"
+    },
+    "source_events": [
+      {
+        "type": "snapshot",
+        "timestamp": 1793741479.4689257
+      },
+      {
+        "type": "queue_entry",
+        "timestamp": 1793741479.359886,
+        "state": "queued",
+        "position": 1,
+        "source": "queue_snapshot"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793741489.7222524,
+        "state": "preparing",
+        "previous_state": "queued",
+        "reason": "jetson_leased"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793741489.7224293,
+        "state": "preparing"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793741489.85339,
+        "state": "running",
+        "previous_state": "preparing",
+        "reason": "first_observation"
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793741489.853549,
+        "step_id": 0
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741490.0317893
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741491.0799384
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741492.1310103
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741493.1604629
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741494.216931
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741495.269004
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741496.3295648
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741497.3664887
+      },
+      {
+        "type": "event_stream_disconnect",
+        "timestamp": 1793741504.4753978,
+        "cause_type": "WebSocketConnectionClosedException",
+        "errno": null,
+        "previous_event_type": "heartbeat"
+      },
+      {
+        "type": "snapshot",
+        "timestamp": 1793741504.5762956
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793741504.576335,
+        "step_id": 0,
+        "replayed": true
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793741504.671198
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741504.6713762
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741504.7520676,
+        "step_id": 0
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741504.7962546,
+        "step_id": 1
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741504.9044418,
+        "step_id": 2
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741504.9995708,
+        "step_id": 3
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.1073833,
+        "step_id": 4
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.2053542,
+        "step_id": 5
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.3311863,
+        "step_id": 6
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.4305053,
+        "step_id": 7
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.5293903,
+        "step_id": 8
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.6369944,
+        "step_id": 9
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741505.6907668
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.7357173,
+        "step_id": 10
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.8442507,
+        "step_id": 11
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741505.9475203,
+        "step_id": 12
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.0549505,
+        "step_id": 13
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.1622198,
+        "step_id": 14
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.2625823,
+        "step_id": 15
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.3343813,
+        "step_id": 16
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.4860792,
+        "step_id": 17
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.5855668,
+        "step_id": 18
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.6933265,
+        "step_id": 19
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741506.6934824
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.7920604,
+        "step_id": 20
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.8730526,
+        "step_id": 21
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741506.9724972,
+        "step_id": 22
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.0712316,
+        "step_id": 23
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.1690974,
+        "step_id": 24
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.276813,
+        "step_id": 25
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.3906412,
+        "step_id": 26
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.489546,
+        "step_id": 27
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.58726,
+        "step_id": 28
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.6950526,
+        "step_id": 29
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741507.69519
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.7945063,
+        "step_id": 30
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741507.9023147,
+        "step_id": 31
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.0146,
+        "step_id": 32
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.1132975,
+        "step_id": 33
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.2172508,
+        "step_id": 34
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.3258288,
+        "step_id": 35
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.4409933,
+        "step_id": 36
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.5397024,
+        "step_id": 37
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.6355913,
+        "step_id": 38
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.7432473,
+        "step_id": 39
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741508.7434256
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.8411276,
+        "step_id": 40
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741508.9579265,
+        "step_id": 41
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.0218525,
+        "step_id": 42
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.120502,
+        "step_id": 43
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.2189913,
+        "step_id": 44
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.3267732,
+        "step_id": 45
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.4217722,
+        "step_id": 46
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.5384538,
+        "step_id": 47
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.6349862,
+        "step_id": 48
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.7427433,
+        "step_id": 49
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741509.7428906
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.8414521,
+        "step_id": 50
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741509.9493144,
+        "step_id": 51
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.0621212,
+        "step_id": 52
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.1593328,
+        "step_id": 53
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.2671509,
+        "step_id": 54
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.3613799,
+        "step_id": 55
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.459431,
+        "step_id": 56
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.5857813,
+        "step_id": 57
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.6937122,
+        "step_id": 58
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.7915492,
+        "step_id": 59
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741510.8005226
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.8992784,
+        "step_id": 60
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741510.9995863,
+        "step_id": 61
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.0804005,
+        "step_id": 62
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.1872845,
+        "step_id": 63
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.2770662,
+        "step_id": 64
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.3900719,
+        "step_id": 65
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.4844725,
+        "step_id": 66
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793741511.5918915,
+        "step_id": 67
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793741511.790346
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793741512.1173465,
+        "step_id": 68
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793741512.1263819
+      }
+    ],
+    "feedback_checks": [
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793741489.9032955,
+        "received_at": null,
+        "elapsed_ms": 0.0314139761030674,
+        "completion": {
+          "observed_at": 1793741489.7765076,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793741488.8524306,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": null,
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793741490.4544487,
+        "received_at": 1793741490.4543376,
+        "elapsed_ms": 551.1870137415826,
+        "completion": {
+          "observed_at": 1793741489.7765076,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793741489.92281,
+          "step_id": null,
+          "homed": true,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793741512.173545,
+        "received_at": null,
+        "elapsed_ms": 0.03567710518836975,
+        "completion": {
+          "observed_at": 1793741511.9974267,
+          "step_id": 68,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793741510.9746692,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793741512.7449923,
+        "received_at": 1793741512.7448914,
+        "elapsed_ms": 571.4807780459523,
+        "completion": {
+          "observed_at": 1793741511.9974267,
+          "step_id": 68,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793741512.540167,
+          "step_id": null,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 0,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793741512.7501333,
+        "received_at": null,
+        "elapsed_ms": 0.03057299181818962,
+        "completion": {
+          "observed_at": 1793741511.9974267,
+          "step_id": 68,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        },
+        "station": {
+          "observed_at": 1793741512.540167,
+          "step_id": null,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      }
+    ],
+    "step_timings": [
+      {
+        "step": 1,
+        "planning_s": 13.98384229419753,
+        "model_s": 10.07823645323515,
+        "execution_robot_s": 7.384139060974121,
+        "path_m": 0.24686082371041088,
+        "arm_motion_s": 8.06782920891419,
+        "movement_feedback_s": 8.305556389968842,
+        "total_s": 22.289398684166372,
+        "gap_s": null,
+        "outcome": "completed",
+        "left_displacement_m": 0.24772718433702895,
+        "right_displacement_m": 0.00028792173077360445
+      }
+    ],
+    "run_metrics": {
+      "model_s": 18.08746616728604,
+      "execution_s": 7.384139060974121,
+      "left_path_m": 0.24686082371041085,
+      "right_path_m": 0,
+      "model_calls": 2,
+      "execution_packets": 1,
+      "accepted_packets": 1,
+      "distance_waypoints": 68,
+      "confirmed_waypoints": 68
+    }
+  },
+  "visual_timeline": [
+    {
+      "file": "00000.png",
+      "local_before_ms": 1793741478383,
+      "local_after_ms": 1793741478471,
+      "source_before_utc": "2026-11-03T21:31:18.037Z",
+      "source_after_utc": "2026-11-03T21:31:18.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00001.png",
+      "local_before_ms": 1793741478760,
+      "local_after_ms": 1793741478817,
+      "source_before_utc": "2026-11-03T21:31:18.037Z",
+      "source_after_utc": "2026-11-03T21:31:18.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00002.png",
+      "local_before_ms": 1793741479259,
+      "local_after_ms": 1793741479301,
+      "source_before_utc": "2026-11-03T21:31:18.037Z",
+      "source_after_utc": "2026-11-03T21:31:18.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00003.png",
+      "local_before_ms": 1793741479777,
+      "local_after_ms": 1793741479825,
+      "source_before_utc": "2026-11-03T21:31:18.037Z",
+      "source_after_utc": "2026-11-03T21:31:18.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00004.png",
+      "local_before_ms": 1793741480273,
+      "local_after_ms": 1793741480337,
+      "source_before_utc": "2026-11-03T21:31:18.037Z",
+      "source_after_utc": "2026-11-03T21:31:18.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00005.png",
+      "local_before_ms": 1793741480765,
+      "local_after_ms": 1793741480844,
+      "source_before_utc": "2026-11-03T21:31:20.033Z",
+      "source_after_utc": "2026-11-03T21:31:20.033Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00006.png",
+      "local_before_ms": 1793741481279,
+      "local_after_ms": 1793741481355,
+      "source_before_utc": "2026-11-03T21:31:21.037Z",
+      "source_after_utc": "2026-11-03T21:31:21.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00007.png",
+      "local_before_ms": 1793741481777,
+      "local_after_ms": 1793741481862,
+      "source_before_utc": "2026-11-03T21:31:21.037Z",
+      "source_after_utc": "2026-11-03T21:31:21.037Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00008.png",
+      "local_before_ms": 1793741482278,
+      "local_after_ms": 1793741482309,
+      "source_before_utc": "2026-11-03T21:31:21.881Z",
+      "source_after_utc": "2026-11-03T21:31:21.881Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00009.png",
+      "local_before_ms": 1793741482780,
+      "local_after_ms": 1793741482828,
+      "source_before_utc": "2026-11-03T21:31:21.881Z",
+      "source_after_utc": "2026-11-03T21:31:21.881Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00010.png",
+      "local_before_ms": 1793741483281,
+      "local_after_ms": 1793741483348,
+      "source_before_utc": "2026-11-03T21:31:22.714Z",
+      "source_after_utc": "2026-11-03T21:31:22.714Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00011.png",
+      "local_before_ms": 1793741483779,
+      "local_after_ms": 1793741483872,
+      "source_before_utc": "2026-11-03T21:31:23.408Z",
+      "source_after_utc": "2026-11-03T21:31:23.408Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00012.png",
+      "local_before_ms": 1793741484280,
+      "local_after_ms": 1793741484388,
+      "source_before_utc": "2026-11-03T21:31:24.050Z",
+      "source_after_utc": "2026-11-03T21:31:24.050Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00013.png",
+      "local_before_ms": 1793741484783,
+      "local_after_ms": 1793741484806,
+      "source_before_utc": "2026-11-03T21:31:24.050Z",
+      "source_after_utc": "2026-11-03T21:31:24.050Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00014.png",
+      "local_before_ms": 1793741485286,
+      "local_after_ms": 1793741485327,
+      "source_before_utc": "2026-11-03T21:31:24.730Z",
+      "source_after_utc": "2026-11-03T21:31:24.730Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00015.png",
+      "local_before_ms": 1793741485792,
+      "local_after_ms": 1793741485838,
+      "source_before_utc": "2026-11-03T21:31:25.559Z",
+      "source_after_utc": "2026-11-03T21:31:25.559Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00016.png",
+      "local_before_ms": 1793741486292,
+      "local_after_ms": 1793741486362,
+      "source_before_utc": "2026-11-03T21:31:25.559Z",
+      "source_after_utc": "2026-11-03T21:31:25.559Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00017.png",
+      "local_before_ms": 1793741486785,
+      "local_after_ms": 1793741486882,
+      "source_before_utc": "2026-11-03T21:31:26.226Z",
+      "source_after_utc": "2026-11-03T21:31:26.226Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00018.png",
+      "local_before_ms": 1793741487294,
+      "local_after_ms": 1793741487403,
+      "source_before_utc": "2026-11-03T21:31:27.056Z",
+      "source_after_utc": "2026-11-03T21:31:27.056Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00019.png",
+      "local_before_ms": 1793741487795,
+      "local_after_ms": 1793741487912,
+      "source_before_utc": "2026-11-03T21:31:27.056Z",
+      "source_after_utc": "2026-11-03T21:31:27.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00020.png",
+      "local_before_ms": 1793741488299,
+      "local_after_ms": 1793741488325,
+      "source_before_utc": "2026-11-03T21:31:27.731Z",
+      "source_after_utc": "2026-11-03T21:31:27.731Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00021.png",
+      "local_before_ms": 1793741488799,
+      "local_after_ms": 1793741488851,
+      "source_before_utc": "2026-11-03T21:31:28.407Z",
+      "source_after_utc": "2026-11-03T21:31:28.407Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00022.png",
+      "local_before_ms": 1793741489290,
+      "local_after_ms": 1793741489371,
+      "source_before_utc": "2026-11-03T21:31:28.407Z",
+      "source_after_utc": "2026-11-03T21:31:28.407Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00023.png",
+      "local_before_ms": 1793741489804,
+      "local_after_ms": 1793741489893,
+      "source_before_utc": "2026-11-03T21:31:29.237Z",
+      "source_after_utc": "2026-11-03T21:31:29.237Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00024.png",
+      "local_before_ms": 1793741490298,
+      "local_after_ms": 1793741490405,
+      "source_before_utc": "2026-11-03T21:31:30.068Z",
+      "source_after_utc": "2026-11-03T21:31:30.068Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00025.png",
+      "local_before_ms": 1793741490809,
+      "local_after_ms": 1793741490924,
+      "source_before_utc": "2026-11-03T21:31:30.068Z",
+      "source_after_utc": "2026-11-03T21:31:30.068Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00026.png",
+      "local_before_ms": 1793741491298,
+      "local_after_ms": 1793741491339,
+      "source_before_utc": "2026-11-03T21:31:30.068Z",
+      "source_after_utc": "2026-11-03T21:31:30.068Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00027.png",
+      "local_before_ms": 1793741491799,
+      "local_after_ms": 1793741491860,
+      "source_before_utc": "2026-11-03T21:31:30.068Z",
+      "source_after_utc": "2026-11-03T21:31:30.068Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00028.png",
+      "local_before_ms": 1793741492301,
+      "local_after_ms": 1793741492377,
+      "source_before_utc": "2026-11-03T21:31:31.575Z",
+      "source_after_utc": "2026-11-03T21:31:31.575Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00029.png",
+      "local_before_ms": 1793741492816,
+      "local_after_ms": 1793741492895,
+      "source_before_utc": "2026-11-03T21:31:32.405Z",
+      "source_after_utc": "2026-11-03T21:31:32.405Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00030.png",
+      "local_before_ms": 1793741493307,
+      "local_after_ms": 1793741493370,
+      "source_before_utc": "2026-11-03T21:31:32.900Z",
+      "source_after_utc": "2026-11-03T21:31:32.900Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00031.png",
+      "local_before_ms": 1793741493809,
+      "local_after_ms": 1793741493930,
+      "source_before_utc": "2026-11-03T21:31:33.580Z",
+      "source_after_utc": "2026-11-03T21:31:33.580Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00032.png",
+      "local_before_ms": 1793741494310,
+      "local_after_ms": 1793741494346,
+      "source_before_utc": "2026-11-03T21:31:34.076Z",
+      "source_after_utc": "2026-11-03T21:31:34.076Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00033.png",
+      "local_before_ms": 1793741494811,
+      "local_after_ms": 1793741494839,
+      "source_before_utc": "2026-11-03T21:31:34.076Z",
+      "source_after_utc": "2026-11-03T21:31:34.076Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00034.png",
+      "local_before_ms": 1793741495313,
+      "local_after_ms": 1793741495389,
+      "source_before_utc": "2026-11-03T21:31:34.749Z",
+      "source_after_utc": "2026-11-03T21:31:34.749Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00035.png",
+      "local_before_ms": 1793741495816,
+      "local_after_ms": 1793741495911,
+      "source_before_utc": "2026-11-03T21:31:35.577Z",
+      "source_after_utc": "2026-11-03T21:31:35.577Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00036.png",
+      "local_before_ms": 1793741496314,
+      "local_after_ms": 1793741496423,
+      "source_before_utc": "2026-11-03T21:31:36.073Z",
+      "source_after_utc": "2026-11-03T21:31:36.073Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00037.png",
+      "local_before_ms": 1793741496815,
+      "local_after_ms": 1793741496836,
+      "source_before_utc": "2026-11-03T21:31:36.073Z",
+      "source_after_utc": "2026-11-03T21:31:36.073Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00038.png",
+      "local_before_ms": 1793741497322,
+      "local_after_ms": 1793741497360,
+      "source_before_utc": "2026-11-03T21:31:36.761Z",
+      "source_after_utc": "2026-11-03T21:31:36.761Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00039.png",
+      "local_before_ms": 1793741497819,
+      "local_after_ms": 1793741497877,
+      "source_before_utc": "2026-11-03T21:31:37.417Z",
+      "source_after_utc": "2026-11-03T21:31:37.417Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00040.png",
+      "local_before_ms": 1793741498319,
+      "local_after_ms": 1793741498390,
+      "source_before_utc": "2026-11-03T21:31:38.077Z",
+      "source_after_utc": "2026-11-03T21:31:38.077Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00041.png",
+      "local_before_ms": 1793741498829,
+      "local_after_ms": 1793741498913,
+      "source_before_utc": "2026-11-03T21:31:38.580Z",
+      "source_after_utc": "2026-11-03T21:31:38.580Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00042.png",
+      "local_before_ms": 1793741499330,
+      "local_after_ms": 1793741499429,
+      "source_before_utc": "2026-11-03T21:31:39.080Z",
+      "source_after_utc": "2026-11-03T21:31:39.080Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00043.png",
+      "local_before_ms": 1793741499833,
+      "local_after_ms": 1793741499945,
+      "source_before_utc": "2026-11-03T21:31:39.585Z",
+      "source_after_utc": "2026-11-03T21:31:39.585Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00044.png",
+      "local_before_ms": 1793741500333,
+      "local_after_ms": 1793741500462,
+      "source_before_utc": "2026-11-03T21:31:40.083Z",
+      "source_after_utc": "2026-11-03T21:31:40.083Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00045.png",
+      "local_before_ms": 1793741500839,
+      "local_after_ms": 1793741500877,
+      "source_before_utc": "2026-11-03T21:31:40.083Z",
+      "source_after_utc": "2026-11-03T21:31:40.083Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00046.png",
+      "local_before_ms": 1793741501340,
+      "local_after_ms": 1793741501396,
+      "source_before_utc": "2026-11-03T21:31:40.941Z",
+      "source_after_utc": "2026-11-03T21:31:40.941Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00047.png",
+      "local_before_ms": 1793741501838,
+      "local_after_ms": 1793741501913,
+      "source_before_utc": "2026-11-03T21:31:41.595Z",
+      "source_after_utc": "2026-11-03T21:31:41.595Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00048.png",
+      "local_before_ms": 1793741502345,
+      "local_after_ms": 1793741502430,
+      "source_before_utc": "2026-11-03T21:31:41.595Z",
+      "source_after_utc": "2026-11-03T21:31:42.092Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00049.png",
+      "local_before_ms": 1793741502837,
+      "local_after_ms": 1793741502868,
+      "source_before_utc": "2026-11-03T21:31:42.092Z",
+      "source_after_utc": "2026-11-03T21:31:42.092Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00050.png",
+      "local_before_ms": 1793741503347,
+      "local_after_ms": 1793741503377,
+      "source_before_utc": "2026-11-03T21:31:42.092Z",
+      "source_after_utc": "2026-11-03T21:31:42.092Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00051.png",
+      "local_before_ms": 1793741503847,
+      "local_after_ms": 1793741503877,
+      "source_before_utc": "2026-11-03T21:31:42.092Z",
+      "source_after_utc": "2026-11-03T21:31:42.092Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00052.png",
+      "local_before_ms": 1793741504349,
+      "local_after_ms": 1793741504392,
+      "source_before_utc": "2026-11-03T21:31:43.597Z",
+      "source_after_utc": "2026-11-03T21:31:43.597Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00053.png",
+      "local_before_ms": 1793741504838,
+      "local_after_ms": 1793741504901,
+      "source_before_utc": "2026-11-03T21:31:44.424Z",
+      "source_after_utc": "2026-11-03T21:31:44.424Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00054.png",
+      "local_before_ms": 1793741505344,
+      "local_after_ms": 1793741505408,
+      "source_before_utc": "2026-11-03T21:31:45.100Z",
+      "source_after_utc": "2026-11-03T21:31:45.100Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00055.png",
+      "local_before_ms": 1793741505843,
+      "local_after_ms": 1793741505919,
+      "source_before_utc": "2026-11-03T21:31:45.603Z",
+      "source_after_utc": "2026-11-03T21:31:45.603Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00056.png",
+      "local_before_ms": 1793741506351,
+      "local_after_ms": 1793741506428,
+      "source_before_utc": "2026-11-03T21:31:45.603Z",
+      "source_after_utc": "2026-11-03T21:31:45.603Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00057.png",
+      "local_before_ms": 1793741506845,
+      "local_after_ms": 1793741506937,
+      "source_before_utc": "2026-11-03T21:31:46.607Z",
+      "source_after_utc": "2026-11-03T21:31:46.607Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00058.png",
+      "local_before_ms": 1793741507346,
+      "local_after_ms": 1793741507396,
+      "source_before_utc": "2026-11-03T21:31:46.607Z",
+      "source_after_utc": "2026-11-03T21:31:46.607Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00059.png",
+      "local_before_ms": 1793741507849,
+      "local_after_ms": 1793741507913,
+      "source_before_utc": "2026-11-03T21:31:47.438Z",
+      "source_after_utc": "2026-11-03T21:31:47.438Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00060.png",
+      "local_before_ms": 1793741508348,
+      "local_after_ms": 1793741508376,
+      "source_before_utc": "2026-11-03T21:31:48.118Z",
+      "source_after_utc": "2026-11-03T21:31:48.118Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00061.png",
+      "local_before_ms": 1793741508855,
+      "local_after_ms": 1793741508945,
+      "source_before_utc": "2026-11-03T21:31:48.118Z",
+      "source_after_utc": "2026-11-03T21:31:48.118Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00062.png",
+      "local_before_ms": 1793741509353,
+      "local_after_ms": 1793741509466,
+      "source_before_utc": "2026-11-03T21:31:48.946Z",
+      "source_after_utc": "2026-11-03T21:31:48.946Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00063.png",
+      "local_before_ms": 1793741509853,
+      "local_after_ms": 1793741509881,
+      "source_before_utc": "2026-11-03T21:31:49.616Z",
+      "source_after_utc": "2026-11-03T21:31:49.616Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00064.png",
+      "local_before_ms": 1793741510353,
+      "local_after_ms": 1793741510394,
+      "source_before_utc": "2026-11-03T21:31:49.616Z",
+      "source_after_utc": "2026-11-03T21:31:50.110Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00065.png",
+      "local_before_ms": 1793741510857,
+      "local_after_ms": 1793741510909,
+      "source_before_utc": "2026-11-03T21:31:50.110Z",
+      "source_after_utc": "2026-11-03T21:31:50.110Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00066.png",
+      "local_before_ms": 1793741511353,
+      "local_after_ms": 1793741511389,
+      "source_before_utc": "2026-11-03T21:31:50.951Z",
+      "source_after_utc": "2026-11-03T21:31:50.951Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00067.png",
+      "local_before_ms": 1793741511853,
+      "local_after_ms": 1793741511949,
+      "source_before_utc": "2026-11-03T21:31:51.610Z",
+      "source_after_utc": "2026-11-03T21:31:51.610Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00068.png",
+      "local_before_ms": 1793741512356,
+      "local_after_ms": 1793741512463,
+      "source_before_utc": "2026-11-03T21:31:51.610Z",
+      "source_after_utc": "2026-11-03T21:31:52.134Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00069.png",
+      "local_before_ms": 1793741512867,
+      "local_after_ms": 1793741512981,
+      "source_before_utc": "2026-11-03T21:31:52.621Z",
+      "source_after_utc": "2026-11-03T21:31:52.621Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00070.png",
+      "local_before_ms": 1793741513359,
+      "local_after_ms": 1793741513399,
+      "source_before_utc": "2026-11-03T21:31:52.621Z",
+      "source_after_utc": "2026-11-03T21:31:52.621Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00071.png",
+      "local_before_ms": 1793741513863,
+      "local_after_ms": 1793741513921,
+      "source_before_utc": "2026-11-03T21:31:52.621Z",
+      "source_after_utc": "2026-11-03T21:31:52.621Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00072.png",
+      "local_before_ms": 1793741514368,
+      "local_after_ms": 1793741514441,
+      "source_before_utc": "2026-11-03T21:31:52.621Z",
+      "source_after_utc": "2026-11-03T21:31:52.621Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00073.png",
+      "local_before_ms": 1793741514863,
+      "local_after_ms": 1793741514959,
+      "source_before_utc": "2026-11-03T21:31:54.285Z",
+      "source_after_utc": "2026-11-03T21:31:54.285Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00074.png",
+      "local_before_ms": 1793741515365,
+      "local_after_ms": 1793741515477,
+      "source_before_utc": "2026-11-03T21:31:54.786Z",
+      "source_after_utc": "2026-11-03T21:31:54.786Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00075.png",
+      "local_before_ms": 1793741515872,
+      "local_after_ms": 1793741515922,
+      "source_before_utc": "2026-11-03T21:31:55.300Z",
+      "source_after_utc": "2026-11-03T21:31:55.300Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00076.png",
+      "local_before_ms": 1793741516391,
+      "local_after_ms": 1793741516456,
+      "source_before_utc": "2026-11-03T21:31:56.133Z",
+      "source_after_utc": "2026-11-03T21:31:56.133Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00077.png",
+      "local_before_ms": 1793741516864,
+      "local_after_ms": 1793741516911,
+      "source_before_utc": "2026-11-03T21:31:56.133Z",
+      "source_after_utc": "2026-11-03T21:31:56.133Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00078.png",
+      "local_before_ms": 1793741517366,
+      "local_after_ms": 1793741517439,
+      "source_before_utc": "2026-11-03T21:31:56.795Z",
+      "source_after_utc": "2026-11-03T21:31:56.795Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00079.png",
+      "local_before_ms": 1793741517896,
+      "local_after_ms": 1793741517927,
+      "source_before_utc": "2026-11-03T21:31:57.628Z",
+      "source_after_utc": "2026-11-03T21:31:57.628Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00080.png",
+      "local_before_ms": 1793741518368,
+      "local_after_ms": 1793741518395,
+      "source_before_utc": "2026-11-03T21:31:57.628Z",
+      "source_after_utc": "2026-11-03T21:31:57.628Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00081.png",
+      "local_before_ms": 1793741518868,
+      "local_after_ms": 1793741518982,
+      "source_before_utc": "2026-11-03T21:31:58.306Z",
+      "source_after_utc": "2026-11-03T21:31:58.306Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00082.png",
+      "local_before_ms": 1793741519369,
+      "local_after_ms": 1793741519399,
+      "source_before_utc": "2026-11-03T21:31:58.795Z",
+      "source_after_utc": "2026-11-03T21:31:58.795Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00083.png",
+      "local_before_ms": 1793741519870,
+      "local_after_ms": 1793741519894,
+      "source_before_utc": "2026-11-03T21:31:59.299Z",
+      "source_after_utc": "2026-11-03T21:31:59.299Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00084.png",
+      "local_before_ms": 1793741520370,
+      "local_after_ms": 1793741520441,
+      "source_before_utc": "2026-11-03T21:31:59.800Z",
+      "source_after_utc": "2026-11-03T21:31:59.800Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00085.png",
+      "local_before_ms": 1793741520871,
+      "local_after_ms": 1793741520943,
+      "source_before_utc": "2026-11-03T21:32:00.324Z",
+      "source_after_utc": "2026-11-03T21:32:00.324Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00086.png",
+      "local_before_ms": 1793741521372,
+      "local_after_ms": 1793741521388,
+      "source_before_utc": "2026-11-03T21:32:01.144Z",
+      "source_after_utc": "2026-11-03T21:32:01.144Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00087.png",
+      "local_before_ms": 1793741521873,
+      "local_after_ms": 1793741521893,
+      "source_before_utc": "2026-11-03T21:32:01.144Z",
+      "source_after_utc": "2026-11-03T21:32:01.144Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00088.png",
+      "local_before_ms": 1793741522374,
+      "local_after_ms": 1793741522394,
+      "source_before_utc": "2026-11-03T21:32:01.805Z",
+      "source_after_utc": "2026-11-03T21:32:01.805Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00089.png",
+      "local_before_ms": 1793741522877,
+      "local_after_ms": 1793741522902,
+      "source_before_utc": "2026-11-03T21:32:02.471Z",
+      "source_after_utc": "2026-11-03T21:32:02.471Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00090.png",
+      "local_before_ms": 1793741523376,
+      "local_after_ms": 1793741523413,
+      "source_before_utc": "2026-11-03T21:32:02.471Z",
+      "source_after_utc": "2026-11-03T21:32:02.471Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00091.png",
+      "local_before_ms": 1793741540770,
+      "local_after_ms": 1793741540809,
+      "source_before_utc": "2026-11-03T21:32:19.668Z",
+      "source_after_utc": "2026-11-03T21:32:19.668Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00092.png",
+      "local_before_ms": 1793741541274,
+      "local_after_ms": 1793741541329,
+      "source_before_utc": "2026-11-03T21:32:19.668Z",
+      "source_after_utc": "2026-11-03T21:32:19.668Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00093.png",
+      "local_before_ms": 1793741541774,
+      "local_after_ms": 1793741541848,
+      "source_before_utc": "2026-11-03T21:32:21.173Z",
+      "source_after_utc": "2026-11-03T21:32:21.173Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00094.png",
+      "local_before_ms": 1793741542272,
+      "local_after_ms": 1793741542370,
+      "source_before_utc": "2026-11-03T21:32:21.173Z",
+      "source_after_utc": "2026-11-03T21:32:21.173Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00095.png",
+      "local_before_ms": 1793741542772,
+      "local_after_ms": 1793741542878,
+      "source_before_utc": "2026-11-03T21:32:22.520Z",
+      "source_after_utc": "2026-11-03T21:32:22.520Z",
+      "frame_stable": true
+    }
+  ],
+  "visual_recording_limitation": "First91 frames continuously bracket the Run click and first approach. A17.394s gap precedes the final5 UI captures; do not present the whole sequence as uninterrupted.",
+  "motion_evidence": {
+    "last_unchanged_frame": {
+      "file": "00053.png",
+      "local_before_ms": 1793741504838,
+      "local_after_ms": 1793741504901,
+      "source_before_utc": "2026-11-03T21:31:44.424Z",
+      "source_after_utc": "2026-11-03T21:31:44.424Z",
+      "frame_stable": true
+    },
+    "first_changed_frame": {
+      "file": "00054.png",
+      "local_before_ms": 1793741505344,
+      "local_after_ms": 1793741505408,
+      "source_before_utc": "2026-11-03T21:31:45.100Z",
+      "source_after_utc": "2026-11-03T21:31:45.100Z",
+      "frame_stable": true
+    }
+  },
+  "public_replay": {
+    "origin": "https://roboharness.54.209.185.15.sslip.io",
+    "path": "/api/integration-replays/ep_e97faf84ab5045fa/1c1dbd383ca88c60338465aa7e458355171dc6cc63a92c983bddd6cc006e5f52.mp4",
+    "duration_s": 33,
+    "partial": true,
+    "opened_and_seek_verified": true
+  },
+  "occlusion_regression": {
+    "scope": "Offline regression of expected occlusion rejection on exact recorded RGB inputs; synthetic freshness only, no depth/model/robot requests",
+    "episode_id": "ep_e97faf84ab5045fa",
+    "shared_revision": "d45d50e33cc75fcfe77dc8feb71a72a8e38aceb9",
+    "selected_normalized_pixel": [
+      455,
+      649
+    ],
+    "tracking": {
+      "camera": "top",
+      "captured_at": 1793741512.9197674,
+      "pixels": {},
+      "errors": {
+        "point_0": "Optical flow lost this point; select it again from the current image"
+      }
+    },
+    "result": "Correct safe loss; do not weaken tracking/depth checks or guess an occluded robot target",
+    "task_success": false,
+    "actuator_submissions": 0,
+    "model_requests": 0,
+    "image_sha256": {
+      "pre-approach-top.png": "6332fa13a730a5814d3507e5dddd08bf95c6c76cfb4c118937147ecbb0494028",
+      "post-approach-top.png": "f9ebd0aac8a0f4fdd681fc39374bb001832214e9725174669137028913e84dd6"
+    }
+  },
+  "post_home_to_motion_s": 15.323492288589478,
+  "full_run_to_motion_s": 26.585999965667725,
+  "queue_adjusted_run_s": 16.223633527755737,
+  "timing_status": "15s observed-motion target missed (15.323s); queue-adjusted30s target passed. No GPU/research exception. Preserve original clocks; do not infer onset from packet acceptance."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "failed_task",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "source_revision": "d45d50e33cc75fcfe77dc8feb71a72a8e38aceb9",
+  "website_revision": "fb98d911fb65632768079b00068a1d148e6fc0e7",
+  "session_id": "sess_e41ff9b06f3142a0",
+  "episode_id": "ep_177c61f7cda54268",
+  "underlying_models": {
+    "planning": "gpt-6-astra",
+    "vision": "gpt-6-astra",
+    "reasoning_effort": "low",
+    "resolved": null
+  },
+  "observed_result": "Five bounded approach/orientation/visibility packets completed; planner safely gave up before grasp. No grasp, lift, transfer, release or requested object outcome verified.",
+  "run_metrics": {
+    "model_s": 193.802738733124,
+    "execution_s": 20.594359159469604,
+    "left_path_m": 0.3740538688289733,
+    "right_path_m": 0,
+    "model_calls": 17,
+    "execution_packets": 5,
+    "accepted_packets": 5,
+    "distance_waypoints": 181,
+    "confirmed_waypoints": 181
+  },
+  "timing": {
+    "t_run": 1793742131.131,
+    "click_bracket_ms": {
+      "before_ms": 1793742131078,
+      "after_ms": 1793742131360
+    },
+    "t_queue": 1793742132.7337985,
+    "t_admit": 1793742190.321712,
+    "excluded_queue_s": 57.587913513183594,
+    "t_home": 1793742190.3690486,
+    "t_motion": 1793742209.158,
+    "previous_unchanged_source_utc": "2026-11-03T21:43:28.315Z",
+    "first_observed_motion_source_utc": "2026-11-03T21:43:29.158Z",
+    "full_run_to_motion_s": 78.02699995040894,
+    "queue_adjusted_run_s": 20.439086437225342,
+    "post_home_s": 18.78895139694214,
+    "run_outcome": "pass",
+    "post_home_outcome": "missed_target",
+    "exceptions": [],
+    "visual_proof": "public/evidence/manipulation-003-onset.png",
+    "limitation": "Earliest observed clear displacement in retained source-stable UI frames; gateway acceptance is not used as visual motion proof."
+  },
+  "replay": {
+    "immediate_capture_status": "failed",
+    "failure": "End-only FFmpeg encoding exceeded its 30-second limit; old temporary-frame cleanup lost that raw clip.",
+    "archive_url": "https://huggingface.co/datasets/andlyu/Public-YAM-runs/resolve/main/viewing/ep_177c61f7cda54268.mp4",
+    "archive_duration_s": 10,
+    "limitation": "Later normal archive fallback is only ten seconds and does not cover the complete physical run.",
+    "partial_ui_video": "https://raw.githubusercontent.com/andlyu/blupe-roboharness/main/public/evidence/manipulation-003-partial-ui.mp4",
+    "partial_ui_screenshots": 330,
+    "gaps": [
+      {
+        "after_screenshot": 84,
+        "screen_interval_s": 20.8835,
+        "black_gap_s": 20.3835
+      },
+      {
+        "after_screenshot": 168,
+        "screen_interval_s": 33.0525,
+        "black_gap_s": 32.5525
+      },
+      {
+        "after_screenshot": 252,
+        "screen_interval_s": 43.973,
+        "black_gap_s": 43.473
+      },
+      {
+        "after_screenshot": 322,
+        "screen_interval_s": 97.119,
+        "black_gap_s": 96.619
+      }
+    ],
+    "video_sha256": "302eb9f9356209071a6bb9bbaee8ed670abbf6f85ae5f58e64131329626411cb",
+    "encoder_runtime_s": 4.514039332978427
+  },
+  "remaining": [
+    "Representative manipulation outcome",
+    "15-second post-Home motion target",
+    "Immediate complete replay",
+    "Final normal-UI verification after repair"
+  ]
+}

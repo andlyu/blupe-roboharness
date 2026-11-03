@@ -1,0 +1,151 @@
+{
+  "episode_id": "ep_50f5ac7aad85417a",
+  "session_id": "sess_809fd7cee64344f6",
+  "runner": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "automated_verification",
+  "robot_id": "robot-ba8413962083809c",
+  "shared_revision": "cdc5bfd2e8da32f31f88e935c799ca52ec62180f",
+  "website_revision": "fb98d911fb65632768079b00068a1d148e6fc0e7",
+  "t_run": 1793738843.656,
+  "t_queue": 1793738845.0492384,
+  "t_admit": 1793738856.135125,
+  "t_home": 1793738856.194464,
+  "home_feedback_confirmed": 1793738856.8558743,
+  "t_motion": null,
+  "queue_seconds": 11.085886478424072,
+  "timing_status": "Failed before method dispatch: no physical method onset; neither motion target passed. No GPU/research exception claimed.",
+  "outcome": "Point selection lost during bidirectional optical flow. Touch rejected locally with zero dispatched steps; second model call gave up. Normal stop and parking followed.",
+  "task_success": false,
+  "feedback": {
+    "run_context": {
+      "episode_id": "ep_50f5ac7aad85417a",
+      "session_id": "sess_809fd7cee64344f6"
+    },
+    "source_events": [
+      {
+        "type": "snapshot",
+        "timestamp": 1793738845.2024238
+      },
+      {
+        "type": "queue_entry",
+        "timestamp": 1793738845.0492384,
+        "state": "queued",
+        "position": 1,
+        "source": "queue_snapshot"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793738856.135125,
+        "state": "preparing",
+        "previous_state": "queued",
+        "reason": "jetson_leased"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793738856.1371832,
+        "state": "preparing"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793738856.262644,
+        "state": "running",
+        "previous_state": "preparing",
+        "reason": "first_observation"
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793738856.2646832,
+        "step_id": 0
+      }
+    ],
+    "feedback_checks": [
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793738856.3010435,
+        "received_at": null,
+        "elapsed_ms": 0.030172057449817657,
+        "completion": {
+          "observed_at": 1793738856.194464,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793738854.5265055,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": null,
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793738856.8558743,
+        "received_at": 1793738856.8557503,
+        "elapsed_ms": 554.8667120747268,
+        "completion": {
+          "observed_at": 1793738856.194464,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793738856.6297417,
+          "step_id": null,
+          "homed": true,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      }
+    ],
+    "step_timings": [],
+    "run_metrics": {
+      "model_s": 18.455880703870207,
+      "execution_s": 0,
+      "left_path_m": 0,
+      "right_path_m": 0,
+      "model_calls": 2,
+      "execution_packets": 0,
+      "accepted_packets": 0,
+      "distance_waypoints": 0,
+      "confirmed_waypoints": 0
+    }
+  },
+  "visual_evidence": {
+    "frame_count": 81,
+    "click_bracket": {
+      "before_ms": 1793738843610,
+      "after_ms": 1793738843882
+    },
+    "limitation": "Timed UI capture retained privately pending sanitized publication; top camera clip is actual footage with two explicit gaps and no method movement."
+  },
+  "public_replay": {
+    "origin": "https://roboharness.54.209.185.15.sslip.io",
+    "path": "/api/integration-replays/ep_50f5ac7aad85417a/70d18146bbfaf155c911e0471e0bfba5f3d413352c87fa7191ec6a53d0d78106.mp4",
+    "duration_s": 24.205150842666626,
+    "partial": true,
+    "locally_ready_at": 1793738885.0388231,
+    "history_playback_and_seek_verified": true
+  }
+}

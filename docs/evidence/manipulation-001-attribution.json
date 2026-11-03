@@ -1,0 +1,63 @@
+{
+  "session_id": "sess_d5537645efc643b2",
+  "model": "RoboHarness",
+  "runner_name": "Andrew",
+  "email_matches_confirmed": true,
+  "private_contact_redacted": true,
+  "run_duration_s": 300,
+  "events": [
+    {
+      "event": "queued",
+      "timestamp": 1793740339.0026743,
+      "session_id": "sess_d5537645efc643b2",
+      "episode_id": null
+    },
+    {
+      "event": "client_address",
+      "timestamp": 1793740339.0030663,
+      "session_id": "sess_d5537645efc643b2"
+    },
+    {
+      "event": "preparing",
+      "timestamp": 1793740349.4000738,
+      "session_id": "sess_d5537645efc643b2",
+      "episode_id": "ep_c849eb57993c4147"
+    },
+    {
+      "event": "running",
+      "timestamp": 1793740349.5125973,
+      "session_id": "sess_d5537645efc643b2",
+      "episode_id": "ep_c849eb57993c4147"
+    },
+    {
+      "event": "stopped",
+      "timestamp": 1793740371.877121,
+      "session_id": "sess_d5537645efc643b2",
+      "episode_id": "ep_c849eb57993c4147"
+    }
+  ],
+  "scope": "Own accepted queue audit for manipulation001; no credentials or unrelated records read",
+  "notification_format": {
+    "scope": "Formatting the actual accepted queue record through existing notification formatter; no send/worker invoked",
+    "subject": "Someone joined your robot queue",
+    "allowlisted_lines": [
+      "Name: Andrew",
+      "Robot arm: robot-ba8413962083809c",
+      "Model: RoboHarness",
+      "Session: sess_d5537645efc643b2",
+      "Joined (UTC): 2026-11-03T21:12:19.002674+00:00"
+    ],
+    "notifications_sent_by_check": 0,
+    "delivery_to_inbox_verified": false
+  },
+  "notification_publication": {
+    "backend_deployment_version": 56,
+    "log_events": [
+      {
+        "createdAt": "2026-11-03T13:12:19-08:00",
+        "message": "[queue-email] published"
+      }
+    ],
+    "correlation": "Single queue-email publication log in the known run creation window; Model/name format verified from the actual accepted record. Log does not carry a session identifier; inbox delivery is not verified."
+  }
+}
