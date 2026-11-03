@@ -161,27 +161,27 @@ below; underlying model/checkpoint selections remain separate metadata.
 
 ## Completion requirements
 
-- [ ] A usable website exists, with an associated repository containing the
+- [x] A usable website exists, with an associated repository containing the
   website's source code. Record both links and the deployed source revision.
 - [ ] Everything in the playground demo is public by default, including the
   website, source repository, runs/results, live demos, recordings, replays/history,
   simulation outputs and supporting evidence. Any nonpublic exception reflects
   an explicit user instruction or visibility change, recorded below.
-- [ ] The website clearly names the actual approach/method being run. Use the
+- [x] The website clearly names the actual approach/method being run. Use the
   executed method's name; Spotter is an example, not a shared hardcoded label.
   The **Model** field identifies the approach being tested, as specified below.
-- [ ] The researcher was asked which underlying models/versions to use before
+- [x] The researcher was asked which underlying models/versions to use before
   model-dependent work, or their prior explicit choice/delegation was retained.
   Choices include newer/custom models; current availability and compatibility
   were checked. Configuration and run details retain the selected and actually
   resolved models/settings, with baseline/replacement variants labelled and no
   silent fallback. Record evidence below, or a justified no-model explanation.
-- [ ] When a human joins, collect or confirm their name and email. Prefill known
+- [x] When a human joins, collect or confirm their name and email. Prefill known
   identity/default values where available and let the runner edit both fields
   before joining.
-- [ ] Run context includes the actual approach and confirmed runner identity;
+- [x] Run context includes the actual approach and confirmed runner identity;
   the website makes clear which method is running and whose run it is.
-- [ ] Policy/model tests initiated by a person retain that actual user's
+- [x] Policy/model tests initiated by a person retain that actual user's
   confirmed name as runner. Use available identity and editable name/email
   defaults; require the real name to be provided/confirmed if missing before
   testing or running. Do not substitute `Anonymous`, `Autonomous` or `Automated`
@@ -208,7 +208,7 @@ below; underlying model/checkpoint selections remain separate metadata.
 - [ ] The person can browse/select previous runs on the website and replay their
   retained physical arm footage, associated with the executed method and run.
   Mock animations do not satisfy either replay requirement.
-- [ ] If the integrated method executes anything in simulation, those executions
+- [x] If the integrated method executes anything in simulation, those executions
   are reviewable within the integration website and tied to the corresponding
   run. A reviewer can inspect what ran and its results using suitable
   replay/visualization and relevant outputs, as appropriate to the simulation.
@@ -234,6 +234,7 @@ below; underlying model/checkpoint selections remain separate metadata.
   normal user interface. Verify every completion requirement against that
   deployment and record evidence; unmet or unverified requirements block
   completion.
+
 
 ## Verify commands and numeric boundaries
 
@@ -555,7 +556,7 @@ before any completion claim.
 - Remaining gaps:
 
 
-## Working evidence — November 3, 2026
+## Historical startup notes — November 3, 2026
 
 User invocation: “Lets setup a website that integrates this appraoch with blepe remote bots. We should use the harness, and only finish wehn all the checks are done.” Adopted AGENTS.md routes this request to this harness. Contract is retained in BLUPE-HARNESS-CONTRACT.md.
 
@@ -622,3 +623,12 @@ Shared repair merged as4e36fbb5c3cb287f743866601659a48e985fd156 after [full shar
 Physical manipulation acceptance remains open. All failed attempts remain history: [hover-003](evidence/hover-003-failed.json), [manipulation-001](evidence/manipulation-001-failed.json), [manipulation-002](evidence/manipulation-002-failed.json), and [manipulation-003](evidence/manipulation-003-failed.json). Manipulation-001 met ordinary startup timing but stopped before grasp; that is a timing pass for a failed task on its recorded revision. Manipulation-002 and -003 missed the 15-second post-Home target; no GPU or research exception is claimed. The -003 normal archive fallback is only ten seconds. Its partial UI recording retains four explicit black gap intervals and does not claim complete run coverage.
 
 [PR274 repair and CI](evidence/geometry-replay-repair.json) adds nominal installed gripper geometry at the unchanged native grasp origin, bounded read-only stale-depth reacquisition and streaming replay encoding with retained-frame recovery. The full shared-runner and pinned RoboSkills checks pass, as does the clean 53-case offline release gate. Those are software checks, not physical task success. The website also prevents stale prior-attempt evidence from appearing under a new Run click while submission is pending. Final current-deployment normal-UI physical manipulation, ordinary startup timing and complete immediate/history replay remain required before checking affected items or declaring completion.
+
+
+## Current partial review
+
+Seven interface/model/identity/documentary requirements are checked against deployed websitev7 (`49444e84`) and runtime`5351347`: [item-by-item evidence](evidence/interface-provenance-v7.json) and [unauthenticated public-access checks](evidence/public-access-v7.json). They do not establish physical task acceptance. The dynamic registry matches the exact runtime source and invalidates its display when that source changes.
+
+[Empty-cup attempt004](evidence/manipulation-004-failed.json) retained zero actuator packets: no measured depth at the initial rim pixel, a later valid sidewall registration, then2.003347s-aged depth before the next model observation. Both ordinary motion deadlines were missed because no method motion occurred; no exception is claimed. Its actual-camera39s streaming clip finalized1.616s after capture ended, contains five explicit gap slots, and played/advanced/seeks5sforward/back to34s in the normal deployed Runs view. That is recorder evidence for a failed zero-motion attempt, not a representative manipulation or complete physical-method replay pass. The partial timed UI video keeps its screen-capture gap explicit.
+
+[PR276](https://github.com/andlyu/blupe-remote-bots/pull/276) adds bounded fresh model-view reacquisition and opt-in non-actuating same-session initialization during actual queue admission, with57 offline cases and exact stale-view red/green evidence. It leaves original Run/queue/Home clocks, physical limits and no-timeout-replay behavior unchanged. Required CI/host deployment and new normal-UI physical manipulation remain pending.

@@ -1,0 +1,36 @@
+{
+  "status": "partial_interface_and_provenance_review",
+  "reviewed_at": "2026-11-03T23:01:35.390415+00:00",
+  "website": "https://roboharness-blupe.andlyu.chatgpt.site",
+  "website_revision": "49444e84a491fb959aeae1e1cce3fdc1b94a0184",
+  "runtime_revision": "535134793df7560633ea9c72c204d982d6e16809",
+  "website_ci": "https://github.com/andlyu/blupe-roboharness/actions/runs/41732242268",
+  "runner_name": "Andrew",
+  "private_email_confirmed": true,
+  "private_email_published": false,
+  "checks": {
+    "1": "Public native Sitev7 deployed; exact source commit mirrored in associated public GitHub repository.",
+    "3": "Website, actual run receipt and previous queue/notification evidence use Model=RoboHarness.",
+    "4": "Researcher delegated compatible current planning/vision selection; gpt-6-astra/low actual run provenance, immutable alias unresolved/null, no fallback or VLA.",
+    "5": "Normal deployed UI displayed editable prefilled Andrew/name and confirmed private email; human checkbox and Use these details required before Run.",
+    "6": "Actual run sess_e1387a3a481e43d1/ep_0cf9223dfe8f4fe7 retains Andrew, RoboHarness and separate automated_verification mode.",
+    "7": "Non-actuating real model-transport test and physical policy requests retain confirmed Andrew; synthetic offline fixtures make no real model requests.",
+    "14": "No dynamics/task simulation executes. MuJoCo is used for numerical FK/IK/contact feasibility only; no simulation replay is claimed."
+  },
+  "unverified": [
+    2,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+  ],
+  "limitations": [
+    "This review does not verify physical manipulation, first-motion timing, a complete method-execution replay, or final deployed UI acceptance.",
+    "PR276 changes remain undeployed and must pass required CI and host gate."
+  ]
+}

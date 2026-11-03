@@ -1,0 +1,1257 @@
+{
+  "click": {
+    "before_ms": 1793745860570,
+    "after_ms": 1793745860828
+  },
+  "frames": [
+    {
+      "file": "00000.png",
+      "local_before_ms": 1793745860513,
+      "local_after_ms": 1793745860562,
+      "source_before_utc": "2026-11-03T22:44:20.015Z",
+      "source_after_utc": "2026-11-03T22:44:20.015Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00001.png",
+      "local_before_ms": 1793745860847,
+      "local_after_ms": 1793745860895,
+      "source_before_utc": "2026-11-03T22:44:20.015Z",
+      "source_after_utc": "2026-11-03T22:44:20.015Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00002.png",
+      "local_before_ms": 1793745861342,
+      "local_after_ms": 1793745861399,
+      "source_before_utc": "2026-11-03T22:44:20.015Z",
+      "source_after_utc": "2026-11-03T22:44:20.015Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00003.png",
+      "local_before_ms": 1793745861841,
+      "local_after_ms": 1793745861908,
+      "source_before_utc": "2026-11-03T22:44:21.497Z",
+      "source_after_utc": "2026-11-03T22:44:21.497Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00004.png",
+      "local_before_ms": 1793745862357,
+      "local_after_ms": 1793745862418,
+      "source_before_utc": "2026-11-03T22:44:21.497Z",
+      "source_after_utc": "2026-11-03T22:44:21.497Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00005.png",
+      "local_before_ms": 1793745862856,
+      "local_after_ms": 1793745862927,
+      "source_before_utc": "2026-11-03T22:44:22.497Z",
+      "source_after_utc": "2026-11-03T22:44:22.497Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00006.png",
+      "local_before_ms": 1793745863359,
+      "local_after_ms": 1793745863432,
+      "source_before_utc": "2026-11-03T22:44:22.497Z",
+      "source_after_utc": "2026-11-03T22:44:23.182Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00007.png",
+      "local_before_ms": 1793745863859,
+      "local_after_ms": 1793745863939,
+      "source_before_utc": "2026-11-03T22:44:23.182Z",
+      "source_after_utc": "2026-11-03T22:44:23.182Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00008.png",
+      "local_before_ms": 1793745864362,
+      "local_after_ms": 1793745864396,
+      "source_before_utc": "2026-11-03T22:44:23.839Z",
+      "source_after_utc": "2026-11-03T22:44:23.839Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00009.png",
+      "local_before_ms": 1793745864856,
+      "local_after_ms": 1793745864919,
+      "source_before_utc": "2026-11-03T22:44:24.508Z",
+      "source_after_utc": "2026-11-03T22:44:24.508Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00010.png",
+      "local_before_ms": 1793745865365,
+      "local_after_ms": 1793745865440,
+      "source_before_utc": "2026-11-03T22:44:24.508Z",
+      "source_after_utc": "2026-11-03T22:44:25.199Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00011.png",
+      "local_before_ms": 1793745865858,
+      "local_after_ms": 1793745865956,
+      "source_before_utc": "2026-11-03T22:44:25.199Z",
+      "source_after_utc": "2026-11-03T22:44:25.199Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00012.png",
+      "local_before_ms": 1793745866366,
+      "local_after_ms": 1793745866463,
+      "source_before_utc": "2026-11-03T22:44:25.846Z",
+      "source_after_utc": "2026-11-03T22:44:25.846Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00013.png",
+      "local_before_ms": 1793745866861,
+      "local_after_ms": 1793745866883,
+      "source_before_utc": "2026-11-03T22:44:26.514Z",
+      "source_after_utc": "2026-11-03T22:44:26.514Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00014.png",
+      "local_before_ms": 1793745867370,
+      "local_after_ms": 1793745867481,
+      "source_before_utc": "2026-11-03T22:44:26.514Z",
+      "source_after_utc": "2026-11-03T22:44:26.514Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00015.png",
+      "local_before_ms": 1793745867871,
+      "local_after_ms": 1793745867922,
+      "source_before_utc": "2026-11-03T22:44:27.356Z",
+      "source_after_utc": "2026-11-03T22:44:27.356Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00016.png",
+      "local_before_ms": 1793745868372,
+      "local_after_ms": 1793745868445,
+      "source_before_utc": "2026-11-03T22:44:28.017Z",
+      "source_after_utc": "2026-11-03T22:44:28.017Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00017.png",
+      "local_before_ms": 1793745868870,
+      "local_after_ms": 1793745868962,
+      "source_before_utc": "2026-11-03T22:44:28.681Z",
+      "source_after_utc": "2026-11-03T22:44:28.681Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00018.png",
+      "local_before_ms": 1793745869376,
+      "local_after_ms": 1793745869481,
+      "source_before_utc": "2026-11-03T22:44:28.681Z",
+      "source_after_utc": "2026-11-03T22:44:28.681Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00019.png",
+      "local_before_ms": 1793745869871,
+      "local_after_ms": 1793745869997,
+      "source_before_utc": "2026-11-03T22:44:29.348Z",
+      "source_after_utc": "2026-11-03T22:44:29.348Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00020.png",
+      "local_before_ms": 1793745870376,
+      "local_after_ms": 1793745870413,
+      "source_before_utc": "2026-11-03T22:44:30.023Z",
+      "source_after_utc": "2026-11-03T22:44:30.023Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00021.png",
+      "local_before_ms": 1793745870875,
+      "local_after_ms": 1793745870930,
+      "source_before_utc": "2026-11-03T22:44:30.023Z",
+      "source_after_utc": "2026-11-03T22:44:30.023Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00022.png",
+      "local_before_ms": 1793745871386,
+      "local_after_ms": 1793745871458,
+      "source_before_utc": "2026-11-03T22:44:30.858Z",
+      "source_after_utc": "2026-11-03T22:44:30.858Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00023.png",
+      "local_before_ms": 1793745871893,
+      "local_after_ms": 1793745871984,
+      "source_before_utc": "2026-11-03T22:44:31.523Z",
+      "source_after_utc": "2026-11-03T22:44:31.523Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00024.png",
+      "local_before_ms": 1793745872390,
+      "local_after_ms": 1793745872501,
+      "source_before_utc": "2026-11-03T22:44:32.206Z",
+      "source_after_utc": "2026-11-03T22:44:32.206Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00025.png",
+      "local_before_ms": 1793745872889,
+      "local_after_ms": 1793745872920,
+      "source_before_utc": "2026-11-03T22:44:32.206Z",
+      "source_after_utc": "2026-11-03T22:44:32.206Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00026.png",
+      "local_before_ms": 1793745873397,
+      "local_after_ms": 1793745873447,
+      "source_before_utc": "2026-11-03T22:44:32.864Z",
+      "source_after_utc": "2026-11-03T22:44:32.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00027.png",
+      "local_before_ms": 1793745873882,
+      "local_after_ms": 1793745873947,
+      "source_before_utc": "2026-11-03T22:44:32.864Z",
+      "source_after_utc": "2026-11-03T22:44:32.864Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00028.png",
+      "local_before_ms": 1793745874402,
+      "local_after_ms": 1793745874480,
+      "source_before_utc": "2026-11-03T22:44:34.042Z",
+      "source_after_utc": "2026-11-03T22:44:34.042Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00029.png",
+      "local_before_ms": 1793745874893,
+      "local_after_ms": 1793745874990,
+      "source_before_utc": "2026-11-03T22:44:34.042Z",
+      "source_after_utc": "2026-11-03T22:44:34.871Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00030.png",
+      "local_before_ms": 1793745875400,
+      "local_after_ms": 1793745875504,
+      "source_before_utc": "2026-11-03T22:44:34.871Z",
+      "source_after_utc": "2026-11-03T22:44:35.379Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00031.png",
+      "local_before_ms": 1793745875902,
+      "local_after_ms": 1793745876020,
+      "source_before_utc": "2026-11-03T22:44:35.379Z",
+      "source_after_utc": "2026-11-03T22:44:35.873Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00032.png",
+      "local_before_ms": 1793745876404,
+      "local_after_ms": 1793745876539,
+      "source_before_utc": "2026-11-03T22:44:35.873Z",
+      "source_after_utc": "2026-11-03T22:44:36.376Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00033.png",
+      "local_before_ms": 1793745876903,
+      "local_after_ms": 1793745876957,
+      "source_before_utc": "2026-11-03T22:44:36.376Z",
+      "source_after_utc": "2026-11-03T22:44:36.376Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00034.png",
+      "local_before_ms": 1793745877409,
+      "local_after_ms": 1793745877478,
+      "source_before_utc": "2026-11-03T22:44:36.872Z",
+      "source_after_utc": "2026-11-03T22:44:36.872Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00035.png",
+      "local_before_ms": 1793745877913,
+      "local_after_ms": 1793745877995,
+      "source_before_utc": "2026-11-03T22:44:37.387Z",
+      "source_after_utc": "2026-11-03T22:44:37.878Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00036.png",
+      "local_before_ms": 1793745878417,
+      "local_after_ms": 1793745878512,
+      "source_before_utc": "2026-11-03T22:44:37.878Z",
+      "source_after_utc": "2026-11-03T22:44:38.387Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00037.png",
+      "local_before_ms": 1793745878905,
+      "local_after_ms": 1793745879031,
+      "source_before_utc": "2026-11-03T22:44:38.387Z",
+      "source_after_utc": "2026-11-03T22:44:38.387Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00038.png",
+      "local_before_ms": 1793745879414,
+      "local_after_ms": 1793745879445,
+      "source_before_utc": "2026-11-03T22:44:39.215Z",
+      "source_after_utc": "2026-11-03T22:44:39.215Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00039.png",
+      "local_before_ms": 1793745879916,
+      "local_after_ms": 1793745879969,
+      "source_before_utc": "2026-11-03T22:44:39.711Z",
+      "source_after_utc": "2026-11-03T22:44:39.711Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00040.png",
+      "local_before_ms": 1793745880418,
+      "local_after_ms": 1793745880489,
+      "source_before_utc": "2026-11-03T22:44:39.711Z",
+      "source_after_utc": "2026-11-03T22:44:39.711Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00041.png",
+      "local_before_ms": 1793745880912,
+      "local_after_ms": 1793745881007,
+      "source_before_utc": "2026-11-03T22:44:40.543Z",
+      "source_after_utc": "2026-11-03T22:44:40.543Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00042.png",
+      "local_before_ms": 1793745881420,
+      "local_after_ms": 1793745881522,
+      "source_before_utc": "2026-11-03T22:44:40.543Z",
+      "source_after_utc": "2026-11-03T22:44:41.393Z",
+      "frame_stable": false
+    },
+    {
+      "file": "00043.png",
+      "local_before_ms": 1793745881923,
+      "local_after_ms": 1793745882045,
+      "source_before_utc": "2026-11-03T22:44:41.393Z",
+      "source_after_utc": "2026-11-03T22:44:41.393Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00044.png",
+      "local_before_ms": 1793745882416,
+      "local_after_ms": 1793745882455,
+      "source_before_utc": "2026-11-03T22:44:42.047Z",
+      "source_after_utc": "2026-11-03T22:44:42.047Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00045.png",
+      "local_before_ms": 1793745882925,
+      "local_after_ms": 1793745882978,
+      "source_before_utc": "2026-11-03T22:44:42.544Z",
+      "source_after_utc": "2026-11-03T22:44:42.544Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00046.png",
+      "local_before_ms": 1793745883425,
+      "local_after_ms": 1793745883450,
+      "source_before_utc": "2026-11-03T22:44:43.050Z",
+      "source_after_utc": "2026-11-03T22:44:43.050Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00047.png",
+      "local_before_ms": 1793745883925,
+      "local_after_ms": 1793745883959,
+      "source_before_utc": "2026-11-03T22:44:43.716Z",
+      "source_after_utc": "2026-11-03T22:44:43.716Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00048.png",
+      "local_before_ms": 1793745884425,
+      "local_after_ms": 1793745884457,
+      "source_before_utc": "2026-11-03T22:44:43.716Z",
+      "source_after_utc": "2026-11-03T22:44:43.716Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00049.png",
+      "local_before_ms": 1793745884931,
+      "local_after_ms": 1793745884967,
+      "source_before_utc": "2026-11-03T22:44:44.396Z",
+      "source_after_utc": "2026-11-03T22:44:44.396Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00050.png",
+      "local_before_ms": 1793745885432,
+      "local_after_ms": 1793745885475,
+      "source_before_utc": "2026-11-03T22:44:45.052Z",
+      "source_after_utc": "2026-11-03T22:44:45.052Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00051.png",
+      "local_before_ms": 1793745885931,
+      "local_after_ms": 1793745885959,
+      "source_before_utc": "2026-11-03T22:44:45.574Z",
+      "source_after_utc": "2026-11-03T22:44:45.574Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00052.png",
+      "local_before_ms": 1793745886430,
+      "local_after_ms": 1793745886477,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00053.png",
+      "local_before_ms": 1793745886924,
+      "local_after_ms": 1793745886990,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00054.png",
+      "local_before_ms": 1793745887433,
+      "local_after_ms": 1793745887509,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00055.png",
+      "local_before_ms": 1793745887928,
+      "local_after_ms": 1793745888014,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00056.png",
+      "local_before_ms": 1793745888436,
+      "local_after_ms": 1793745888524,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00057.png",
+      "local_before_ms": 1793745888933,
+      "local_after_ms": 1793745888954,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00058.png",
+      "local_before_ms": 1793745889432,
+      "local_after_ms": 1793745889478,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00059.png",
+      "local_before_ms": 1793745889934,
+      "local_after_ms": 1793745889999,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00060.png",
+      "local_before_ms": 1793745890440,
+      "local_after_ms": 1793745890508,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00061.png",
+      "local_before_ms": 1793745890937,
+      "local_after_ms": 1793745891030,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00062.png",
+      "local_before_ms": 1793745891447,
+      "local_after_ms": 1793745891557,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00063.png",
+      "local_before_ms": 1793745891946,
+      "local_after_ms": 1793745892068,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00064.png",
+      "local_before_ms": 1793745892448,
+      "local_after_ms": 1793745892488,
+      "source_before_utc": "2026-11-03T22:44:46.056Z",
+      "source_after_utc": "2026-11-03T22:44:46.056Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00065.png",
+      "local_before_ms": 1793745914244,
+      "local_after_ms": 1793745914338,
+      "source_before_utc": "2026-11-03T22:45:12.782Z",
+      "source_after_utc": "2026-11-03T22:45:12.782Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00066.png",
+      "local_before_ms": 1793745914739,
+      "local_after_ms": 1793745914856,
+      "source_before_utc": "2026-11-03T22:45:14.278Z",
+      "source_after_utc": "2026-11-03T22:45:14.278Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00067.png",
+      "local_before_ms": 1793745915240,
+      "local_after_ms": 1793745915377,
+      "source_before_utc": "2026-11-03T22:45:14.278Z",
+      "source_after_utc": "2026-11-03T22:45:14.278Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00068.png",
+      "local_before_ms": 1793745915744,
+      "local_after_ms": 1793745915795,
+      "source_before_utc": "2026-11-03T22:45:14.278Z",
+      "source_after_utc": "2026-11-03T22:45:14.278Z",
+      "frame_stable": true
+    },
+    {
+      "file": "00069.png",
+      "local_before_ms": 1793745916250,
+      "local_after_ms": 1793745916314,
+      "source_before_utc": "2026-11-03T22:45:15.784Z",
+      "source_after_utc": "2026-11-03T22:45:15.784Z",
+      "frame_stable": true
+    }
+  ],
+  "stages": [
+    {
+      "at_ms": 1793745860911,
+      "status": "submitting",
+      "fields": [],
+      "inline": "Submitting to the normal queue\n\nSending the task and confirmed runner details. Waiting for queue acknowledgement; the request is never retried automatically.\n\nRun clicked\n2:44:20 PM"
+    },
+    {
+      "at_ms": 1793745861416,
+      "status": "submitting",
+      "fields": [],
+      "inline": "Submitting to the normal queue\n\nSending the task and confirmed runner details. Waiting for queue acknowledgement; the request is never retried automatically.\n\nRun clicked\n2:44:20 PM"
+    },
+    {
+      "at_ms": 1793745861929,
+      "status": "idle",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Submitting to the normal queue\n\nSending the task and confirmed runner details. Waiting for queue acknowledgement; the request is never retried automatically.\n\nRun clicked\n2:44:20 PM"
+    },
+    {
+      "at_ms": 1793745862436,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM"
+    },
+    {
+      "at_ms": 1793745862946,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745863449,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745863959,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745864413,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745864939,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745865457,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745865974,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745866483,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745866901,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745867502,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745867939,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745868465,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745868981,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745869501,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745870023,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745870430,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745870950,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745871478,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745872005,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745872521,
+      "status": "queued",
+      "fields": [
+        "Not assigned",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Waiting for queue admission\n\nNormal queue \u00b7 position 1. No method motion before lease and readiness.\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM"
+    },
+    {
+      "at_ms": 1793745872938,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Checking measured Home readiness\n\nRecording actual overhead footage and preparing playback during this run\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nLast event\n2:44:32 PM"
+    },
+    {
+      "at_ms": 1793745873465,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Checking measured Home readiness\n\nRecording actual overhead footage and preparing playback during this run\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nLast event\n2:44:32 PM"
+    },
+    {
+      "at_ms": 1793745873964,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nReading current overhead depth and wrist camera views\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:33 PM"
+    },
+    {
+      "at_ms": 1793745874497,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nReading current overhead depth and wrist camera views\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:33 PM"
+    },
+    {
+      "at_ms": 1793745875012,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nReading current overhead depth and wrist camera views\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:33 PM"
+    },
+    {
+      "at_ms": 1793745875611,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nReading current overhead depth and wrist camera views\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:33 PM"
+    },
+    {
+      "at_ms": 1793745876037,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745876557,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745876975,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745877499,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745878017,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745878532,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745879054,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745879462,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745879987,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745880510,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745881026,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745881540,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745882068,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745882472,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745882996,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745883468,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745883976,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745884478,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745884989,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745885492,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745885985,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745886495,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745887009,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745887529,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745888035,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745888542,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745888975,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745889497,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745890026,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745890531,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745891052,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745891576,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745892089,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745892508,
+      "status": "running",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Executing RoboHarness\n\nRoboHarness is interpreting the cameras and geometric tools\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:44:34 PM"
+    },
+    {
+      "at_ms": 1793745914353,
+      "status": "stopped",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Run stopped\n\nRetained physical camera replay is ready; capture has gaps\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:45:13 PM"
+    },
+    {
+      "at_ms": 1793745914873,
+      "status": "stopped",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Run stopped\n\nRetained physical camera replay is ready; capture has gaps\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:45:13 PM"
+    },
+    {
+      "at_ms": 1793745915394,
+      "status": "stopped",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Run stopped\n\nRetained physical camera replay is ready; capture has gaps\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:45:13 PM"
+    },
+    {
+      "at_ms": 1793745915813,
+      "status": "stopped",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Run stopped\n\nRetained physical camera replay is ready; capture has gaps\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:45:13 PM"
+    },
+    {
+      "at_ms": 1793745916332,
+      "status": "stopped",
+      "fields": [
+        "ep_0cf9223dfe8f4fe7",
+        "RoboHarness",
+        "2026-11-03T22:44:20.598Z"
+      ],
+      "inline": "Run stopped\n\nRetained physical camera replay is ready; capture has gaps\n\nRun clicked\n2:44:20 PM\nQueue entered\n2:44:21 PM\nLease admitted\n2:44:32 PM\nHome feedback confirmed\n2:44:33 PM\nLast event\n2:45:13 PM"
+    }
+  ],
+  "source_revision": "535134793df7560633ea9c72c204d982d6e16809",
+  "website_revision": "49444e84a491fb959aeae1e1cce3fdc1b94a0184",
+  "runner": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "automated_verification"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "failed_before_method_motion",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "source_revision": "535134793df7560633ea9c72c204d982d6e16809",
+  "website_revision": "49444e84a491fb959aeae1e1cce3fdc1b94a0184",
+  "episode_id": "ep_0cf9223dfe8f4fe7",
+  "session_id": "sess_e1387a3a481e43d1",
+  "run_metrics": {
+    "model_s": 28.952066680882126,
+    "execution_s": 0,
+    "left_path_m": 0,
+    "right_path_m": 0,
+    "model_calls": 2,
+    "execution_packets": 0,
+    "accepted_packets": 0,
+    "distance_waypoints": 0,
+    "confirmed_waypoints": 0
+  },
+  "failure_sequence": [
+    "Cup rim point had no measured depth; strict local rejection sent zero packets.",
+    "Model selected a patterned sidewall point; read-only registration supplied valid metric coordinates.",
+    "Next model observation aged to2.003347158432007s during tracking/feedback preparation; strict guard stopped before further inference or dispatch."
+  ],
+  "timing": {
+    "t_run": 1793745860.598,
+    "click_bracket_ms": {
+      "before_ms": 1793745860570,
+      "after_ms": 1793745860828
+    },
+    "t_queue": 1793745861.6672924,
+    "t_admit": 1793745872.4824693,
+    "excluded_queue_s": 10.815176963806152,
+    "t_home": 1793745872.5428169,
+    "t_motion": null,
+    "full_run_to_motion_s": null,
+    "queue_adjusted_run_to_motion_s": null,
+    "post_home_to_motion_s": null,
+    "no_motion_failure_at": 1793745911.329,
+    "run_to_failure_s": 50.73099994659424,
+    "queue_adjusted_run_to_failure_s": 39.915822982788086,
+    "post_home_to_failure_s": 38.78618311882019,
+    "run_outcome": "missed_target_no_method_motion",
+    "post_home_outcome": "missed_target_no_method_motion",
+    "exceptions": []
+  },
+  "replay": {
+    "episode_id": "ep_0cf9223dfe8f4fe7",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_0cf9223dfe8f4fe7/40999dce244219d8cbe9e2787a1c2ee0bf822205530f95fc7a1daa77cd55782b.mp4",
+      "video_sha256": "40999dce244219d8cbe9e2787a1c2ee0bf822205530f95fc7a1daa77cd55782b",
+      "video_duration_s": 39.0,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "ready_utc": "2026-11-03T22:45:13.317Z",
+    "capture_ended_utc": "2026-11-03T22:45:11.701Z",
+    "finalization_s": 1.616,
+    "frames": 78,
+    "gap_slots": 5,
+    "ui_playback_verified": true,
+    "ui_forward_seek_s": 5,
+    "ui_observed_end_s": 39,
+    "ui_back_seek_s": 34,
+    "limitation": "Actual hardware camera capture with five explicit gap slots; no integrated-method arm motion occurred. This is not a representative task or physical-execution replay pass.",
+    "public_video_url": "https://roboharness.54.209.185.15.sslip.io/api/integration-replays/ep_0cf9223dfe8f4fe7/40999dce244219d8cbe9e2787a1c2ee0bf822205530f95fc7a1daa77cd55782b.mp4?robot_id=robot-ba8413962083809c"
+  },
+  "ui_recording": {
+    "url": "https://roboharness-blupe.andlyu.chatgpt.site/evidence/manipulation-004-partial-ui.mp4",
+    "sha256": "1aba4a6121eed94584a5e625b3db2aa4e1974c41f3f57e30fdcc184ab7cb7972",
+    "gaps": [
+      {
+        "after_screenshot": 64,
+        "black_gap_s": 21.323
+      }
+    ],
+    "screenshots": 70
+  },
+  "remaining": [
+    "Representative manipulation outcome",
+    "Ordinary startup timing",
+    "Final deployed UI physical run and complete immediate/historical method-execution replay"
+  ]
+}

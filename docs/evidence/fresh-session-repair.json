@@ -1,0 +1,49 @@
+{
+  "status": "software_passed_host_and_physical_pending",
+  "head_revision": "20f8ab8ed27d26205c6549e4a27cf27657ab09b1",
+  "merged_revision": "7a702d2264c2a1b7d051004279d0c73919a2e06c",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/276",
+  "ci": [
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41735266939",
+      "scope": "full shared runner on exact head",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41735424130",
+      "scope": "57-case RoboHarness gate on exact head",
+      "result": "success"
+    }
+  ],
+  "local_gate": {
+    "status": "passed",
+    "tests": 57,
+    "duration_s": 2.4152809999941383
+  },
+  "regression": {
+    "source": "535134793df7560633ea9c72c204d982d6e16809",
+    "case": "model observation depth age2.003347158432007s",
+    "old_result": "StaleTrackingDepth before inference; one capture",
+    "repaired_result": "one read-only reacquisition; second stale frame rejects without inference or dispatch"
+  },
+  "initialization": {
+    "when": "existing controller start_preparation hook after real queue creation",
+    "requested_model": "gpt-6-astra",
+    "reasoning_effort": "low",
+    "runner": "confirmed human name required",
+    "images": 0,
+    "robot_state": 0,
+    "robot_targets": 0,
+    "actuator_requests": 0,
+    "retry": false,
+    "policy_camera_count": 3,
+    "actual_transport_parser_and_resume_test": true,
+    "run_queue_home_clocks_unchanged": true
+  },
+  "remaining": [
+    "host release preflight",
+    "current-deployment physical manipulation",
+    "ordinary startup timing",
+    "complete immediate/historical method-execution replay"
+  ]
+}

@@ -1,4 +1,57 @@
 {
-  "source_revision": null,
-  "checks": []
+  "source_revision": "535134793df7560633ea9c72c204d982d6e16809",
+  "checks": [
+    {
+      "id": 1,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json"
+      ]
+    },
+    {
+      "id": 4,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json",
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/model-transport.json"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json"
+      ]
+    },
+    {
+      "id": 6,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json",
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/manipulation-004-failed.json"
+      ]
+    },
+    {
+      "id": 7,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json",
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/model-transport.json"
+      ]
+    },
+    {
+      "id": 14,
+      "status": "passed",
+      "evidence": [
+        "https://github.com/andlyu/blupe-roboharness/blob/main/docs/evidence/interface-provenance-v7.json"
+      ]
+    }
+  ]
 }
