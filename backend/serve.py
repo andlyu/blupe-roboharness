@@ -11,7 +11,7 @@ def main():
     parser.add_argument('--origin',required=True)
     parser.add_argument('--recording-root',type=Path,help='Local development policy-frame storage only; public runs use the normal BluPe recording archive')
     parser.add_argument('--preflight',type=Path,required=True)
-    parser.add_argument('--port',type=int,default=8813)
+    parser.add_argument('--port',type=int,default=8823)
     parser.add_argument('--model',default='gpt-6-astra')
     transport=parser.add_mutually_exclusive_group(required=True)
     transport.add_argument('--local-codex',action='store_true')
