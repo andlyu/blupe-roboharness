@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: andlyu/blupe-remote-bots
-          ref: 4e36fbb5c3cb287f743866601659a48e985fd156
+          ref: 0196e2a58151a5496396a7d9c067cc3ec6b4df04
           path: shared-runner
       - uses: actions/setup-python@v5
         with:
@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: sudo apt-get update && sudo apt-get install -y libosmesa6
+      - run: sudo apt-get update && sudo apt-get install -y libosmesa6 ffmpeg
       - run: python -m pip install -r shared-runner/codex-runner/requirements-roboharness.txt
       - run: python backend/check_startup.py --runner-source shared-runner/codex-runner
       - run: PYTHONPATH=shared-runner/codex-runner/src:shared-runner/codex-runner python shared-runner/codex-runner/roboharness_preflight.py --output /tmp/roboharness-preflight.json

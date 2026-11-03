@@ -1,22 +1,27 @@
 import { requireStation } from './roboharness';
 
 export const RUNNER_ORIGIN = 'https://roboharness.54.209.185.15.sslip.io';
-const READS = new Set(['status', 'past-runs', 'recordings', 'roboharness/readiness', 'roboharness/run-config']);
+const READS = new Set(['status', 'past-runs', 'recordings', 'roboharness/readiness', 'roboharness/run-config', 'roboharness/replay-evidence']);
 const WRITES = new Set(['session', 'run', 'stop']);
 
 export async function proxyRunner(request: Request, parts: string[]) {
   const path = parts.join('/');
+  const media = request.method === 'GET' && /^integration-replays\/ep_[A-Za-z0-9_-]{1,100}\/[a-f0-9]{64}\.mp4$/.test(path);
   const permitted = request.method === 'GET'
-    ? READS.has(path) || /^recordings\/(?:robocurve|run)_[a-f0-9]{32}\/(?:artifacts|interactions)$/.test(path)
+    ? media || READS.has(path) || /^recordings\/(?:robocurve|run)_[a-f0-9]{32}\/(?:artifacts|interactions)$/.test(path)
     : request.method === 'POST' && WRITES.has(path);
   if (!permitted) return Response.json({ error: 'Unknown runner operation.' }, { status: 404 });
   if (request.method === 'POST' && request.headers.get('origin') !== new URL(request.url).origin) {
     return Response.json({ error: 'Submit from this website.' }, { status: 403 });
   }
   let station: string;
-  try { station = requireStation(request.headers.get('x-blupe-robot')); }
+  try { station = requireStation(request.headers.get('x-blupe-robot') || (media ? new URL(request.url).searchParams.get('robot_id') : null)); }
   catch { return Response.json({ error: 'Choose a supported station.' }, { status: 400 }); }
   const headers = new Headers({ Accept: 'application/json', 'X-Blupe-Robot': station });
+  if (media) {
+    headers.set('Accept', 'video/mp4');
+    const range = request.headers.get('range'); if (range) headers.set('Range', range);
+  }
   for (const key of ['cookie', 'x-yam-runner-token', 'x-yam-watching']) {
     const value = request.headers.get(key); if (value) headers.set(key, value);
   }
@@ -36,6 +41,13 @@ export async function proxyRunner(request: Request, parts: string[]) {
       method: request.method, headers, body, redirect: 'manual', cache: 'no-store', signal: AbortSignal.timeout(20000),
     });
     if (response.status >= 300 && response.status < 400) throw new Error('Unexpected redirect');
+    if (media && response.headers.get('content-type')?.toLowerCase().startsWith('video/mp4')) {
+      const output = new Headers({ 'Content-Type': 'video/mp4', 'Cache-Control': 'public, max-age=31536000, immutable', 'X-Content-Type-Options': 'nosniff' });
+      for (const key of ['content-length', 'content-range', 'accept-ranges', 'etag']) {
+        const value = response.headers.get(key); if (value) output.set(key, value);
+      }
+      return new Response(response.body, { status: response.status, headers: output });
+    }
     if (!response.headers.get('content-type')?.toLowerCase().startsWith('application/json')) throw new Error('Runtime returned a non-JSON gateway error');
     const output = new Headers({ 'Content-Type': 'application/json', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' });
     const cookies = response.headers.getSetCookie?.() ?? (response.headers.get('set-cookie') ? [response.headers.get('set-cookie')!] : []);

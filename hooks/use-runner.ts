@@ -10,7 +10,7 @@ export type RunState = { status: string; episode_id?: string; session_id?: strin
   interactions?: { events: Event[] }; public_run?: { runner_name: string; model_name: string; task: string; events: Event[] };
 };
 type Readiness = { ready: boolean; reason?: string; source_revision?: string; preflight_tests?: number };
-export type Run = { episode_id: string; prompt?: string; runner_name?: string; model?: string; video_url?: string; result?: string; created_at?: string; robot_id?: string; configuration?: Record<string, unknown> };
+export type Run = { episode_id: string; prompt?: string; runner_name?: string; model?: string; video_url?: string; capture_source?: string; capture_partial?: boolean; result?: string; created_at?: string; robot_id?: string; configuration?: Record<string, unknown> };
 const ACTIVE = new Set(['queued', 'preparing', 'running', 'resetting']);
 
 export function useRunner(station: string) {

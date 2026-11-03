@@ -6,7 +6,7 @@ export function LaunchProgress({ state, startedAt, uncertain, stopping, submitti
   const admitted = source.find(event => event.type === 'lifecycle' && event.state === 'preparing' && event.reason === 'jetson_leased');
   const queued = source.find(event => event.type === 'queue_entry' || event.type === 'lifecycle' && event.state === 'queued');
   const home = events.find(event => event.details?.stage === 'home_feedback_confirmed' && event.details?.state === 'completed');
-  const latest = events.filter(event => ['model_request','model_response','packet_ready','error','policy_timing','lifecycle','trajectory','camera_capture','camera_captured','camera_retry','camera_recovered','camera_failure','observation'].includes(event.kind)).slice(-1)[0];
+  const latest = events.filter(event => ['model_request','model_response','packet_ready','error','policy_timing','lifecycle','trajectory','camera_capture','camera_captured','camera_retry','camera_recovered','camera_failure','observation','replay_capture','replay_encoding','replay_ready','replay_failed'].includes(event.kind)).slice(-1)[0];
   const stage = stopping ? 'Stopping and releasing the lease' : submitting ? 'Submitting to the normal queue' : uncertain ? 'Submission unresolved' : state?.status === 'queued' ? 'Waiting for queue admission' : state?.status === 'preparing' ? 'Preparing the robot' : state?.status === 'running' ? home ? 'Executing RoboHarness' : 'Checking measured Home readiness' : state?.status ? `Run ${state.status.replaceAll('_',' ')}` : 'Waiting for runtime status';
   if (!startedAt && !state?.episode_id && !uncertain) return null;
   return <div className="launch-progress" aria-label="Launch progress" role="status"><strong>{stage}</strong>

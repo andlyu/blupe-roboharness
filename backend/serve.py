@@ -11,6 +11,7 @@ def main():
     parser.add_argument('--origin',required=True)
     parser.add_argument('--recording-root',type=Path,help='Local development policy-frame storage only; public runs use the normal BluPe recording archive')
     parser.add_argument('--preflight',type=Path,required=True)
+    parser.add_argument('--public-replay-root',type=Path,help='Public camera MP4 cache, separate from private policy/model recordings')
     parser.add_argument('--port',type=int,default=8823)
     parser.add_argument('--model',default='gpt-6-astra')
     transport=parser.add_mutually_exclusive_group(required=True)
@@ -42,7 +43,7 @@ def main():
     app=fleet(RoboHarnessPlayground,dict(public_origin=args.origin,session_api=api,camera_origin=api,
         hardware_control=True,development=args.origin.startswith('http://127.0.0.1:'),share_conversation=True,
         recording_root=args.recording_root,attach_model=attach,model_status=status,
-        calibration_config=calibration,preflight_receipt=args.preflight,underlying_model=args.model),robots)
+        calibration_config=calibration,preflight_receipt=args.preflight,underlying_model=args.model,public_replay_root=args.public_replay_root),robots)
     uvicorn.run(app,host='127.0.0.1',port=args.port,access_log=False)
 
 

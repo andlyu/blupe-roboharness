@@ -22,8 +22,10 @@ with tempfile.TemporaryDirectory() as directory:
             session_api='https://yam-session-api.n5hthc3gj4cqy.us-east-1.cs.amazonlightsail.com',
             camera_origin='https://yam-session-api.n5hthc3gj4cqy.us-east-1.cs.amazonlightsail.com',
             hardware_control=True,api_factory=MockSessionAPI,attach_model=lambda p:p,
-            model_status=lambda:{'ready':False},calibration_config={},preflight_receipt=storage/'not-executed.json')
+            model_status=lambda:{'ready':False},calibration_config={},preflight_receipt=storage/'not-executed.json',public_replay_root=storage/'public-clips')
         assert app.retain_recordings is False
+        assert app.public_replays is not None
+        assert not (storage/'public-clips').exists()
         assert app.hardware_control is True
         assert set(app.extra_providers)=={'roboharness'}
         wire.assert_not_called()

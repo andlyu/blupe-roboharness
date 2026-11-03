@@ -128,3 +128,24 @@ test('edge-compatible manual redirect mode rejects redirect responses', async ()
   assert.equal((await route.GET(new Request('https://example.com/api/station?id=yam-1'))).status, 502);
   assert.equal(calls, 2);
 });
+
+
+test('immutable replay media forwards station and byte range without widening routes', async () => {
+  const calls=[];
+  const { proxyRunner }=load('lib/runner-proxy.ts',async (url,options)=>{calls.push({url,options});return new Response(new Uint8Array([1,2,3]),{status:206,headers:{'Content-Type':'video/mp4','Content-Range':'bytes 0-2/20','Accept-Ranges':'bytes',ETag:'"synthetic-digest"'}});});
+  const digest='a'.repeat(64),parts=['integration-replays','ep_offline',digest+'.mp4'];
+  const response=await proxyRunner(new Request('https://example.com/api/runner/'+parts.join('/')+'?robot_id=robot-ba8413962083809c',{headers:{Range:'bytes=0-2'}}),parts);
+  assert.equal(response.status,206);assert.equal(response.headers.get('content-type'),'video/mp4');assert.equal(response.headers.get('content-range'),'bytes 0-2/20');
+  assert.equal((await response.arrayBuffer()).byteLength,3);assert.equal(calls[0].options.headers.get('Range'),'bytes=0-2');assert.equal(calls[0].options.headers.get('X-Blupe-Robot'),'robot-ba8413962083809c');
+  const before=calls.length;
+  assert.equal((await proxyRunner(new Request('https://example.com/api/runner/x'),['integration-replays','../other','bad.mp4'])).status,404);
+  assert.equal((await proxyRunner(new Request('https://example.com/api/runner/'+parts.join('/')+'?robot_id=other'),parts)).status,400);assert.equal(calls.length,before);
+});
+
+test('replay sources accept only matched integration clips or the normal public archive',()=>{
+  const {replaySource}=load('lib/replay.ts',()=>{throw new Error('Unexpected network');});
+  assert.equal(replaySource('/api/integration-replays/ep_offline/'+'a'.repeat(64)+'.mp4','yam-1'),'/api/runner/integration-replays/ep_offline/'+'a'.repeat(64)+'.mp4?robot_id=yam-1');
+  assert.equal(replaySource('https://unrelated.invalid/private.mp4','yam-1'),null);
+  assert.equal(replaySource('/api/integration-replays/../private.mp4','yam-1'),null);
+  const archive='https://huggingface.co/datasets/andlyu/Public-YAM-runs/resolve/main/videos/ep_offline.mp4';assert.equal(replaySource(archive,'yam-1'),archive);
+});

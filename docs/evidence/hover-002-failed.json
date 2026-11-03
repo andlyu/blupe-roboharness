@@ -1,0 +1,1114 @@
+{
+  "episode_id": "ep_086edc7217e040a3",
+  "runner": "Andrew",
+  "model": "RoboHarness",
+  "execution_mode": "automated_verification",
+  "robot_id": "robot-ba8413962083809c",
+  "shared_revision": "4e36fbb5c3cb287f743866601659a48e985fd156",
+  "website_revision": "bed3d739f7985d01ad0bbc04d14cb8f8c3cbafbf",
+  "t_run": 1793734969.79,
+  "t_queue": 1793734970.8404381,
+  "t_admit": 1793734980.716596,
+  "t_home": 1793734980.7938094,
+  "home_feedback_confirmed": 1793734981.459105,
+  "queue_seconds": 9.876157760620117,
+  "t_motion": null,
+  "timing_status": "Physical packet ran; first visual onset/timing targets not yet certified. No exception claimed.",
+  "outcome": "One67-waypoint non-contact hover completed and settled. Retreat rejected locally because homed cleared after departure. No next packet dispatched; normal stop/parking followed.",
+  "task_success": false,
+  "feedback": {
+    "source_events": [
+      {
+        "type": "snapshot",
+        "timestamp": 1793734970.8968577
+      },
+      {
+        "type": "queue_entry",
+        "timestamp": 1793734970.8404381,
+        "state": "queued",
+        "position": 1,
+        "source": "queue_snapshot"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793734980.716596,
+        "state": "preparing",
+        "previous_state": "queued",
+        "reason": "jetson_leased"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793734980.7168736,
+        "state": "preparing"
+      },
+      {
+        "type": "lifecycle",
+        "timestamp": 1793734980.8552566,
+        "state": "running",
+        "previous_state": "preparing",
+        "reason": "first_observation"
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793734980.8573847,
+        "step_id": 0
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734981.0630279
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734982.1184855
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734983.1741004
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734984.2187207
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734985.2600238
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734986.3043492
+      },
+      {
+        "type": "event_stream_disconnect",
+        "timestamp": 1793734994.7521915,
+        "cause_type": "WebSocketConnectionClosedException",
+        "errno": null,
+        "previous_event_type": "heartbeat"
+      },
+      {
+        "type": "snapshot",
+        "timestamp": 1793734994.8947954
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793734994.8948298,
+        "step_id": 0,
+        "replayed": true
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793734994.894843,
+        "replayed": true
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734994.9437358,
+        "step_id": 0
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.041719,
+        "step_id": 1
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.173221,
+        "step_id": 2
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.226498,
+        "step_id": 3
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.3251476,
+        "step_id": 4
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.4241424,
+        "step_id": 5
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.5317535,
+        "step_id": 6
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.6311693,
+        "step_id": 7
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.7209148,
+        "step_id": 8
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734995.7210488
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.827959,
+        "step_id": 9
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734995.935696,
+        "step_id": 10
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.0809374,
+        "step_id": 11
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.1167898,
+        "step_id": 12
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.2417028,
+        "step_id": 13
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.3404362,
+        "step_id": 14
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.4399405,
+        "step_id": 15
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.538661,
+        "step_id": 16
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.6374474,
+        "step_id": 17
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.7818692,
+        "step_id": 18
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734996.782038
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.88062,
+        "step_id": 19
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734996.979365,
+        "step_id": 20
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.0781698,
+        "step_id": 21
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.18207,
+        "step_id": 22
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.307794,
+        "step_id": 23
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.3610055,
+        "step_id": 24
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.468615,
+        "step_id": 25
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.5643144,
+        "step_id": 26
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.6720095,
+        "step_id": 27
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.761214,
+        "step_id": 28
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734997.841988
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.8868577,
+        "step_id": 29
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734997.9864156,
+        "step_id": 30
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.0895507,
+        "step_id": 31
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.1884084,
+        "step_id": 32
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.2960625,
+        "step_id": 33
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.4044278,
+        "step_id": 34
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.5031354,
+        "step_id": 35
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.6104364,
+        "step_id": 36
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.718187,
+        "step_id": 37
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.8092768,
+        "step_id": 38
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734998.881029
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734998.9349034,
+        "step_id": 39
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.0330195,
+        "step_id": 40
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.1316752,
+        "step_id": 41
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.2311792,
+        "step_id": 42
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.3390574,
+        "step_id": 43
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.4018352,
+        "step_id": 44
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.5453947,
+        "step_id": 45
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.6539192,
+        "step_id": 46
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.7527297,
+        "step_id": 47
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.855135,
+        "step_id": 48
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793734999.9269168,
+        "step_id": 49
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793734999.9270566
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.0271938,
+        "step_id": 50
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.1349466,
+        "step_id": 51
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.233075,
+        "step_id": 52
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.3318233,
+        "step_id": 53
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.4447422,
+        "step_id": 54
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.5524766,
+        "step_id": 55
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.651153,
+        "step_id": 56
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.7498665,
+        "step_id": 57
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.8538003,
+        "step_id": 58
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735000.9787333,
+        "step_id": 59
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793735000.9788675
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.0866003,
+        "step_id": 60
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.1823063,
+        "step_id": 61
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.2809796,
+        "step_id": 62
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.388198,
+        "step_id": 63
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.504851,
+        "step_id": 64
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.549662,
+        "step_id": 65
+      },
+      {
+        "type": "trajectory_progress",
+        "timestamp": 1793735001.6535718,
+        "step_id": 66
+      },
+      {
+        "type": "heartbeat",
+        "timestamp": 1793735002.0360765
+      },
+      {
+        "type": "observation",
+        "timestamp": 1793735002.130342,
+        "step_id": 67
+      },
+      {
+        "type": "trajectory_result",
+        "timestamp": 1793735002.1305563
+      }
+    ],
+    "feedback_checks": [
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793734980.903717,
+        "received_at": null,
+        "elapsed_ms": 0.18410710617899895,
+        "completion": {
+          "observed_at": 1793734980.7938094,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793734979.4149706,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": null,
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793734981.459105,
+        "received_at": 1793734981.4590225,
+        "elapsed_ms": 555.5613241158426,
+        "completion": {
+          "observed_at": 1793734980.7938094,
+          "step_id": 0,
+          "homed": true,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793734980.9723153,
+          "step_id": null,
+          "homed": true,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 0,
+        "decision": "wait",
+        "reason": "station_precedes_completion_or_is_stale",
+        "checked_at": 1793735002.1367786,
+        "received_at": null,
+        "elapsed_ms": 0.03896700218319893,
+        "completion": {
+          "observed_at": 1793735002.0726001,
+          "step_id": 67,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793735001.410302,
+          "step_id": null,
+          "homed": false,
+          "settled": false,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 1,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793735002.6884327,
+        "received_at": 1793735002.6883326,
+        "elapsed_ms": 551.6899391077459,
+        "completion": {
+          "observed_at": 1793735002.0726001,
+          "step_id": 67,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793735002.459288,
+          "step_id": null,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      },
+      {
+        "attempt": 0,
+        "decision": "ready",
+        "reason": "consistent_settled_feedback",
+        "checked_at": 1793735002.6923525,
+        "received_at": null,
+        "elapsed_ms": 0.03228476271033287,
+        "completion": {
+          "observed_at": 1793735002.0726001,
+          "step_id": 67,
+          "homed": false,
+          "settled": true,
+          "source": null,
+          "mode": null,
+          "safety": null
+        },
+        "station": {
+          "observed_at": 1793735002.459288,
+          "step_id": null,
+          "homed": false,
+          "settled": true,
+          "source": "hardware",
+          "mode": "API_ACTIVE",
+          "safety": {
+            "ok": true,
+            "estop_engaged": false
+          }
+        }
+      }
+    ],
+    "step_timings": [
+      {
+        "step": 1,
+        "planning_s": 13.223795189056545,
+        "model_s": 9.229143344331533,
+        "execution_robot_s": 7.21880578994751,
+        "path_m": 0.24476300320824027,
+        "arm_motion_s": 7.771794687956572,
+        "movement_feedback_s": 7.969581868033856,
+        "total_s": 21.1933770570904,
+        "gap_s": null,
+        "outcome": "completed",
+        "left_displacement_m": null,
+        "right_displacement_m": null
+      }
+    ],
+    "run_metrics": {
+      "model_s": 9.229143344331533,
+      "execution_s": 7.21880578994751,
+      "left_path_m": 0.24476300320824027,
+      "right_path_m": 0,
+      "model_calls": 1,
+      "execution_packets": 1,
+      "accepted_packets": 1,
+      "distance_waypoints": 67,
+      "confirmed_waypoints": 67
+    }
+  },
+  "video": {
+    "url": "https://roboharness-blupe.andlyu.chatgpt.site/evidence/hover-002-ui.mp4",
+    "sha256": "2b715a66a6304b2b8c2dd0d4ba9ebc3f4d49382e6e7804dec0b3cacafe8ee762",
+    "first_capture_ms": 1793734970081,
+    "last_capture_ms": 1793735015219,
+    "scope": "Continuous post-click screen captures; starts0.291seconds after Run. Click itself not visually captured. Diagnostic pre-click still excluded. UI camera polling adds display latency; do not equate packet acceptance with visual onset."
+  },
+  "frames": [
+    {
+      "file": "00001.png",
+      "local_before_ms": 1793734970020,
+      "local_after_ms": 1793734970081
+    },
+    {
+      "file": "00002.png",
+      "local_before_ms": 1793734970521,
+      "local_after_ms": 1793734970585
+    },
+    {
+      "file": "00003.png",
+      "local_before_ms": 1793734971022,
+      "local_after_ms": 1793734971062
+    },
+    {
+      "file": "00004.png",
+      "local_before_ms": 1793734971523,
+      "local_after_ms": 1793734971548
+    },
+    {
+      "file": "00005.png",
+      "local_before_ms": 1793734972024,
+      "local_after_ms": 1793734972097
+    },
+    {
+      "file": "00006.png",
+      "local_before_ms": 1793734972525,
+      "local_after_ms": 1793734972622
+    },
+    {
+      "file": "00007.png",
+      "local_before_ms": 1793734973026,
+      "local_after_ms": 1793734973143
+    },
+    {
+      "file": "00008.png",
+      "local_before_ms": 1793734973528,
+      "local_after_ms": 1793734973556
+    },
+    {
+      "file": "00009.png",
+      "local_before_ms": 1793734974029,
+      "local_after_ms": 1793734974079
+    },
+    {
+      "file": "00010.png",
+      "local_before_ms": 1793734974531,
+      "local_after_ms": 1793734974591
+    },
+    {
+      "file": "00011.png",
+      "local_before_ms": 1793734975033,
+      "local_after_ms": 1793734975111
+    },
+    {
+      "file": "00012.png",
+      "local_before_ms": 1793734975534,
+      "local_after_ms": 1793734975628
+    },
+    {
+      "file": "00013.png",
+      "local_before_ms": 1793734976034,
+      "local_after_ms": 1793734976146
+    },
+    {
+      "file": "00014.png",
+      "local_before_ms": 1793734976538,
+      "local_after_ms": 1793734976660
+    },
+    {
+      "file": "00015.png",
+      "local_before_ms": 1793734977039,
+      "local_after_ms": 1793734977177
+    },
+    {
+      "file": "00016.png",
+      "local_before_ms": 1793734977540,
+      "local_after_ms": 1793734977589
+    },
+    {
+      "file": "00017.png",
+      "local_before_ms": 1793734978041,
+      "local_after_ms": 1793734978101
+    },
+    {
+      "file": "00018.png",
+      "local_before_ms": 1793734978541,
+      "local_after_ms": 1793734978611
+    },
+    {
+      "file": "00019.png",
+      "local_before_ms": 1793734979041,
+      "local_after_ms": 1793734979127
+    },
+    {
+      "file": "00020.png",
+      "local_before_ms": 1793734979542,
+      "local_after_ms": 1793734979643
+    },
+    {
+      "file": "00021.png",
+      "local_before_ms": 1793734980042,
+      "local_after_ms": 1793734980155
+    },
+    {
+      "file": "00022.png",
+      "local_before_ms": 1793734980543,
+      "local_after_ms": 1793734980739
+    },
+    {
+      "file": "00023.png",
+      "local_before_ms": 1793734981044,
+      "local_after_ms": 1793734981105
+    },
+    {
+      "file": "00024.png",
+      "local_before_ms": 1793734981545,
+      "local_after_ms": 1793734981621
+    },
+    {
+      "file": "00025.png",
+      "local_before_ms": 1793734982046,
+      "local_after_ms": 1793734982086
+    },
+    {
+      "file": "00026.png",
+      "local_before_ms": 1793734982546,
+      "local_after_ms": 1793734982568
+    },
+    {
+      "file": "00027.png",
+      "local_before_ms": 1793734983047,
+      "local_after_ms": 1793734983070
+    },
+    {
+      "file": "00028.png",
+      "local_before_ms": 1793734983548,
+      "local_after_ms": 1793734983596
+    },
+    {
+      "file": "00029.png",
+      "local_before_ms": 1793734984049,
+      "local_after_ms": 1793734984088
+    },
+    {
+      "file": "00030.png",
+      "local_before_ms": 1793734984551,
+      "local_after_ms": 1793734984595
+    },
+    {
+      "file": "00031.png",
+      "local_before_ms": 1793734985052,
+      "local_after_ms": 1793734985100
+    },
+    {
+      "file": "00032.png",
+      "local_before_ms": 1793734985554,
+      "local_after_ms": 1793734985605
+    },
+    {
+      "file": "00033.png",
+      "local_before_ms": 1793734986055,
+      "local_after_ms": 1793734986110
+    },
+    {
+      "file": "00034.png",
+      "local_before_ms": 1793734986556,
+      "local_after_ms": 1793734986619
+    },
+    {
+      "file": "00035.png",
+      "local_before_ms": 1793734987057,
+      "local_after_ms": 1793734987094
+    },
+    {
+      "file": "00036.png",
+      "local_before_ms": 1793734987557,
+      "local_after_ms": 1793734987584
+    },
+    {
+      "file": "00037.png",
+      "local_before_ms": 1793734988058,
+      "local_after_ms": 1793734988129
+    },
+    {
+      "file": "00038.png",
+      "local_before_ms": 1793734988560,
+      "local_after_ms": 1793734988642
+    },
+    {
+      "file": "00039.png",
+      "local_before_ms": 1793734989062,
+      "local_after_ms": 1793734989150
+    },
+    {
+      "file": "00040.png",
+      "local_before_ms": 1793734989563,
+      "local_after_ms": 1793734989654
+    },
+    {
+      "file": "00041.png",
+      "local_before_ms": 1793734990064,
+      "local_after_ms": 1793734990114
+    },
+    {
+      "file": "00042.png",
+      "local_before_ms": 1793734990566,
+      "local_after_ms": 1793734990612
+    },
+    {
+      "file": "00043.png",
+      "local_before_ms": 1793734991067,
+      "local_after_ms": 1793734991136
+    },
+    {
+      "file": "00044.png",
+      "local_before_ms": 1793734991568,
+      "local_after_ms": 1793734991658
+    },
+    {
+      "file": "00045.png",
+      "local_before_ms": 1793734992070,
+      "local_after_ms": 1793734992175
+    },
+    {
+      "file": "00046.png",
+      "local_before_ms": 1793734992572,
+      "local_after_ms": 1793734992695
+    },
+    {
+      "file": "00047.png",
+      "local_before_ms": 1793734993073,
+      "local_after_ms": 1793734993115
+    },
+    {
+      "file": "00048.png",
+      "local_before_ms": 1793734993574,
+      "local_after_ms": 1793734993645
+    },
+    {
+      "file": "00049.png",
+      "local_before_ms": 1793734994075,
+      "local_after_ms": 1793734994098
+    },
+    {
+      "file": "00050.png",
+      "local_before_ms": 1793734994576,
+      "local_after_ms": 1793734994676
+    },
+    {
+      "file": "00051.png",
+      "local_before_ms": 1793734995077,
+      "local_after_ms": 1793734995124
+    },
+    {
+      "file": "00052.png",
+      "local_before_ms": 1793734995577,
+      "local_after_ms": 1793734995605
+    },
+    {
+      "file": "00053.png",
+      "local_before_ms": 1793734996078,
+      "local_after_ms": 1793734996139
+    },
+    {
+      "file": "00054.png",
+      "local_before_ms": 1793734996579,
+      "local_after_ms": 1793734996655
+    },
+    {
+      "file": "00055.png",
+      "local_before_ms": 1793734997081,
+      "local_after_ms": 1793734997172
+    },
+    {
+      "file": "00056.png",
+      "local_before_ms": 1793734997582,
+      "local_after_ms": 1793734997646
+    },
+    {
+      "file": "00057.png",
+      "local_before_ms": 1793734998082,
+      "local_after_ms": 1793734998206
+    },
+    {
+      "file": "00058.png",
+      "local_before_ms": 1793734998583,
+      "local_after_ms": 1793734998619
+    },
+    {
+      "file": "00059.png",
+      "local_before_ms": 1793734999084,
+      "local_after_ms": 1793734999132
+    },
+    {
+      "file": "00060.png",
+      "local_before_ms": 1793734999585,
+      "local_after_ms": 1793734999655
+    },
+    {
+      "file": "00061.png",
+      "local_before_ms": 1793735000087,
+      "local_after_ms": 1793735000179
+    },
+    {
+      "file": "00062.png",
+      "local_before_ms": 1793735000590,
+      "local_after_ms": 1793735000702
+    },
+    {
+      "file": "00063.png",
+      "local_before_ms": 1793735001091,
+      "local_after_ms": 1793735001221
+    },
+    {
+      "file": "00064.png",
+      "local_before_ms": 1793735001592,
+      "local_after_ms": 1793735001633
+    },
+    {
+      "file": "00065.png",
+      "local_before_ms": 1793735002093,
+      "local_after_ms": 1793735002152
+    },
+    {
+      "file": "00066.png",
+      "local_before_ms": 1793735002594,
+      "local_after_ms": 1793735002672
+    },
+    {
+      "file": "00067.png",
+      "local_before_ms": 1793735003095,
+      "local_after_ms": 1793735003188
+    },
+    {
+      "file": "00068.png",
+      "local_before_ms": 1793735003596,
+      "local_after_ms": 1793735003706
+    },
+    {
+      "file": "00069.png",
+      "local_before_ms": 1793735004097,
+      "local_after_ms": 1793735004218
+    },
+    {
+      "file": "00070.png",
+      "local_before_ms": 1793735004598,
+      "local_after_ms": 1793735004632
+    },
+    {
+      "file": "00071.png",
+      "local_before_ms": 1793735005099,
+      "local_after_ms": 1793735005157
+    },
+    {
+      "file": "00072.png",
+      "local_before_ms": 1793735005601,
+      "local_after_ms": 1793735005631
+    },
+    {
+      "file": "00073.png",
+      "local_before_ms": 1793735006101,
+      "local_after_ms": 1793735006136
+    },
+    {
+      "file": "00074.png",
+      "local_before_ms": 1793735006602,
+      "local_after_ms": 1793735006646
+    },
+    {
+      "file": "00075.png",
+      "local_before_ms": 1793735007104,
+      "local_after_ms": 1793735007154
+    },
+    {
+      "file": "00076.png",
+      "local_before_ms": 1793735007605,
+      "local_after_ms": 1793735007667
+    },
+    {
+      "file": "00077.png",
+      "local_before_ms": 1793735008106,
+      "local_after_ms": 1793735008155
+    },
+    {
+      "file": "00078.png",
+      "local_before_ms": 1793735008607,
+      "local_after_ms": 1793735008676
+    },
+    {
+      "file": "00079.png",
+      "local_before_ms": 1793735009108,
+      "local_after_ms": 1793735009187
+    },
+    {
+      "file": "00080.png",
+      "local_before_ms": 1793735009609,
+      "local_after_ms": 1793735009690
+    },
+    {
+      "file": "00081.png",
+      "local_before_ms": 1793735010111,
+      "local_after_ms": 1793735010199
+    },
+    {
+      "file": "00082.png",
+      "local_before_ms": 1793735010612,
+      "local_after_ms": 1793735010705
+    },
+    {
+      "file": "00083.png",
+      "local_before_ms": 1793735011112,
+      "local_after_ms": 1793735011168
+    },
+    {
+      "file": "00084.png",
+      "local_before_ms": 1793735011613,
+      "local_after_ms": 1793735011691
+    },
+    {
+      "file": "00085.png",
+      "local_before_ms": 1793735012115,
+      "local_after_ms": 1793735012214
+    },
+    {
+      "file": "00086.png",
+      "local_before_ms": 1793735012616,
+      "local_after_ms": 1793735012732
+    },
+    {
+      "file": "00087.png",
+      "local_before_ms": 1793735013117,
+      "local_after_ms": 1793735013240
+    },
+    {
+      "file": "00088.png",
+      "local_before_ms": 1793735013618,
+      "local_after_ms": 1793735013667
+    },
+    {
+      "file": "00089.png",
+      "local_before_ms": 1793735014118,
+      "local_after_ms": 1793735014157
+    },
+    {
+      "file": "00090.png",
+      "local_before_ms": 1793735014619,
+      "local_after_ms": 1793735014662
+    },
+    {
+      "file": "00091.png",
+      "local_before_ms": 1793735015128,
+      "local_after_ms": 1793735015219
+    }
+  ]
+}
