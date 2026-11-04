@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-04T02:17:10.741037+00:00",
+  "finished_at": "2026-11-04T02:18:18.507949+00:00",
+  "duration_s": 67.7662983329792,
+  "command": "bash /home/ubuntu/blupe-roboharness/roboharness-deploy-batch-inspection-01a1a0ba.sh 7ba2427ba960ad30af99c8fedd05c5196685295a < /dev/null",
+  "source_revision": "7ba2427ba960ad30af99c8fedd05c5196685295a",
+  "returncode": 0,
+  "scope": "Own runtime deployment/gates; no physical or actual model requests"
+}

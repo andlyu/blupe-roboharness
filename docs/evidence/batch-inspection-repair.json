@@ -1,0 +1,80 @@
+{
+  "status": "software_and_host_passed_physical_pending",
+  "source_revision": "06ff798e0ec855e8e9304312d732293b857471c3",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/281",
+  "diagnosis": "Attempt009 sequential point selection and tracking reacquisition consumed208.716863s of model time in300s policy budget. No grasp occurred.",
+  "change": "Read-only track_object can atomically register up to3 distinct points from one selected camera image, using unchanged numeric schema; fresh depth, current camera transforms, optical-flow and missing-point guards retained. No inspection actuator packet.",
+  "regression_red": {
+    "source_revision": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+    "tests": 4,
+    "duration_s": 0.111,
+    "failures": 2,
+    "subtest_errors": 6
+  },
+  "regression_green": {
+    "tests": 4,
+    "duration_s": 0.098
+  },
+  "clean_local_gate": {
+    "tests": 70,
+    "duration_s": 37.22930283300229,
+    "failures": 0,
+    "errors": 0,
+    "receipt": "batch-inspection-local-preflight.json"
+  },
+  "local_actual_broker_compatibility": {
+    "duration_s": 0.5158691670221742,
+    "batch_inspection_points": 3,
+    "network_connections": 0,
+    "actual_model_calls": 0,
+    "robot_sessions": 0,
+    "actuator_submissions": 0,
+    "receipt": "batch-inspection-local-broker.json"
+  },
+  "remaining": [
+    "Representative physical manipulation and ordinary timing on new source",
+    "Final deployed UI and complete checklist review"
+  ],
+  "merged_revision": "7ba2427ba960ad30af99c8fedd05c5196685295a",
+  "required_ci": [
+    {
+      "run_id": 41759028391,
+      "status": "success",
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41759028391"
+    },
+    {
+      "run_id": 41759028394,
+      "status": "success",
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41759028394"
+    },
+    {
+      "run_id": 41759077495,
+      "status": "success",
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41759077495"
+    },
+    {
+      "run_id": 41759077428,
+      "status": "success",
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41759077428"
+    }
+  ],
+  "host_gate": {
+    "tests": 70,
+    "test_duration_s": 50.187,
+    "receipt_duration_s": 52.665696430020034,
+    "receipt": "batch-inspection-host-preflight.json"
+  },
+  "host_actual_broker": {
+    "duration_s": 3.035416137892753,
+    "batch_inspection_points": 3,
+    "receipt": "batch-inspection-host-broker-preflight.json",
+    "actual_model_calls": 0,
+    "actuator_submissions": 0
+  },
+  "deployment": {
+    "duration_s": 67.7662983329792,
+    "readiness_source": "7ba2427ba960ad30af99c8fedd05c5196685295a",
+    "other_service_processes_unchanged": true,
+    "physical_or_actual_model_requests": 0
+  }
+}

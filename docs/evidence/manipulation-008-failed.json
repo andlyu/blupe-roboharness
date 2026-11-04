@@ -1,0 +1,76 @@
+{
+  "status": "failed_before_grasp_safe_give_up",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "runtime_source": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+  "website_source": "e9f8c7ece0cc025c52846dd300399fa14a1ddeae",
+  "grounding_camera": "left",
+  "episode_id": "ep_89be80eacee041c3",
+  "session_id": "sess_b284d8ebf92a4fd3",
+  "run_metrics": {
+    "model_s": 168.36936973640695,
+    "execution_s": 10.429680585861206,
+    "left_path_m": 0.10522329756384285,
+    "right_path_m": 0,
+    "model_calls": 17,
+    "execution_packets": 4,
+    "accepted_packets": 4,
+    "distance_waypoints": 87,
+    "confirmed_waypoints": 87
+  },
+  "outcome": "Four completed packets approached/oriented the open gripper; adjacent pen clearance remained unresolved. No grasp, lift, transfer, placement or task success. Red cube visibly remained on plate.",
+  "timing": {
+    "t_run": 1793756888.317,
+    "click_bracket_ms": [
+      1793756888271,
+      1793756888546
+    ],
+    "t_queue": 1793756889.079402,
+    "t_admit": 1793756899.1210303,
+    "t_home": 1793756899.173225,
+    "t_motion": 1793756913.621977,
+    "last_unchanged_frame": {
+      "index": 28,
+      "source_captured_at": 1793756913.1222293
+    },
+    "first_definite_motion_frame": 29,
+    "post_home_to_motion_s": 14.448752164840698,
+    "full_run_to_motion_s": 25.30497717857361,
+    "excluded_queue_s": 10.041628360748291,
+    "queue_adjusted_run_to_motion_s": 15.263348817825317,
+    "post_home_pass": true,
+    "run_pass": true,
+    "exceptions": []
+  },
+  "replay": {
+    "episode_id": "ep_89be80eacee041c3",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_89be80eacee041c3/b7301bd60779a1ff9131d38b97765cc7f043413f31a239e0153ad57e86b836f8.mp4",
+      "video_sha256": "b7301bd60779a1ff9131d38b97765cc7f043413f31a239e0153ad57e86b836f8",
+      "video_duration_s": 249.5,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "frame_slots": 499,
+    "gap_slots": 40,
+    "ui_playback_observed_s": 59.5501,
+    "ui_forward_seek_s": 5,
+    "ui_backward_seek_observed_s": 54.56,
+    "limitation": "Partial camera recording, gaps explicit. Replay verified for failed approach only; no manipulation success."
+  },
+  "private_retention": {
+    "structured_decision_count": 17,
+    "archive_sha256": "5222361929cd94240a43a2d7ae15fbb8921239c22764b2bfd4af7b87627f14cd",
+    "archive_public": false
+  },
+  "remaining": [
+    "Representative grasp/lift/transfer/place/release/withdrawal and independently visible outcome",
+    "Final deployed UI successful physical run",
+    "All checklist items on final source"
+  ]
+}

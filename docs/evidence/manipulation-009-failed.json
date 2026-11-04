@@ -1,0 +1,82 @@
+{
+  "status": "failed_policy_runtime_timeout_before_grasp",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "runtime_source": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+  "website_source": "e9f8c7ece0cc025c52846dd300399fa14a1ddeae",
+  "grounding_camera": "left",
+  "episode_id": "ep_923ef580dc754f9c",
+  "session_id": "sess_99f8088cb5624330",
+  "run_metrics": {
+    "model_s": 208.71686273347586,
+    "execution_s": 13.53600001335144,
+    "left_path_m": 0.19672747818578895,
+    "right_path_m": 0,
+    "model_calls": 18,
+    "execution_packets": 4,
+    "accepted_packets": 4,
+    "distance_waypoints": 116,
+    "confirmed_waypoints": 116
+  },
+  "outcome": "Four known completed packets approached/oriented the open gripper; sequential object/support sampling and tracking reacquisition consumed the300-second policy budget. Blue cube remained visibly on plate. No grasp, lift, transfer or placement. No movement timeout or automatic movement retry.",
+  "diagnosis": {
+    "model_calls_including_initialization": 18,
+    "model_s": 208.71686273347586,
+    "single_point_sampling_round_trips": true,
+    "semantic_rejection_corrected_with_fresh_feedback": true,
+    "repair": "Bounded same-view batch inspection pending70-case release/CI/host and physical verification."
+  },
+  "timing": {
+    "t_run": 1793757417.408,
+    "click_bracket_ms": [
+      1793757417362,
+      1793757417628
+    ],
+    "t_queue": 1793757417.9589345,
+    "t_admit": 1793757428.2161465,
+    "t_home": 1793757428.2769737,
+    "t_motion": 1793757445.9539766,
+    "last_unchanged_frame": {
+      "index": 34,
+      "source_captured_at": 1793757445.306474
+    },
+    "first_definite_motion_frame": 35,
+    "post_home_to_motion_s": 17.677002906799316,
+    "full_run_to_motion_s": 28.545976638793945,
+    "excluded_queue_s": 10.257211923599243,
+    "queue_adjusted_run_to_motion_s": 18.288764715194702,
+    "post_home_pass": false,
+    "run_pass": true,
+    "exceptions": []
+  },
+  "replay": {
+    "episode_id": "ep_923ef580dc754f9c",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_923ef580dc754f9c/c5a34f081a103ea854532a9e310ad3fd25803d26e2891327c55def509a0c3ae1.mp4",
+      "video_sha256": "c5a34f081a103ea854532a9e310ad3fd25803d26e2891327c55def509a0c3ae1",
+      "video_duration_s": 300.0,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "frame_slots": 600,
+    "gap_slots": 54,
+    "ui_playback_observed_s": 259.9378,
+    "ui_forward_seek_s": 5,
+    "ui_backward_seek_observed_s": 254.9504,
+    "limitation": "Partial actual camera recording; gaps explicit. Failed approach only, no task-success claim."
+  },
+  "private_retention": {
+    "archive_sha256": "8aa7d1d64c56f1415bbaa16bd64491ae8a4f19b79b892963a81c8933ff8b2148",
+    "archive_public": false
+  },
+  "remaining": [
+    "Representative physical manipulation and independent object outcome",
+    "Ordinary startup timing on final release",
+    "Final deployed UI physical run and checklist review"
+  ]
+}
