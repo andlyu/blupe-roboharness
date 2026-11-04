@@ -1,0 +1,31 @@
+{
+  "scope": "Read-only selected-depth camera plus two RGB views; strict2s freshness, no pose projection or physical certificate",
+  "camera_source_sha256": "619a0cf32031c26163d87c4a7a91aa1f8aa127b2e6bfb705365df24562833d71",
+  "results": [
+    {
+      "camera": "left",
+      "status": "passed",
+      "duration_s": 2.1452663489617407,
+      "source_age_s": {
+        "top": 0.4304382801055908,
+        "left": 1.9186058044433594,
+        "right": 0.3010518550872803
+      },
+      "calibration_id": "1eb254f29a7f3b13c681b80b8e3fe7d89f056ff581e201c2263743c3791edde2"
+    },
+    {
+      "camera": "right",
+      "status": "passed",
+      "duration_s": 2.001209591049701,
+      "source_age_s": {
+        "top": 0.40368223190307617,
+        "left": 0.43923449516296387,
+        "right": 1.8687796592712402
+      },
+      "calibration_id": "1eb254f29a7f3b13c681b80b8e3fe7d89f056ff581e201c2263743c3791edde2"
+    }
+  ],
+  "robot_sessions": 0,
+  "model_calls": 0,
+  "actuator_submissions": 0
+}

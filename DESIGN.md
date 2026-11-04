@@ -306,3 +306,6 @@ The run library filters by station and RoboHarness. Each row offers retained rep
 - **Don’t** use color alone to communicate readiness, error, selection or availability.
 - **Don’t** publish private runner email in examples, public evidence or design-system snippets.
 - **Don’t** extend this integration’s design decisions into the parent meeting experiment’s PRODUCT.md or DESIGN.md.
+
+
+Depth camera setting: a labelled native select in the run panel chooses overhead, left wrist or right wrist metric grounding. The current runtime advertises supported choices; unsupported options and all choices during an active/uncertain run are disabled. The adjacent explanation distinguishes metric grounding from the visible camera tabs. Run details retain the actual selected camera. This setting does not itself join the queue or move a robot.

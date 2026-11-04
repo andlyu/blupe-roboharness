@@ -1,0 +1,37 @@
+{
+  "status": "software_and_host_passed_physical_pending",
+  "head_revision": "54024f7d2bfbab284972c66b6edb4b954f3dca28",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/279",
+  "local_gate": "wrist-depth-local-preflight.json",
+  "actual_local_protocol": "wrist-depth-local-broker-compatibility.json",
+  "read_only_host_camera_availability": "wrist-depth-readonly-availability.json",
+  "scope": "Run-selected overhead, left or right wrist paired RGB-D plus other two RGB context views; current measured native-grasp FK for wrist projection; all freshness/lease/validation/hardware/Stop limits preserved.",
+  "why": "Actual overhead-only attempts005/006 lost target visibility during approach; no grasp or object outcome occurred.",
+  "remaining": [
+    "Published/deployed UI camera selection",
+    "Representative physical manipulation/object outcome",
+    "Ordinary startup timing and final replay/outcome verification"
+  ],
+  "merged_revision": "930e898b74710144840ec43a53b3677382dadf80",
+  "ci": [
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41747549115",
+      "scope": "full shared runner exact head",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41747688630",
+      "scope": "full shared runner PR merge against current main",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41747688576",
+      "scope": "required63-case gate",
+      "result": "success"
+    }
+  ],
+  "host_gate": "wrist-depth-host-preflight.json",
+  "actual_host_protocol": "wrist-depth-host-broker-preflight.json",
+  "host_readiness": "wrist-depth-host-readiness-wrist.json",
+  "other_service_processes_unchanged": true
+}

@@ -1,0 +1,135 @@
+{
+  "status": "failed_before_grasp",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "source_revision": "e6040394c5ed62efbcc7d627acc0dfc8ccc100a6",
+  "website_revision": "34fad313823e2e89756d73f41bfc5acb79fe75a8",
+  "episode_id": "ep_b35e936c43e04860",
+  "session_id": "sess_a2d2594e54f74251",
+  "run_metrics": {
+    "model_s": 74.28642706759274,
+    "execution_s": 4.901353120803833,
+    "left_path_m": 0,
+    "right_path_m": 0.1927875255287482,
+    "model_calls": 8,
+    "execution_packets": 2,
+    "accepted_packets": 2,
+    "distance_waypoints": 39,
+    "confirmed_waypoints": 39
+  },
+  "step_timings": [
+    {
+      "step": 1,
+      "planning_s": 27.37377963308245,
+      "model_s": 20.778499942738563,
+      "execution_robot_s": 2.8629581928253174,
+      "path_m": 0.11967120918348018,
+      "arm_motion_s": 3.4533822620287538,
+      "movement_feedback_s": 3.7013999968767166,
+      "total_s": 31.075179629959166,
+      "gap_s": null,
+      "outcome": "completed",
+      "left_displacement_m": 0.0005921239059239058,
+      "right_displacement_m": 0.11901548285585668
+    },
+    {
+      "step": 2,
+      "planning_s": 12.444005102384835,
+      "model_s": 8.29857744788751,
+      "execution_robot_s": 2.0383949279785156,
+      "path_m": 0.07810233389597368,
+      "arm_motion_s": 2.691498175263405,
+      "movement_feedback_s": 2.828954157885164,
+      "total_s": 15.27295926027,
+      "gap_s": 0.00501214899122715,
+      "outcome": "completed",
+      "left_displacement_m": 0,
+      "right_displacement_m": 0.07816960460255117
+    }
+  ],
+  "failure_sequence": [
+    "First cup-sidewall selection had no measured depth; local validation dispatched zero packets.",
+    "A second sidewall selection resolved valid depth;24-waypoint approach completed.",
+    "A16-waypoint measured-pose retreat restored overhead visibility.",
+    "Fresh sidewall/table samples did not resolve safe pad overlap and full-finger clearance; model gave_up before closing."
+  ],
+  "failure_reason": "Safe engagement geometry remains unresolved: the apparent upper-sidewall sample measures below the lower sample, sidewall depth fluctuates several millimetres, and calibration uncertainty is unbounded. Pad overlap and full finger clearance cannot be established reliably.",
+  "non_actuating_initialization": {
+    "model_s": 7.127322843763977,
+    "started_at": 1793748711.3989348,
+    "ready_at": 1793748718.5281153,
+    "robot_images": 0,
+    "synthetic_card_images": 1,
+    "actuator_submissions": 0,
+    "included_in_model_metrics": true
+  },
+  "timing": {
+    "t_run": 1793748710.148,
+    "click_bracket_ms": {
+      "before_ms": 1793748710106,
+      "after_ms": 1793748710377
+    },
+    "t_queue": 1793748711.2342439,
+    "t_admit": 1793748720.3969603,
+    "excluded_queue_s": 9.162716388702393,
+    "t_home": 1793748720.4463847,
+    "t_motion": 1793748749.1788733,
+    "full_run_to_motion_s": 39.03087329864502,
+    "queue_adjusted_run_to_motion_s": 29.868156909942627,
+    "post_home_to_motion_s": 28.73248863220215,
+    "run_outcome": "pass",
+    "post_home_outcome": "missed_15s",
+    "exceptions": [],
+    "motion_evidence": {
+      "video_sha256": "36005b5471b08c2f9d347082f3a9536ced8eda3e8022da7f090da8ae0251f18f",
+      "frame_index_0based": 57,
+      "prior_frame_index": 56,
+      "prior_source_captured_at": 1793748748.6770697,
+      "first_source_captured_at": 1793748749.1788733,
+      "review": "Right gripper visibly moves inward in frame57; frame56 remains in Home pose. Packet progress timestamps scope the visual search but do not define onset."
+    }
+  },
+  "replay": {
+    "episode_id": "ep_b35e936c43e04860",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_b35e936c43e04860/36005b5471b08c2f9d347082f3a9536ced8eda3e8022da7f090da8ae0251f18f.mp4",
+      "video_sha256": "36005b5471b08c2f9d347082f3a9536ced8eda3e8022da7f090da8ae0251f18f",
+      "video_duration_s": 96.0,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "frames": 192,
+    "gap_slots": 12,
+    "ready_utc": "2026-11-03T23:33:38.547Z",
+    "capture_ended_utc": "2026-11-03T23:33:36.669Z",
+    "finalization_s": 1.878,
+    "ui_playback_verified": true,
+    "ui_observed_end_s": 96,
+    "ui_back_seek_s": 91,
+    "public_video_url": "https://roboharness.54.209.185.15.sslip.io/api/integration-replays/ep_b35e936c43e04860/36005b5471b08c2f9d347082f3a9536ced8eda3e8022da7f090da8ae0251f18f.mp4?robot_id=robot-ba8413962083809c",
+    "limitation": "Partial capture with12 explicit gap slots. Approach and retreat are actual method execution; no grasp, lift, transfer or placement outcome occurred."
+  },
+  "historical_replay": {
+    "selected_episode": "ep_c849eb57993c4147",
+    "selected_video_sha256": "e7f902cf7e1a67844635459f3245664b0ef0d56f9b2340c7bc92f6a677e9d526",
+    "ui_initial_s": 0,
+    "ui_forward_seek_s": 5,
+    "ui_observed_end_s": 22.3,
+    "verified_through_normal_runs_view": true
+  },
+  "calibration_followup": {
+    "researcher_confirmation": "The ones that are currently there are correct",
+    "received_after_this_run": true,
+    "scope": "Use currently registered Robo-house/YAM1 calibrations; preserve experimental report metadata. This is researcher confirmation, not a new independent physical measurement."
+  },
+  "remaining": [
+    "Representative manipulation/object outcome",
+    "15-second post-Home startup timing",
+    "Final successful deployed UI acceptance"
+  ]
+}

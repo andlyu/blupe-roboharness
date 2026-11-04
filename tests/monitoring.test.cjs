@@ -50,7 +50,7 @@ test('runner gateway preserves normal session cookies, CSRF, station and exact b
     calls.push({ url, options });
     return Response.json({ status: 'queued' }, { headers: { 'Set-Cookie': 'visitor=synthetic; Path=/; HttpOnly; Secure; SameSite=Strict' } });
   });
-  const body = JSON.stringify({ provider: 'roboharness', model: 'RoboHarness', runner_name: 'Synthetic runner', email: 'synthetic@example.invalid' });
+  const body = JSON.stringify({ provider: 'roboharness', model: 'RoboHarness', runner_name: 'Synthetic runner', email: 'synthetic@example.invalid', grounding_camera: 'left' });
   const r = await proxyRunner(new Request('https://example.com/api/runner/run', { method: 'POST', body, headers: {
     Origin: 'https://example.com', 'Content-Type': 'application/json', 'X-Blupe-Robot': 'yam-1', Cookie: 'visitor=synthetic', 'X-Yam-Runner-Token': 'synthetic-token',
   } }), ['run']);

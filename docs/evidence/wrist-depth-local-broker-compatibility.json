@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope": "actual Codex parser, hosting client serializer and broker validator; synthetic executor only",
+  "runner_name": "Andrew",
+  "execution_mode": "offline_broker_protocol_validation",
+  "duration_s": 0.5987060840125196,
+  "policy_source_sha256": "9b2b78f9ead34956a47d081539fa33983ec7b3453ca0076080b809e25962839e",
+  "broker_source_sha256": "02020f849f0f9f198e8094fda8355cfb280380cd6c23fabb600c49ffa2250b6c",
+  "client_source_sha256": "449a1d1bdfa446d1d32d3f7ac1ae23aa1127719c0bb7076eaa8607c615165be2",
+  "initialization_images": 1,
+  "initialization_robot_images": 0,
+  "policy_images": 3,
+  "card_sha256": "5fc031e7b497a6cf7c4cb65d5685c12649ad48013f1a22a91200b764d3378225",
+  "zero_and_excess_images_rejected": true,
+  "policy_three_image_guard_preserved": true,
+  "same_transport_resume": true,
+  "network_connections": 0,
+  "actual_model_calls": 0,
+  "robot_sessions": 0,
+  "actuator_submissions": 0,
+  "source_revision": "54024f7d2bfbab284972c66b6edb4b954f3dca28",
+  "dirty_source": false
+}

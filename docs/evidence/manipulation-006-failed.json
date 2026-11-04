@@ -1,0 +1,173 @@
+{
+  "status": "failed_before_grasp",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "source_revision": "e6040394c5ed62efbcc7d627acc0dfc8ccc100a6",
+  "website_revision": "34fad313823e2e89756d73f41bfc5acb79fe75a8",
+  "episode_id": "ep_c0d7d6922bee4244",
+  "session_id": "sess_38221260adc9446a",
+  "grounding_camera": "top",
+  "run_metrics": {
+    "model_s": 147.17457538144663,
+    "execution_s": 20.941670656204224,
+    "left_path_m": 0.6117184800211071,
+    "right_path_m": 0,
+    "model_calls": 14,
+    "execution_packets": 6,
+    "accepted_packets": 6,
+    "distance_waypoints": 179,
+    "confirmed_waypoints": 179
+  },
+  "step_timings": [
+    {
+      "step": 1,
+      "planning_s": 13.589590680319816,
+      "model_s": 9.519386243075132,
+      "execution_robot_s": 8.995500326156616,
+      "path_m": 0.3733726116713897,
+      "arm_motion_s": 9.56970651820302,
+      "movement_feedback_s": 9.824710493907332,
+      "total_s": 23.41430117422715,
+      "gap_s": null,
+      "outcome": "completed",
+      "left_displacement_m": 0.3715966118630903,
+      "right_displacement_m": 0.0003693267035465485
+    },
+    {
+      "step": 2,
+      "planning_s": 15.158866062294692,
+      "model_s": 11.815642621833831,
+      "execution_robot_s": 2.0282537937164307,
+      "path_m": 0.07999965101049222,
+      "arm_motion_s": 2.6832365971058607,
+      "movement_feedback_s": 2.876659318804741,
+      "total_s": 18.035525381099433,
+      "gap_s": 0.0020783809013664722,
+      "outcome": "completed",
+      "left_displacement_m": 0.07884542488433981,
+      "right_displacement_m": 9.420812386897294e-05
+    },
+    {
+      "step": 3,
+      "planning_s": 87.65417807502672,
+      "model_s": 65.55397564871237,
+      "execution_robot_s": 2.837961435317993,
+      "path_m": 1.0109129861410643e-06,
+      "arm_motion_s": 3.387962435837835,
+      "movement_feedback_s": 3.6973401247523725,
+      "total_s": 91.3515181997791,
+      "gap_s": 0.0028994311578571796,
+      "outcome": "completed",
+      "left_displacement_m": 0.005117332595928674,
+      "right_displacement_m": 0
+    },
+    {
+      "step": 4,
+      "planning_s": 12.307434771209955,
+      "model_s": 8.496246226131916,
+      "execution_robot_s": 1.7004883289337158,
+      "path_m": 0.05999983957966451,
+      "arm_motion_s": 2.2469097832217813,
+      "movement_feedback_s": 2.5017018960788846,
+      "total_s": 14.80913666728884,
+      "gap_s": 0.0022071879357099533,
+      "outcome": "completed",
+      "left_displacement_m": 0.05911501230401407,
+      "right_displacement_m": 6.738693023819734e-05
+    },
+    {
+      "step": 5,
+      "planning_s": 27.58843468502164,
+      "model_s": 19.82406300213188,
+      "execution_robot_s": 2.1178178787231445,
+      "path_m": 1.6754282263151557e-06,
+      "arm_motion_s": 2.538970801047981,
+      "movement_feedback_s": 2.9179089381359518,
+      "total_s": 30.50634362315759,
+      "gap_s": 0.0019113216549158096,
+      "outcome": "completed",
+      "left_displacement_m": 0.008842224869892962,
+      "right_displacement_m": 6.738693023821336e-05
+    },
+    {
+      "step": 6,
+      "planning_s": 15.19518153136596,
+      "model_s": 11.787228121887892,
+      "execution_robot_s": 3.2616488933563232,
+      "path_m": 0.09834437476093728,
+      "arm_motion_s": 3.9624996767379344,
+      "movement_feedback_s": 4.149970540776849,
+      "total_s": 19.34515207214281,
+      "gap_s": 0.003396148793399334,
+      "outcome": "completed",
+      "left_displacement_m": 0.09728340316279722,
+      "right_displacement_m": 0.0005692508845695056
+    }
+  ],
+  "outcome": "Repeated overhead occlusion lost all current depth-grounded block tracking. Model safely gave_up before closing; wrist images supplied RGB context only.",
+  "timing": {
+    "t_run": 1793750791.358,
+    "click_bracket_ms": {
+      "before_ms": 1793750791297,
+      "after_ms": 1793750791555
+    },
+    "t_queue": 1793750792.6237261,
+    "t_admit": 1793750802.8155172,
+    "excluded_queue_s": 10.19179105758667,
+    "t_home": 1793750802.8649623,
+    "t_motion": 1793750817.888,
+    "full_run_to_motion_s": 26.52999997138977,
+    "queue_adjusted_run_to_motion_s": 16.3382089138031,
+    "post_home_to_motion_s": 15.023037672042847,
+    "run_outcome": "pass",
+    "post_home_outcome": "missed_15s_first_observed",
+    "exceptions": [],
+    "motion_evidence": {
+      "first_ui_screenshot": "manipulation-006-motion.png",
+      "first_source_utc": "2026-11-04T00:06:57.888Z",
+      "prior_ui_screenshot": "manipulation-006-before-motion.png",
+      "prior_ui_source_utc": "2026-11-04T00:06:56.890Z",
+      "public_camera_prior_unchanged_frame": 28,
+      "public_camera_prior_source": 1793750817.2258134,
+      "public_camera_first_clear_movement_frame": 30,
+      "public_camera_source": 1793750818.2253945,
+      "limitation": "Actual onset falls after the unchanged17.2258 source frame and no later than the moved UI57.888 frame. The earliest retained observed motion misses15s; packet acceptance is not used as onset. UI source timestamps have1ms precision."
+    }
+  },
+  "replay": {
+    "episode_id": "ep_c0d7d6922bee4244",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_c0d7d6922bee4244/d2fb6843903b4a12dccd7175998417aac99505b201ee85ddd68f722198f39f23.mp4",
+      "video_sha256": "d2fb6843903b4a12dccd7175998417aac99505b201ee85ddd68f722198f39f23",
+      "video_duration_s": 214.0,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "frames": 428,
+    "gap_slots": 26,
+    "ready_utc": "2026-11-04T00:10:19.185Z",
+    "capture_ended_utc": "2026-11-04T00:10:17.476Z",
+    "finalization_s": 1.709,
+    "ui_playback_verified": true,
+    "ui_forward_seek_s": 5,
+    "ui_observed_playback_s": 115.2,
+    "ui_observed_back_seek_s": 110.7,
+    "public_video_url": "https://roboharness.54.209.185.15.sslip.io/api/integration-replays/ep_c0d7d6922bee4244/d2fb6843903b4a12dccd7175998417aac99505b201ee85ddd68f722198f39f23.mp4?robot_id=robot-ba8413962083809c",
+    "limitation": "Actual method-driven elevated approach/inspection/orientation footage; partial with explicit gaps. No grasp or object transfer occurred."
+  },
+  "calibration_confirmation": {
+    "researcher": "Andrew",
+    "statement": "The ones currently there are correct",
+    "scope": "Existing registered calibrations accepted for this task; original quality metadata retained. No new physical-accuracy measurement is asserted."
+  },
+  "remaining": [
+    "Representative manipulation and independently observed object outcome",
+    "Ordinary15s post-Home timing",
+    "Final successful deployed UI physical verification"
+  ]
+}

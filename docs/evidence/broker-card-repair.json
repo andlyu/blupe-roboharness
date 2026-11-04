@@ -1,5 +1,5 @@
 {
-  "status": "software_passed_host_and_physical_pending",
+  "status": "software_and_host_passed_physical_task_pending",
   "head_revision": "5ae73fab8dd63e1edafd7f69c2ce50c0863f355f",
   "merged_revision": "e6040394c5ed62efbcc7d627acc0dfc8ccc100a6",
   "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/277",
@@ -29,9 +29,11 @@
   },
   "replay_test": "Real33-second capture at deployed2Hz; real FFmpeg/ffprobe; production deadlines unchanged",
   "remaining": [
-    "host57-case release gate",
-    "actual host broker validator gate",
-    "real non-actuating initialization compatibility",
-    "new physical manipulation/timing/replay verification"
-  ]
+    "Representative physical manipulation/object outcome",
+    "Ordinary startup timing",
+    "Final successful deployed UI verification"
+  ],
+  "host_gate": "broker-card-host-preflight.json",
+  "actual_host_protocol": "broker-card-host-broker-preflight.json",
+  "real_initialization": "manipulation-005-failed.json"
 }

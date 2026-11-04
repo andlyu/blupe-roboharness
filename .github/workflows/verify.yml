@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: andlyu/blupe-remote-bots
-          ref: e6040394c5ed62efbcc7d627acc0dfc8ccc100a6
+          ref: 930e898b74710144840ec43a53b3677382dadf80
           path: shared-runner
       - uses: actions/setup-python@v5
         with:
