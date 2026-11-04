@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-04T01:28:56.078114+00:00",
+  "finished_at": "2026-11-04T01:29:55.783197+00:00",
+  "duration_s": 59.704469167016214,
+  "command": "bash /home/ubuntu/blupe-roboharness/roboharness-deploy-decision-feedback-01a1a0ba.sh caff7fa9b0971b91bd72938232e1b4757a41f030 < /dev/null",
+  "source_revision": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+  "returncode": 0,
+  "scope": "Own runtime deployment/gates; no physical or actual model requests"
+}

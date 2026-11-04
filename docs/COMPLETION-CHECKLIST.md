@@ -649,3 +649,10 @@ The researcher confirmed the current registered calibrations are correct. That c
 
 
 PR279 merged `930e898b74710144840ec43a53b3677382dadf80` after all exact-head and merge-context CI passed. The actual host passed all63 cases (46.549s tests /48.732390900s full gate), actual broker protocol1.596976537s with zero network/model/robot calls, public startup, readiness and the three advertised camera choices. Unrelated service PIDs stayed unchanged. [Host receipts](evidence/wrist-depth-repair.json) are public source evidence. New website camera selection and physical wrist-grounded task acceptance remain pending.
+
+
+## Verification checkpoint — decision feedback
+
+[Wrist run007](evidence/manipulation-007-failed.json) on930e898/siteb84e873 used actual left-wrist depth for2 physical approach/orientation packets (52 confirmed waypoints). First observed motion13.987s after original Home and26.517s after Run (10.585s evidenced queue exclusion;15.932s adjusted) met both ordinary targets, but the fifth policy answer failed structured acceptance before grasp. The discarded answer cannot be classified retrospectively as syntax versus invalid tool fields. Its76.5s partial physical clip (8 gaps) was ready1.422s after capture end and played/sought through the normal website; historical006 selection/playback also verified. The failed manipulation remains failed.
+
+[PR280 repair and evidence](evidence/decision-feedback-repair.json) mergedcaff7fa9 after required full shared/66-case CI. It retains structured finals privately before parsing and routes strict decoded field rejections through the existing3-rejection zero-dispatch feedback loop with fresh state; syntax/transport/cancel/timeout/unknown movements still stop without retry. Clean local66 gate36.568s, actual host66 gate46.844s (44.527s tests), actual host broker protocol2.004s, startup/readiness and unrelated-PID checks passed. Measured own-runtime update59.704s. No new physical verification on caff7fa9 yet. Representative grasp/lift/transfer/place/release/withdrawal, independent object outcome and final current-release acceptance remain open; no integration completion is claimed.

@@ -1,0 +1,16 @@
+{
+  "ready": true,
+  "model": "RoboHarness",
+  "underlying_model": "gpt-6-astra",
+  "reasoning_effort": "low",
+  "source_revision": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+  "preflight_tests": 66,
+  "grounding_cameras": [
+    "top",
+    "left",
+    "right"
+  ],
+  "retained_camera_capture": true,
+  "replay_encoder_ready": true,
+  "reason": null
+}

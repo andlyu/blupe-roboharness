@@ -1,0 +1,136 @@
+{
+  "status": "failed_structured_decision_acceptance",
+  "model": "RoboHarness",
+  "runner": "Andrew",
+  "execution_mode": "automated_verification",
+  "source_revision": "930e898b74710144840ec43a53b3677382dadf80",
+  "website_revision": "b84e873d79d08810219267e4adb7b6e670e73ff4",
+  "episode_id": "ep_ab289a6018054073",
+  "session_id": "sess_4babff42ea734df0",
+  "configuration": {
+    "model": "RoboHarness",
+    "provider": "roboharness",
+    "underlying_models": {
+      "planning": "gpt-6-astra",
+      "vision": "gpt-6-astra",
+      "resolved": null,
+      "reasoning_effort": "low"
+    },
+    "runner_name": "Andrew",
+    "execution_mode": "automated_verification",
+    "reasoning": "low",
+    "code_revision": "930e898b74710144840ec43a53b3677382dadf80",
+    "duration_s": 300,
+    "calibration_id": "1eb254f29a7f3b13c681b80b8e3fe7d89f056ff581e201c2263743c3791edde2",
+    "model_calibration_id": "7b118417600209c7059f1456c740c8b5b5e7b11d83b320306eb5c791f06b149d",
+    "prompt_sha256": "f89099e2f9be4f3513127eff4e5e631a82ec05303e0e3c7c12b72ebc9b50e572",
+    "grounding_camera": "left",
+    "depth_grounding_roles": [
+      "left"
+    ]
+  },
+  "run_metrics": {
+    "model_s": 54.37133698258549,
+    "execution_s": 6.08190131187439,
+    "left_path_m": 0.06760437946236522,
+    "right_path_m": 0,
+    "model_calls": 6,
+    "execution_packets": 2,
+    "accepted_packets": 2,
+    "distance_waypoints": 52,
+    "confirmed_waypoints": 52
+  },
+  "step_timings": [
+    {
+      "step": 1,
+      "planning_s": 12.673059985972941,
+      "model_s": 8.379330568946898,
+      "execution_robot_s": 1.794764757156372,
+      "path_m": 0.067602140543198,
+      "arm_motion_s": 2.3450114130973816,
+      "movement_feedback_s": 2.5675039938651025,
+      "total_s": 15.240563979838043,
+      "gap_s": null,
+      "outcome": "completed",
+      "left_displacement_m": 0.06992091070463166,
+      "right_displacement_m": 0.00028791693722949484
+    },
+    {
+      "step": 2,
+      "planning_s": 38.91751830978319,
+      "model_s": 27.725857503712177,
+      "execution_robot_s": 4.287136554718018,
+      "path_m": 2.2389191672193693e-06,
+      "arm_motion_s": 4.924156645778567,
+      "movement_feedback_s": 5.121104178018868,
+      "total_s": 44.03862248780206,
+      "gap_s": 0.02234319318085909,
+      "outcome": "completed",
+      "left_displacement_m": 0.010520006489323382,
+      "right_displacement_m": 8.148639480586955e-05
+    }
+  ],
+  "outcome": "Wrist-depth-grounded elevated approach and orientation completed; fifth policy decision failed structured acceptance before any further motion. No grasp/lift/transfer/place/release outcome.",
+  "failure_diagnostic": {
+    "displayed_error": "Codex returned malformed JSON; no motion sent",
+    "exact_subtype": "unknown",
+    "reason": "The old transport used the same label for JSON syntax and strict decision-field validation failures and discarded the rejected final. Its actual response was not retained in this integration; no specific invalid field is asserted."
+  },
+  "timing": {
+    "t_run": 1793753465.751,
+    "click_bracket_ms": {
+      "before_ms": 1793753465692,
+      "after_ms": 1793753465976
+    },
+    "t_queue": 1793753467.6460743,
+    "t_admit": 1793753478.2308269,
+    "excluded_queue_s": 10.584752559661865,
+    "t_home": 1793753478.2806156,
+    "t_motion": 1793753492.2679386,
+    "full_run_to_motion_s": 26.51693868637085,
+    "queue_adjusted_run_to_motion_s": 15.932186126708984,
+    "post_home_to_motion_s": 13.98732304573059,
+    "run_outcome": "pass",
+    "post_home_outcome": "pass",
+    "exceptions": [],
+    "motion_evidence": {
+      "video_sha256": "81d3577d5f3970d6c330c725f44ac6f6d0505a7ebc7bef91a711471b49bfe87e",
+      "first_clear_movement_frame_0based": 28,
+      "source_captured_at": 1793753492.2679386,
+      "prior_unchanged_frame": 27,
+      "prior_source_captured_at": 1793753491.7768898,
+      "matching_ui_screenshot": "00051.png",
+      "review": "Public frame28 shows left arm and gripper displaced; frame27 is unchanged. Matched stable UI screenshot51 has the same sourceUTC. Packet acceptance is not used as onset."
+    }
+  },
+  "replay": {
+    "episode_id": "ep_ab289a6018054073",
+    "robot_id": "robot-ba8413962083809c",
+    "capture_source": "public_top_camera",
+    "capture_partial": true,
+    "preview": {
+      "video_url": "/api/integration-replays/ep_ab289a6018054073/81d3577d5f3970d6c330c725f44ac6f6d0505a7ebc7bef91a711471b49bfe87e.mp4",
+      "video_sha256": "81d3577d5f3970d6c330c725f44ac6f6d0505a7ebc7bef91a711471b49bfe87e",
+      "video_duration_s": 76.5,
+      "camera_order": [
+        "top"
+      ]
+    },
+    "frames": 153,
+    "gap_slots": 8,
+    "ui_playback_verified": true,
+    "ui_forward_seek_s": 5,
+    "ui_observed_end_s": 76.5,
+    "ui_back_seek_not_yet_observed": true,
+    "public_video_url": "https://roboharness.54.209.185.15.sslip.io/api/integration-replays/ep_ab289a6018054073/81d3577d5f3970d6c330c725f44ac6f6d0505a7ebc7bef91a711471b49bfe87e.mp4?robot_id=robot-ba8413962083809c",
+    "limitation": "Actual touch and orientation execution, eight explicit gaps, no grasp or object transfer. The timed UI capture has an observation gap; no continuous UI coverage is claimed.",
+    "capture_ended_utc": "2026-11-04T00:52:35.091Z",
+    "ready_utc": "2026-11-04T00:52:36.513Z",
+    "finalization_s": 1.422
+  },
+  "remaining": [
+    "Representative physical manipulation/object outcome",
+    "Final successful deployed UI acceptance",
+    "New decision-feedback revision physical verification"
+  ]
+}

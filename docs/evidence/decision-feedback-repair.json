@@ -1,0 +1,41 @@
+{
+  "status": "software_and_host_passed_physical_pending",
+  "head_revision": "c2c2ae85f101f08106186cd2aeba273f1d4695a1",
+  "merged_revision": "caff7fa9b0971b91bd72938232e1b4757a41f030",
+  "pull_request": "https://github.com/andlyu/blupe-remote-bots/pull/280",
+  "ci": [
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41753055021",
+      "scope": "full shared runner exact head",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41753122454",
+      "scope": "full shared runner PR merge",
+      "result": "success"
+    },
+    {
+      "url": "https://github.com/andlyu/blupe-remote-bots/actions/runs/41753122462",
+      "scope": "required66-case gate",
+      "result": "success"
+    }
+  ],
+  "local_gate": "decision-feedback-local-preflight.json",
+  "host_gate": "decision-feedback-host-preflight.json",
+  "actual_host_broker": "decision-feedback-host-broker-preflight.json",
+  "deployment_timing": "decision-feedback-deployment-timing.json",
+  "red_regression": {
+    "source_revision": "930e898b74710144840ec43a53b3677382dadf80",
+    "tests": 3,
+    "failures": 2,
+    "errors": 1,
+    "runtime_s": 0.115,
+    "scope": "Synthetic actual-Codex-parser reproduction of generic validation fatality and missing final retention; not a reconstruction of the discarded actual007 reply."
+  },
+  "safeguards": "Strict decision validator unchanged; corrected field decisions consume the existing3-rejection budget and fresh observations. Syntax/incomplete/provider/cancel/timeout/unknown-movement failures stop without retry; no rejected target is dispatched.",
+  "remaining": [
+    "New-source representative physical manipulation and independent object outcome",
+    "New-source ordinary startup timing",
+    "Final deployed UI acceptance"
+  ]
+}
